@@ -10,9 +10,6 @@ $(document).ready(function () {
 
   // Loop through the data from the data.js file and insert parts of the data into HTML. On each loop, we are appending a new card with the HTML below.
   for (var i in emojiItems) {
-
-    var featuredArtist = emojiItems[i].featuredArtist.join(', ');
-    var artist = emojiItems[i].artist.join(', ')
     
     emojiCard +=
       "<div class='emoji-card'><div class='emoji-card-wrapper'><div class='hint-container'><i class='fas fa-question-circle'></i><p class='hint'><span class='type'>" + emojiItems[i].year +
@@ -26,9 +23,9 @@ $(document).ready(function () {
       emojiCard += "<div class='title-content'><h3>" + emojiItems[i].title +
       " (" + emojiItems[i].year + ")" + "</h3>";
 
-      emojiCard += "<div class='artist-container'><h4>" + author + "</h4></div>";
+      emojiCard += "<div class='artist-container'><h4>" + emojiItems[i].author + "</h4></div>";
       
-    emojiCard += "</div></div></div></div>";
+      emojiCard += "</div></div></div></div>";
   }
 
   // Append the emoji card variable, which has all of the emoji cards to the initial variable we created that was for the container to hold the cards.
