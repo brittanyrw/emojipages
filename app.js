@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // Create a variable for the container to hold the emoji cards.
-  var emojiCardContainer = $("#songs");
+  var emojiCardContainer = $("#books");
 
   // Create a variable for the emoji cards.
   var emojiCard = "";
@@ -19,18 +19,14 @@ $(document).ready(function () {
       "</span></p></div><div class='emoji-images'>" + emojiItems[i].emojiImgs +
       "</div><div class='emoji-card-title hide-card'>";
 
-      if(emojiItems[i].musicVideo){
-        emojiCard += "<div class='emoji-card-link'><a href='" + emojiItems[i].musicVideo + "' title='View" + emojiItems[i].title + " Music Video' target='_blank'><i class='fas fa-play-circle'></i></a></div>";
+      if(emojiItems[i].link){
+        emojiCard += "<div class='emoji-card-link'><a href='" + emojiItems[i].link + "' title='View" + emojiItems[i].title + " Information' target='_blank'><i class='fas fa-play-circle'></i></a></div>";
       }
       
       emojiCard += "<div class='title-content'><h3>" + emojiItems[i].title +
       " (" + emojiItems[i].year + ")" + "</h3>";
 
-    if(featuredArtist){
-      emojiCard += "<div class='artist-ft-container'><h4>" + artist + " ft. " + featuredArtist + "</h4></div>";
-      } else {
-        emojiCard += "<div class='artist-container'><h4>" + artist + "</h4></div>";
-    }  
+      emojiCard += "<div class='artist-container'><h4>" + author + "</h4></div>";
       
     emojiCard += "</div></div></div></div>";
   }
@@ -63,21 +59,21 @@ $(document).ready(function () {
   }
 
   // Expand the emoji card when clicked to reveal the song name, artist and music video link.
-  $("#songs").on("click", ".emoji-images", function () {
+  $("#books").on("click", ".emoji-images", function () {
     $(this)
       .siblings(".emoji-card-title")
       .toggleClass("hide-card");
   });
 
   // Display a hint (type ie tv, movie or musical) when hovering over the question mark.
-  $("#songs").on("mouseover", ".hint-container", function () {
+  $("#books").on("mouseover", ".hint-container", function () {
     $(this)
       .find(".hint")
       .addClass("hint-reveal");
   });
 
   // Hide hint (type ie tv, movie or musical) when the user stops hovering over the question mark.
-  $("#songs").on("mouseleave", ".hint-container", function () {
+  $("#books").on("mouseleave", ".hint-container", function () {
     $(this)
       .find(".hint")
       .removeClass("hint-reveal");
