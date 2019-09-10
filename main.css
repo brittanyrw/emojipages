@@ -243,17 +243,6 @@ h2 {
   border-left: 15px solid #ffcd76;
 }
 
-.emoji-card-link i {
-  background-color: transparent;
-  font-size: 37px;
-  opacity: .5;
-}
-
-.emoji-card-link {
-    text-align: left;
-    padding: 20px 20px 0 20px;
-}
-
 .emoji-card-title h3 {
   color: black;
   margin: 0;

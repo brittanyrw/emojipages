@@ -12,20 +12,23 @@ $(document).ready(function () {
   for (var i in emojiItems) {
     
     emojiCard +=
-      "<div class='emoji-card'><div class='emoji-card-wrapper'><div class='hint-container'><i class='fas fa-question-circle'></i><p class='hint'><span class='type'>" + emojiItems[i].year +
-      "</span></p></div><div class='emoji-images'>" + emojiItems[i].emojiImgs +
-      "</div><div class='emoji-card-title hide-card'>";
+    "<div class='emoji-card'><div class='emoji-card-wrapper'><div class='hint-container'><i class='fas fa-question-circle'></i><p class='hint'><span class='type'>" + emojiItems[i].year +
+    "</span></p></div><div class='emoji-images'>" + emojiItems[i].emojiImgs +
+    "</div><div class='emoji-card-title hide-card'>";
 
-      if(emojiItems[i].link){
-        emojiCard += "<div class='emoji-card-link'><a href='" + emojiItems[i].link + "' title='View" + emojiItems[i].title + " Information' target='_blank'><i class='fas fa-play-circle'></i></a></div>";
-      }
-      
-      emojiCard += "<div class='title-content'><h3>" + emojiItems[i].title +
-      " (" + emojiItems[i].year + ")" + "</h3>";
+    emojiCard += "<div class='title-content'>";
 
-      emojiCard += "<div class='artist-container'><h4>" + emojiItems[i].author + "</h4></div>";
-      
-      emojiCard += "</div></div></div></div>";
+    if(emojiItems[i].link){
+      emojiCard += "<div class='emoji-card-link'><a href='" + emojiItems[i].link + "' target='_blank'><h3> " + emojiItems[i].title +
+      " (" + emojiItems[i].year + ")" + "</h3></a></div>";
+    } else {
+      emojiCard += "<h3>" + emojiItems[i].title +
+        " (" + emojiItems[i].year + ")" + "</h3>";
+    }
+    
+    emojiCard += "<div class='author-container'><h4>" + emojiItems[i].author + "</h4></div>";
+    
+    emojiCard += "</div></div></div></div>";
   }
 
   // Append the emoji card variable, which has all of the emoji cards to the initial variable we created that was for the container to hold the cards.
