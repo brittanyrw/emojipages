@@ -103,13 +103,13 @@ h2 {
   }
 }
 
-@media screen and (min-width: 992px){
+/* @media screen and (min-width: 992px){
   #books {
     grid-template-columns: 1fr 1fr 1fr;
   }
-}
+} */
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 992px){
   #books {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
@@ -137,18 +137,40 @@ h2 {
   box-shadow: 5px 5px 10px rgba(0,0,0,.1);
   position: relative;
   background-color: white;
-  padding: 20px 15px;
-  border-bottom: 2px solid #352649;
+  padding: 20px 15px 20px 30px;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  border-left: 15px solid #c976ff;
+}
+
+.emoji-images:before {
+    border-color: transparent transparent #c976ff transparent;
+    position: absolute;
+    content: '';
+    border-style: solid;
+    border-width: 0 0 20px 20px;
+    bottom: 0;
+    right: 0;
+}
+
+.emoji-images:after {
+  position: absolute;
+    content: '';
+    height: 22px;
+    width: 29px;
+    background: #c976ff;
+    top: -11px;
+    left: 15px;
+    z-index: -1;
 }
 
 .emoji-images img {
-    width: 42px;
+    width: 46px;
     margin-right: 5px;
+    margin-bottom: 10px;
 }
 
 .emoji-images img:last-child {
@@ -162,30 +184,63 @@ h2 {
   margin-top: 10px;
   margin: 0;
   background-color: #c976ff;
+  border-top: 2px solid #352649;
 }
 
 .emoji-card:nth-child(2n) .emoji-card-title,
 .emoji-card:nth-child(2n) .hint,
-.emoji-card:nth-child(2n) .emoji-images:before{
+.emoji-card:nth-child(2n) .emoji-images:after  {
     background-color: #76ffd2;
 }
 
 .emoji-card:nth-child(3n) .emoji-card-title,
 .emoji-card:nth-child(3n) .hint,
-.emoji-card:nth-child(3n) .emoji-images:before{
+.emoji-card:nth-child(3n) .emoji-images:after {
     background-color: #76b4ff;
 }
 
 .emoji-card:nth-child(5n) .emoji-card-title,
 .emoji-card:nth-child(5n) .hint,
-.emoji-card:nth-child(5n) .emoji-images:before{
+.emoji-card:nth-child(5n) .emoji-images:after  {
     background-color: #ff7676;
 }
 
 .emoji-card:nth-child(6n) .emoji-card-title,
 .emoji-card:nth-child(6n) .hint,
-.emoji-card:nth-child(6n) .emoji-images:before{
+.emoji-card:nth-child(6n) .emoji-images:after  {
     background-color: #ffcd76;
+}
+
+.emoji-card:nth-child(2n) .emoji-images:before {
+    border-color: transparent transparent #76ffd2 transparent;
+}
+
+.emoji-card:nth-child(3n) .emoji-images:before {
+    border-color: transparent transparent #76b4ff transparent;
+}
+
+.emoji-card:nth-child(5n) .emoji-images:before {
+    border-color: transparent transparent #ff7676 transparent;
+}
+
+.emoji-card:nth-child(6n) .emoji-images:before {
+    border-color: transparent transparent #ffcd76 transparent;
+}
+
+.emoji-card:nth-child(2n) .emoji-images{
+  border-left: 15px solid #76ffd2;
+}
+
+.emoji-card:nth-child(3n) .emoji-images{
+  border-left: 15px solid #76b4ff;
+}
+
+.emoji-card:nth-child(5n) .emoji-images{
+  border-left: 15px solid #ff7676;
+}
+
+.emoji-card:nth-child(6n) .emoji-images{
+  border-left: 15px solid #ffcd76;
 }
 
 .emoji-card-link i {
