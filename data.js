@@ -1,202 +1,49 @@
 const emojiItems = [
     {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
+        title: "The Devil Wears Prada",
+        author: ["Lauren Weisberger"],
+        emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
+        genres: ["drama", "comedy","romance"],
+        year: 2003
     },{
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
+        title: "Frankenstein",
+        author: ["Mary Shelley"],
+        emojiImgs: "🧪➕➡️🧟⚰️",
+        genres: ["gothic", "science-fiction", "horror-fiction"],
+        year: 1818
     },{
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
+        title: "Les Miserables",
+        author: ["Victor Hugo"],
+        emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
+        genres: ["drama","romance"],
+        year: 1862
     },{
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
+        title: "Matilda",
+        author: ["Roald Dahl"],
+        emojiImgs: "👩‍🏫📚👧🦎🎂✨",
+        genres: ["children"],
+        year: 1988
     },{
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
+        title: "Nineteen Eighty-Four: A Novel",
+        author: ["George Orwell"],
+        emojiImgs: "👀👨🏻👩🏻📕💌🐁",
+        genres: ["dystopian", "political-fiction", "science-fiction"],
+        year: 1949
     },{
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
+        title: "The Lion, the Witch and the Wardrobe",
+        author: ["C.S.Lewis"],
+        emojiImgs: "🦁🧙‍♀️🚪👧🧒🏞️",
+        genres: ["children","fantasy"],
+        year: 1950
     },{
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
-    }, {
-        title: "Harry Potter and the Chamber of Secrets",
-        author: ["J.K. Rowling"],
-        emojiImgs: "🧙‍♂️🐍📓👩⚡️",
-        link: "https://www.jkrowling.com/book/harry-potter-chamber-secrets/",
-        genres: ["fantasy", "young-adult", "fiction", "magic"],
-        year: 1998
+        title: "War and Peace",
+        author: ["Leo Tolstoy"],
+        emojiImgs: "⚔️🕊️💌🇷🇺",
+        genres: ["historical-fiction"],
+        year: 1869
     }
     
 ]
+
 
 

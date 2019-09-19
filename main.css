@@ -150,12 +150,7 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
   border-left: 15px solid #F19A98;
-}
-
-@media screen and (max-width: 425px){
-   .emoji-images {
-     min-height: 250px;
-   }
+   min-height: 250px;
 }
 
 .emoji-images:after {
