@@ -1,9 +1,9 @@
-* {
-  box-sizing: border-box;
+*, *:before, *:after { 
+  box-sizing: border-box; 
 }
 
 body {
-  background-color: #FBF7F4;
+  background-color: #3c3a4a;
   padding: 40px;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -16,7 +16,7 @@ header {
 
 
 h1 {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Kreon', serif;
   font-size: 72px;
   margin: 0;
   color: white;
@@ -97,9 +97,15 @@ h2 {
     grid-template-rows: min-content;
 }
 
-@media screen and (min-width: 662px){
+@media screen and (min-width: 425px){
   #books {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 662px){
+  #books {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
@@ -144,6 +150,12 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
   border-left: 15px solid #EBC1A2;
+}
+
+@media screen and (max-width: 425px){
+   .emoji-images {
+     min-height: 250px;
+   }
 }
 
 .emoji-images:before {
