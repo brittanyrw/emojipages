@@ -15,15 +15,15 @@
 
 ## Contributing 🎁
 
-Below are instructions for how to contribute to this project. The easiest way to make a contribution is to add an `Emoji Card` to the website (you can add multiple shows or movies). Each card should be added in the `data.js` file as an object. 
+Below are instructions for how to contribute to this project. The easiest way to make a contribution is to add an `Emoji Card` to the website (you can add multiple books or plays). Each card should be added in the `data.js` file as an object. 
 
-For other ways to contribute, see the repo Issues [under the label 'enhancement'](https://github.com/brittanyrw/emojiscreen/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement). If you want to work on one of the features but aren't sure where to start, write a comment and I will be happy to help you out or get you started. You are also welcome to suggest other features [by adding an Issue](https://github.com/brittanyrw/emojiscreen/issues).
+For other ways to contribute, see the repo Issues [under the label 'enhancement'](https://github.com/brittanyrw/emojipages/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement). If you want to work on one of the features but aren't sure where to start, write a comment and I will be happy to help you out or get you started. You are also welcome to suggest other features [by adding an Issue](https://github.com/brittanyrw/emojipages/issues).
 
-Read below for a detailed overview and walkthrough on how to add an `Emoji Card` to this project. First time pull-requests are encouraged and you can make multiple pull requests if you desire. If you run into trouble, feel free [to create an Issue](https://github.com/brittanyrw/emojiscreen/issues)!
+Read below for a detailed overview and walkthrough on how to add an `Emoji Card` to this project. First time pull-requests are encouraged and you can make multiple pull requests if you desire. If you run into trouble, feel free [to create an Issue](https://github.com/brittanyrw/emojipages/issues)!
 
 ## Table of Contents
 
-- [Choosing a Movie, TV Show or Musical to Add](#choosing-a-movie-tv-show-or-musical-to-add)
+- [Choosing a Book or Play to Add](#choosing-a-book-or-play-to-add)
 - [Emoji Card Overview](#card-overview)
 - [Contribution Walkthroughs](#walkthrough)
   - [Contribute using Github Website (no downloads required)](#github-ui)
@@ -31,11 +31,11 @@ Read below for a detailed overview and walkthrough on how to add an `Emoji Card`
 - [Git & Github Resources](#other-resources-and-options)
 - [Credits](#credits)
 
-## Choosing a Movie, TV Show or Musical to Add
+## Choosing a Book or Play to Add
 
-Here are some links to lists of movies, TV shows and musicals in case you're having trouble thinking of something to add! 
+Here are some links to lists of books and plays in case you're having trouble thinking of something to add! 
 
-#### I have also [added Issues for individual movies, shows and series](https://github.com/brittanyrw/emojiscreen/labels/add%20emojis) that I think would be fun to add to EmojiScreen. Feel free to add any of the movies or shows listed in Issues. Make sure to comment inside of the Issue if you plan on taking it and add the Issue number in your Pull Request.
+#### I have also [added Issues for individual books and movies](https://github.com/brittanyrw/emojipages/labels/add%20book) that I think would be fun to add to EmojiPages. Feel free to add any of the movies or shows listed in Issues. Make sure to comment inside of the Issue if you plan on taking it and add the Issue number in your Pull Request.
 
 ### View [Issues for Individual Movies](https://github.com/brittanyrw/emojiscreen/labels/movie)
 ### View [Issues for Movie Series](https://github.com/brittanyrw/emojiscreen/labels/add%20series)
@@ -196,18 +196,17 @@ Follow these instructions to add a card. You can add a card using the Github web
 2. Fork this repository. This will create a copy of the repository and create a new repository on your account. Note: the `Fork` button is located in the top right area of the repo.
 3. Once the repo is forked, you will be taken to the forked repo. Note: In the top left, the name of the repo should now include your username.
 4. Navigate to the `data.js` file in your forked repo by clicking on the file name.
-5. Edit the `data.js` file by clicking on the pencil icon and add a new object for your movie, TV show or musical in alphabetical order.  **Note: If the movie title starts with 'The' then use the next word for alphabetical order.** Make sure there is a comma between your object and the object above and below. Refer to the card overview above for requirements for the different object keys.
+5. Edit the `data.js` file by clicking on the pencil icon and add a new object for your book or play in alphabetical order.  **Note: If the title starts with 'The' then use the next word for alphabetical order.** Make sure there is a comma between your object and the object above and below. Refer to the card overview above for requirements for the different object keys.
 
 Use the following object as a template:
 
 ```
 {
-  title: "Black Panther",
-  emojiImgs: "😺🌍🏴💪🏿🦸🏿",
-  genres: ["action", "adventure", "sci-fi"],
-  itemLink: "https://www.imdb.com/title/tt1825683/",
-  type: "movie",
-  year: 2018
+  title: "Matilda",
+  author: ["Roald Dahl"],
+  emojiImgs: "👩‍🏫📚👧🦎🎂✨",
+  genres: ["children","fantasy"],
+  year: 1988
 }
 ```
 
@@ -240,34 +239,33 @@ Use the following object as a template:
 2. Fork this repository. This will create a copy of the repository and create a new repository on your account.
 3. Once the repo is forked, you will be taken to the forked repo. Note: In the top left, the name of the repo should now include your username.
 4. Download the project to your computer. Click on the `Clone or Download` button. Copy the HTTPS github repo link.
-5. In your terminal, navigate to where you would like to save the project (such as `cd Desktop`). Run the following command in the terminal, replacing the following link with your copied link: `git clone https://github.com/your-username-will-be-here/emojiscreen.git`;
-6. After the command has been run, in the terminal, navigate into the EmojiScreen project folder: `cd emojiscreen`.
-7. Open the `emojiscreen` project in your text editor of choice. Edit the `data.js` file and add a new object for your movie, TV show or musical in alphabetical order. **Note: If the movie title starts with 'The' then use the next word for alphabetical order.**. Make sure there is a comma between your object and the objects above and below. Refer to the card overview above for requirements for the different object keys.  Make sure to save your file after you have made changes. 
+5. In your terminal, navigate to where you would like to save the project (such as `cd Desktop`). Run the following command in the terminal, replacing the following link with your copied link: `git clone https://github.com/your-username-will-be-here/emojipages.git`;
+6. After the command has been run, in the terminal, navigate into the EmojiPages project folder: `cd emojipages`.
+7. Open the `emojipages` project in your text editor of choice. Edit the `data.js` file and add a new object for your book or play in alphabetical order. **Note: If the title starts with 'The' then use the next word for alphabetical order.**. Make sure there is a comma between your object and the objects above and below. Refer to the card overview above for requirements for the different object keys.  Make sure to save your file after you have made changes. 
 
 Use the following object as a template:
 
 ```
 {
-  title: "The Lion King",
-  emojiImgs: "🦁👑🌍",
-  genres: ["animation", "adventure", "drama"],
-  itemLink: "https://www.imdb.com/title/tt0110357/",
-  type: "movie",
-  year: 1994
+  title: "Matilda",
+  author: ["Roald Dahl"],
+  emojiImgs: "👩‍🏫📚👧🦎🎂✨",
+  genres: ["children","fantasy"],
+  year: 1988
 }
 ```
 
-8. If you would like to see what your addition will look like, open the `index.html` file that is in the `emojiscreen` folder in a web browser. The EmojiCards are added in a random order so it may take you a few seconds to find what you added. If you do not see any cards in the browser, this could mean that you have a typo in your `data.js` file. If that is the case, double check what you have added for missing commas and quotation marks.
+8. If you would like to see what your addition will look like, open the `index.html` file that is in the `emojipages` folder in a web browser. The `EmojiCards` are added in a random order so it may take you a few seconds to find what you added. If you do not see any cards in the browser, this could mean that you have a typo in your `data.js` file. If that is the case, double check what you have added for missing commas and quotation marks.
 9. Once you are done, go to the terminal and type `git status`. You should see `data.js` as modified. If you don't see this, go back and make sure to save your `data.js` file.
 10. Run `git add -A` to add your changes.
-11. Add a commit message. Run the following command and replace with your movie or show name: `git commit -m "Added Harry Potter the movie"`.
+11. Add a commit message. Run the following command and replace with your movie or show name: `git commit -m "Added 1984 by George Orwell"`.
 12. If you have never used git on your computer before, you will see a message asking for you to set your email and username. If you do not see that message, continue to the next step. Run the following commands, replacing "you@example.com" with your Github email and "Your name" with your github username:
 
 `git config --global user.email "you@example.com"`
 
 `git config --global user.name "Your Name"`
 
-Then re-run the commit command. Remember to replace with your show or movie: `git commit -m "Added Harry Potter the movie"`
+Then re-run the commit command. Remember to replace with your book or play: `git commit -m "Added 1984 by George Orwell"`
 
 13. Run `git push`. If you have not done this before, git push will not run until you login to your Github account. Type in your Github username and password. **NOTE: When you type your password, it will not show in the terminal. Press enter after you type your password to continue**.
 
@@ -276,7 +274,7 @@ Then re-run the commit command. Remember to replace with your show or movie: `gi
 ![Screenshot of a Pull Request on the Github website](readme/pull-request.png)
 
 15. Review your changes and then click `Create Pull Request`. Add any additional comments, go through the checklist within the Pull Request and add an Issue number if applicable, then click on `Create Pull Request`.
-16. Wait for feedback/review of your Pull Request. Your code will be reviewed and if any changes need to be made, we will let you know. Once your pull request is accepted, you will be able to see your card at [https://emojiscreen.com](https://emojiscreen.com) and you will officially have contributed to the project! 🎉
+16. Wait for feedback/review of your Pull Request. Your code will be reviewed and if any changes need to be made, we will let you know. Once your pull request is accepted, you will be able to see your card at [https://emojipages.com](https://emojipages.com) and you will officially have contributed to the project! 🎉
 
 ## Other Resources and Options
 * [Git Handbook](https://guides.github.com/introduction/git-handbook/)
@@ -287,7 +285,7 @@ Then re-run the commit command. Remember to replace with your show or movie: `gi
 
 ## Credits
 
-💖Check out a list of all [of the EmojiScreen contributors](https://github.com/brittanyrw/emojiscreen/graphs/contributors).
+💖Check out a list of all [of the EmojiPages contributors](https://github.com/brittanyrw/emojipages/graphs/contributors).
 
 Emoji graphics are by Twitter and are licensed under CC-BY 4.0. Review the [Attribution Requirements](https://github.com/twitter/twemoji#attribution-requirements) for more information.
 
