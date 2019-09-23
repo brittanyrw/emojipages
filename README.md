@@ -54,25 +54,18 @@ Here are some links to lists of books and plays in case you're having trouble th
 * View [Issues for Young Adult Books](https://github.com/brittanyrw/emojipages/labels/Young%20Adult)
 
 
-Note: The issues to add movies or shows have links to IMDB, but many shows/movies have multiple versions. Feel free to add a different version than the link if you prefer. For series, adding just some of the movies in a series is okay if you cannot add every single one!
+### Book/Play Lists
+* [The Greatest Books List](https://thegreatestbooks.org/)
+* [ALL-TIME 100 Novels - Time Magazine](http://entertainment.time.com/2005/10/16/all-time-100-novels/?iid=ent-category-mostpop1)
+* [100 (Fiction) Books to Read in a Lifetime](https://www.abebooks.com/books/100-books-to-read-in-lifetime/index.shtml)
+* [102 of the Greatest Books by Female Authors](https://www.listchallenges.com/102greatestbooksfemaleauthors)
+* [60 must-read books by women](https://www.penguin.co.uk/articles/2019/mar/best-books-by-female-authors/)
+* [Goodreads Best Book Lists](https://www.goodreads.com/list/tag/best)
+* [Top 100 Stage Plays of All Time](https://www.goodreads.com/list/show/13581.Goodreads_Top_100_Stage_Plays_of_All_Time)
+* [The Best Writers of All Time](https://www.ranker.com/list/best-writers-of-all-time/ranker-books)
+* [IMDB](https)
+* [New York Times Bestsellers](https://www.nytimes.com/books/best-sellers/)
 
-### Movies
-* [IMDB Disney list](https://www.imdb.com/search/keyword/?keywords=disney&ref_=fn_al_kw_1)
-* [IMDB Top 100 drama list](https://www.imdb.com/search/title/?genres=drama&groups=top_250&sort=user_rating,desc)
-* [IMDB Top 100 thriller list](https://www.imdb.com/search/title/?genres=thriller&groups=top_250&sort=user_rating,desc)
-* [IMDB Top 100 comedy list](https://www.imdb.com/list/ls055851487/)
-* [IMDB Top 100 animated list](https://www.imdb.com/list/ls075496365/)
-
-### TV
-* [IMDB Top TV Shows](https://www.imdb.com/chart/toptv/)
-* [Most Popular on Rotten Tomatoes](https://www.rottentomatoes.com/browse/tv-list-2/)
-* [ING Top 100 TV Shows](https://www.ign.com/lists/top-100-tv-shows)
-* [IMDB Disney list](https://www.imdb.com/search/keyword/?keywords=disney&ref_=fn_al_kw_1)
-
-### Musicals
-* [IMDB 100 Greatest Musicals](https://www.imdb.com/list/ls000071646/)
-* [Greatest Musicals Ever Performed](https://www.ranker.com/crowdranked-list/best-musicals)
-* [100 Top Musicals of All Time](https://www.whatsonstage.com/london-theatre/news/wos100-the-top-100-musicals-of-all-time_34333.html)
 
 ## Card Overview
 
