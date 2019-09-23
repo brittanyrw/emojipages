@@ -150,7 +150,7 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
   border-left: 15px solid #F19A98;
-   min-height: 250px;
+   min-height: 215px;
 }
 
 .emoji-images:after {
@@ -165,7 +165,7 @@ h2 {
 }
 
 .emoji-images img {
-    width: 54px;
+    width: 49px;
     margin-right: 5px;
     margin-bottom: 10px;
 }
