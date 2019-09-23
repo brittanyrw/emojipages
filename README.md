@@ -150,9 +150,9 @@ Follow these instructions to add a card. You can add a card using the Github web
 
 ### This method will use the Github website to contribute to this project. You will not need to download any programs to your computer using these instructions.
 
-1. Check the Issues to see if the [movie](https://github.com/brittanyrw/emojiscreen/labels/movie), [series of movies](https://github.com/brittanyrw/emojiscreen/labels/add%20series), [TV show](https://github.com/brittanyrw/emojiscreen/labels/tv), [or musical](https://github.com/brittanyrw/emojiscreen/labels/musical) is listed.
+1. Check the [Issues to see if the book](https://github.com/brittanyrw/emojipages/issues?q=is%3Aopen+is%3Aissue+label%3A%22Add+Book%22) you would like to add is listed. You can filter the Issues by genre if desired.
 - If it is not listed as an issue, continue to the next step.
-- If it is listed as an Issue, take note of the Issue number (the number next to the title of the Issue) so that you can add it to your pull request and write a comment in the Issue stating that you will be adding that particular movie or show. If there is already a comment in the Issue from someone saying that they will add that show or movie, choose something else to add. 
+- If it is listed as an Issue, take note of the Issue number (the number next to the title of the Issue) so that you can add it to your pull request and write a comment in the Issue stating that you will be adding that particular book. If there is already a comment in the Issue from someone saying that they will add that book, choose something else to add. 
 2. Fork this repository. This will create a copy of the repository and create a new repository on your account. Note: the `Fork` button is located in the top right area of the repo.
 3. Once the repo is forked, you will be taken to the forked repo. Note: In the top left, the name of the repo should now include your username.
 4. Navigate to the `data.js` file in your forked repo by clicking on the file name.
@@ -170,7 +170,7 @@ Use the following object as a template:
 }
 ```
 
-6. Once you have completed updating the object for your show or movie, scroll to the bottom of the page and add a commit message. The commit message should be formatted like: `Added Fight Club` or `Added Casablanca`. Click the `Commit Changes` button to save your changes.
+6. Once you have completed updating the object for your book, scroll to the bottom of the page and add a commit message. The commit message should be formatted like: `Added 1984` or `Added all of the Harry Potter books`. Click the `Commit Changes` button to save your changes.
 
 ![Screenshot of creating a commit message on the Github website](readme/commit-ui.png)
 
@@ -179,7 +179,7 @@ Use the following object as a template:
 ![Screenshot of a Pull Request on the Github website](readme/pull-request.png)
 
 8. Review your changes and then click `Create Pull Request`. Add any additional comments, go through the checklist within the Pull Request and add an Issue number if applicable, then click on `Create Pull Request`.
-9. Wait for feedback/review of your Pull Request. Your code will be reviewed and if any changes need to be made, we will let you know. Once your pull request is accepted, you will be able to see your card at [https://emojiscreen.com](https://emojiscreen.com) and you will officially have contributed to the project! 🎉
+9. Wait for feedback/review of your Pull Request. Your code will be reviewed and if any changes need to be made, we will let you know. Once your pull request is accepted, you will be able to see your card at [https://emojipages.com](https://emojipages.com) and you will officially have contributed to the project! 🎉
 
 ## Local Development
 
@@ -193,9 +193,9 @@ Use the following object as a template:
 
 ### Local Development Instructions
 
-1. Check the Issues to see if the [movie](https://github.com/brittanyrw/emojiscreen/labels/movie), [series of movies](https://github.com/brittanyrw/emojiscreen/labels/add%20series), [TV show](https://github.com/brittanyrw/emojiscreen/labels/tv), [or musical](https://github.com/brittanyrw/emojiscreen/labels/musical) is listed.
+1. Check the [Issues to see if the book](https://github.com/brittanyrw/emojipages/issues?q=is%3Aopen+is%3Aissue+label%3A%22Add+Book%22) you would like to add is listed. You can filter the Issues by genre if desired.
 - If it is not listed as an Issue, continue to the next step.
-- If it is listed as an Issue, take note of the issue number (the number next to the title of the Issue) so that you can add it to your pull request and write a comment in the Issue stating that you will be adding that particular movie or show. If there is already a comment in the Issue from someone saying that they will add that show or movie, choose something else to add. 
+- If it is listed as an Issue, take note of the issue number (the number next to the title of the Issue) so that you can add it to your pull request and write a comment in the Issue stating that you will be adding that particular book. If there is already a comment in the Issue from someone saying that they will add that book, choose something else to add. 
 2. Fork this repository. This will create a copy of the repository and create a new repository on your account.
 3. Once the repo is forked, you will be taken to the forked repo. Note: In the top left, the name of the repo should now include your username.
 4. Download the project to your computer. Click on the `Clone or Download` button. Copy the HTTPS github repo link.
