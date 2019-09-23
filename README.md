@@ -68,9 +68,9 @@ Here are some links to lists of books and plays in case you're having trouble th
 
 ## Card Overview
 
-On the website, each `Emoji Card` displays 1) images of the emojis, 2) a hint icon that will show the type (musical, movie or TV show) when the user hovers and 3) the name of the show (which appears when the user clicks on a card).
+On the website, each `Emoji Card` displays 1) images of the emojis, 2) a hint icon that will show the year the book was published (when the user hovers over the question mark) and 3) the name of the book (which appears when the user clicks on a card).
 
-![Screenshot of Beauty and the Beast Emoji Card](readme/emoji-card.png)
+![Screenshot of EmojiPages Items](readme/emojipages-card.png)
 
 In the `data.js` file, each `Emoji Card` consists of the following object:
 
@@ -92,7 +92,7 @@ Each card must have a title. This should be the full title.
 
 ```
 {
-  title: "Beauty and the Beast",
+  title: "The Devil Wears Prada",
 }
 ```
 
@@ -100,11 +100,11 @@ Each card must have a title. This should be the full title.
 
 The emojis should be added to `emojiImgs` as a string. Your emojis should be surrounded by double quotation marks.
 
-## **Important Note: Add five emojis maximum for each card**
+## **Important Note: Add at least four emojis and a maxioum of six emojis for each card**
 
 ```
 {
-  emojiImgs: "🏰🥀🎶📚🕰️",
+  emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
 }
 ```
 
@@ -124,58 +124,15 @@ The genres should be added as an array (the square [] brackets indicates an arra
 
 ```
 {
-  genres: ["animation", "family", "fantasy"],
+  genres: ["drama", "comedy","romance"],
 }
 ```
 
-For movies and TV shows, go to the IMDB profile and find the genres listed under the title. Add these genres to the `Emoji Card` object. Some cards will only have one genre, that is okay! Use the genre chart below as a guide for which genres are available.
-
-See the below screenshot for the location of the genre listing in IMDB profiles.
-
-![Screenshot of the Beauty and the Beast IDMB profile with the genres circled](readme/imdb-screenshot.png)
-
-
-For musicals, include the `musical` genre and any other genres from the list below that you think fit:
-
-|         |           |           |           |        |         |             |       |
-| ------- | --------- | --------- | --------- | ------ | ------- | ----------- | ----- |
-| action  | adventure | animation | biography | comedy | crime   | documentary | drama |
-| family  | fantasy   | film-noir | history   | horror | music   | mystery     | news  |
-| romance | sci-fi    | sport     | thriller  | war    | western |             |       |
-|         |           |           |           |        |         |             |       |
-
-### Link 🔗
-
-Add a link to the [IMDB page](https://www.imdb.com/) if TV show or movie, or [Playbill archive page](http://www.playbill.com/vault) if it is a musical.
-
-Make sure the link includes `https` or `http` at the beginning. The link must be wrapped in quotation marks.
-
-For TV shows and movies, add the [IMDB page](https://www.imdb.com/) link.
-
-For musicals link the [Playbill archive page](http://www.playbill.com/vault) for the show. Make sure the Playbill link is for the original production. It will say 'original' under the show name on Playbill. Here is an example of [the page you should be linking](http://www.playbill.com/production/les-miserables-broadway-theatre-vault-0000012257) for musicals.
-
-```
-{
-  itemLink: "https://www.imdb.com/title/tt0101414/",
-}
-```
-
-
-### Type 🎬
-
-Specify if the card you are adding is `tv`, `movie` or `musical`. Only add one type per card. 
-
-`musical` under type is referring to live musicals performed on Broadway, the West End, local theaters etc. If you are adding a **movie** musical, please choose `movie` as the type and indicate it is a musical via genres.
-
-```
-{
-  type: "movie",
-}
-```
+Select your genres [from this list of genres](https://github.com/brittanyrw/emojipages/blob/master/genres.md). If you want to use a genre that is not on this list, in your pull request please add the genre to the `genres.md` file.
 
 ### Year 📆
 
-Specify the year the movie or show was released or first aired. Or the first performance year for a musical. This should be a  single number (no quotations around the year). Do not add ranges such as 2017-2019. 
+Specify the year the book was published. This should be a single number with no quotations around the year.
 
 ```
 {
