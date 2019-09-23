@@ -3,9 +3,9 @@
 
 [Visit emojipages.com](https://emojipages.com)
 
-![Screenshot of Emojipages homepage](readme/emoji-pages.png)
+![Screenshot of Emojipages homepage](readme/emojipages-screenshot.png)
 
-## This project was built to create a fun, judgement free space for those learning Git and Github to practice making pull requests, branches, adding features, and more. 💛 💙 💜 💚 💖
+> This project was built to create a fun, judgement free space for those learning Git and Github to practice making pull requests, branches, adding features, and more. 💛 💙 💜 💚 💖
 
 ## Also contribute to our companion projects:
 
@@ -15,11 +15,11 @@
 
 ## Contributing 🎁
 
-Below are instructions for how to contribute to this project. The easiest way to make a contribution is to add an `Emoji Card` to the website (you can add multiple books or plays). Each card should be added in the `data.js` file as an object. 
+Below are instructions for how to contribute to this project. The easiest way to make a contribution is to add an `Emoji Card` to the website. This card should show a number of emojis that match a book or play. 
 
 For other ways to contribute, see the repo Issues [under the label 'enhancement'](https://github.com/brittanyrw/emojipages/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement). If you want to work on one of the features but aren't sure where to start, write a comment and I will be happy to help you out or get you started. You are also welcome to suggest other features [by adding an Issue](https://github.com/brittanyrw/emojipages/issues).
 
-Read below for a detailed overview and walkthrough on how to add an `Emoji Card` to this project. First time pull-requests are encouraged and you can make multiple pull requests if you desire. If you run into trouble, feel free [to create an Issue](https://github.com/brittanyrw/emojipages/issues)!
+Read below for a detailed overview and walkthrough on how to add an `Emoji Card` to this project. Please read all of the instructions before contributing! First time pull-requests are encouraged and you can make multiple pull requests if you desire. If you run into trouble, feel free [to create an Issue](https://github.com/brittanyrw/emojipages/issues)!
 
 ## Table of Contents
 
@@ -35,12 +35,24 @@ Read below for a detailed overview and walkthrough on how to add an `Emoji Card`
 
 Here are some links to lists of books and plays in case you're having trouble thinking of something to add! 
 
-#### I have also [added Issues for individual books and movies](https://github.com/brittanyrw/emojipages/labels/add%20book) that I think would be fun to add to EmojiPages. Feel free to add any of the movies or shows listed in Issues. Make sure to comment inside of the Issue if you plan on taking it and add the Issue number in your Pull Request.
+#### I have also [added Issues for individual books and plays](https://github.com/brittanyrw/emojipages/labels/add%20book) that I think would be fun to add to EmojiPages. Feel free to add any of the books listed in Issues. Make sure to comment inside of the Issue if you plan on taking it and add the Issue number in your Pull Request.
 
-### View [Issues for Individual Movies](https://github.com/brittanyrw/emojiscreen/labels/movie)
-### View [Issues for Movie Series](https://github.com/brittanyrw/emojiscreen/labels/add%20series)
-### View [Issues for TV shows](https://github.com/brittanyrw/emojiscreen/labels/tv)
-### View [Issues for Musicals](https://github.com/brittanyrw/emojiscreen/labels/musical)
+### Issues by Genre
+* View [Issues for Adventure Books](https://github.com/brittanyrw/emojipages/labels/adventure)
+* View [Issues for Children's Books](https://github.com/brittanyrw/emojipages/labels/Fairytale%20%26%20Children%27s)
+* View [Issues for Classic Books](https://github.com/brittanyrw/emojipages/labels/classic)
+* View [Issues for Comedy Books](https://github.com/brittanyrw/emojipages/labels/comedy)
+* View [Issues for Crime Books](https://github.com/brittanyrw/emojipages/labels/criume)
+* View [Issues for Drama Books](https://github.com/brittanyrw/emojipages/labels/drama)
+* View [Issues for Dystopian Books](https://github.com/brittanyrw/emojipages/labels/dystopian)
+* View [Issues for Fantasy Books](https://github.com/brittanyrw/emojipages/labels/fantasy)
+* View [Issues for Historical Books](https://github.com/brittanyrw/emojipages/labels/historical)
+* View [Issues for Mystery Books](https://github.com/brittanyrw/emojipages/labels/mystery)
+* View [Issues for Romance Books](https://github.com/brittanyrw/emojipages/labels/romance)
+* View [Issues for Satire Books](https://github.com/brittanyrw/emojipages/labels/satire)
+* View [Issues for Science Fiction Books](https://github.com/brittanyrw/emojipages/labels/Science%20Fiction)
+* View [Issues for Young Adult Books](https://github.com/brittanyrw/emojipages/labels/Young%20Adult)
+
 
 Note: The issues to add movies or shows have links to IMDB, but many shows/movies have multiple versions. Feel free to add a different version than the link if you prefer. For series, adding just some of the movies in a series is okay if you cannot add every single one!
 
@@ -72,12 +84,11 @@ In the `data.js` file, each `Emoji Card` consists of the following object:
 
 ```
 {
-  title: "Beauty and the Beast",
-  emojiImgs: "🏰🥀🎶📚🕰️",
-  genres: ["animation", "family", "fantasy"],
-  itemLink: "https://www.imdb.com/title/tt0101414/",
-  type: "movie",
-  year: 1991
+    title: "The Devil Wears Prada",
+    author: ["Lauren Weisberger"],
+    emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
+    genres: ["drama", "comedy","romance"],
+    year: 2003
 }
 ```
 
@@ -202,11 +213,11 @@ Use the following object as a template:
 
 ```
 {
-  title: "Matilda",
-  author: ["Roald Dahl"],
-  emojiImgs: "👩‍🏫📚👧🦎🎂✨",
-  genres: ["children","fantasy"],
-  year: 1988
+    title: "The Devil Wears Prada",
+    author: ["Lauren Weisberger"],
+    emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
+    genres: ["drama", "comedy","romance"],
+    year: 2003
 }
 ```
 
