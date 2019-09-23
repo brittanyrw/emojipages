@@ -1,6 +1,7 @@
 <!-- You must fill out this to do list for your pull request to be accepted. If you are adding a new song, please follow the checklist below and do not delete this checklist. Place an [x] (get rid of any spaces) inside each square as you complete each item. This is just to help you double check for any errors that might come up. 🙂 If this pull request is to address something other than adding songs, please delete the text below and write your own description on what you have changed/added to the project. -->
 
-- [ ] 🔍 I have searched the `data.js` file and confirmed I am not adding a duplicate entry.
+- [ ] 🔍 I have checked to make sure that there is not already a [pull request](https://github.com/brittanyrw/emojipages/pulls) for the show/movie that I want to add.
+- [ ] 🕵🏽‍♀️ I have searched the `data.js` file and confirmed I am not adding a duplicate entry.
 - [ ] 🖍️ I have placed the new books(s) or play(s) in alphabetical order based on `title` inside of the `data.js` file. 
 - [ ] 3️⃣ I have at least four emojis listed under `emojiImgs`
 - [ ] 5️⃣ I have a maximum of six emojis listed under `emojiImgs`.
