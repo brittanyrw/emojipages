@@ -41,8 +41,13 @@ const emojiItems = [
         emojiImgs: "⚔️🕊️💌🇷🇺",
         genres: ["historical-fiction"],
         year: 1869
-    }
-    
+    },{
+        title: "Freaky Friday",
+        author: "Mary Rodgers",
+        emojiImgs: "👩😈",
+        genres: ["childrens","literature"],
+        year: 1972
+    } 
 ]
 
 
