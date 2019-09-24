@@ -12,8 +12,8 @@ $(document).ready(function () {
   for (var i in emojiItems) {
     
     emojiCard +=
-    "<div class='emoji-card'><div class='emoji-card-wrapper'><div class='hint-container'><i class='fas fa-question-circle'></i><p class='hint'><span class='type'>" + emojiItems[i].year +
-    "</span></p></div><div class='emoji-images'>" + emojiItems[i].emojiImgs +
+    "<div class='emoji-card'><div class='emoji-card-wrapper'><div class='hint-container' tabindex='0'><i class='fas fa-question-circle'></i><p class='hint'><span class='type'>" + emojiItems[i].year +
+    "</span></p></div><div class='emoji-images' tabindex='0'>" + emojiItems[i].emojiImgs +
     "</div><div class='emoji-card-title hide-card'>";
 
     emojiCard += "<div class='title-content'><h3>" + emojiItems[i].title +
@@ -50,21 +50,21 @@ $(document).ready(function () {
   }
 
   // Expand the emoji card when clicked to reveal the song name, artist and music video link.
-  $("#books").on("click", ".emoji-images", function () {
+  $("#books").on("click keypress", ".emoji-images", function () {
     $(this)
       .siblings(".emoji-card-title")
       .toggleClass("hide-card");
   });
 
   // Display a hint (type ie tv, movie or musical) when hovering over the question mark.
-  $("#books").on("mouseover", ".hint-container", function () {
+  $("#books").on("mousedown keypress", ".hint-container", function () {
     $(this)
       .find(".hint")
       .addClass("hint-reveal");
   });
 
   // Hide hint (type ie tv, movie or musical) when the user stops hovering over the question mark.
-  $("#books").on("mouseleave", ".hint-container", function () {
+  $("#books").on("mouseleave focusout", ".hint-container", function () {
     $(this)
       .find(".hint")
       .removeClass("hint-reveal");
