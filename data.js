@@ -21,7 +21,7 @@ const emojiItems = [
         title: "Matilda",
         author: ["Roald Dahl"],
         emojiImgs: "👩‍🏫📚👧🦎🎂✨",
-        genres: ["children"],
+        genres: ["childrens"],
         year: 1988
     },{
         title: "Nineteen Eighty-Four: A Novel",
@@ -33,7 +33,7 @@ const emojiItems = [
         title: "The Lion, the Witch and the Wardrobe",
         author: ["C.S.Lewis"],
         emojiImgs: "🦁🧙‍♀️🚪👧🧒🏞️",
-        genres: ["children","fantasy"],
+        genres: ["childrens","fantasy"],
         year: 1950
     },{
         title: "War and Peace",
