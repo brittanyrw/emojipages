@@ -5,13 +5,13 @@
 
 ![Screenshot of Emojipages homepage](readme/emojipages-screenshot.png)
 
-> This project was built to create a fun, judgement free space for those learning Git and Github to practice making pull requests, branches, adding features, and more. 💛 💙 💜 💚 💖
-
 ## Also contribute to our companion projects:
 
 ## [EmojiScreen: A listing of TV shows, movies and musicals depicted as emojis](https://github.com/brittanyrw/emojiscreen/).
 
 ## [EmojiBops: A listing of songs depicted via emojis](https://github.com/brittanyrw/emojibops/).
+
+> These projects were built to create a fun, judgement free space for those learning Git and Github to practice making pull requests, branches, adding features, and more. 💛 💙 💜 💚 💖
 
 ## Contributing 🎁
 
