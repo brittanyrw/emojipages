@@ -16,17 +16,8 @@ $(document).ready(function () {
     "</span></p></div><div class='emoji-images'>" + emojiItems[i].emojiImgs +
     "</div><div class='emoji-card-title hide-card'>";
 
-    emojiCard += "<div class='title-content'>";
-
-    if(emojiItems[i].link){
-      emojiCard += "<div class='emoji-card-link'><a href='" + emojiItems[i].link + "' target='_blank'><h3> " + emojiItems[i].title +
-      " (" + emojiItems[i].year + ")" + "</h3></a></div>";
-    } else {
-      emojiCard += "<h3>" + emojiItems[i].title +
-        " (" + emojiItems[i].year + ")" + "</h3>";
-    }
-    
-    emojiCard += "<div class='author-container'><h4>" + emojiItems[i].author + "</h4></div>";
+    emojiCard += "<div class='title-content'><h3>" + emojiItems[i].title +
+        " (" + emojiItems[i].year + ")" + "</h3><div class='author-container'><h4>" + emojiItems[i].author + "</h4></div>";
     
     emojiCard += "</div></div></div></div>";
   }
