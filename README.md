@@ -45,7 +45,6 @@ Here are some links to lists of books and plays in case you're having trouble th
 * View [Issues for Children's Books](https://github.com/brittanyrw/emojipages/labels/Fairytale%20%26%20Children%27s)
 * View [Issues for Classic Books](https://github.com/brittanyrw/emojipages/labels/classic)
 * View [Issues for Crime Books](https://github.com/brittanyrw/emojipages/labels/crime)
-* View [Issues for Drama Books](https://github.com/brittanyrw/emojipages/labels/drama)
 * View [Issues for Dystopian Books](https://github.com/brittanyrw/emojipages/labels/dystopian)
 * View [Issues for Fantasy Books](https://github.com/brittanyrw/emojipages/labels/fantasy)
 * View [Issues for Historical Books](https://github.com/brittanyrw/emojipages/labels/historical)
