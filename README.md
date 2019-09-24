@@ -139,7 +139,9 @@ The genres should be added as an array (the square [] brackets indicates an arra
 }
 ```
 
-Select your genres [from this list of genres](https://github.com/brittanyrw/emojipages/blob/master/genres.md). If you want to use a genre that is not on this list, in your pull request please add the genre to the `genres.md` file.
+Select your genres [from this list of genres](https://github.com/brittanyrw/emojipages/blob/master/genres.md). If you want to use a genre that is not on this list, in your pull request please add the genre to the `genres.md` file. 
+
+If you need ideas for what genres to select, you can check the Wikipedia page for the book as well as the [Goodreads](https://www.goodreads.com/) page for the book to help you out. 
 
 ### Year 📆
 
