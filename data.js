@@ -14,8 +14,8 @@ const emojiItems = [
     },{
         title: "Freaky Friday",
         author: "Mary Rodgers",
-        emojiImgs: "👩😈",
-        genres: ["childrens","literature"],
+        emojiImgs: "🥢🥠👧➡️👩",
+        genres: ["childrens","literature","comedy"],
         year: 1972
     },{
         title: "Les Miserables",
