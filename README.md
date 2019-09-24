@@ -77,7 +77,7 @@ In the `data.js` file, each `Emoji Card` consists of the following object:
 ```
 {
     title: "The Devil Wears Prada",
-    author: ["Lauren Weisberger"],
+    author: "Lauren Weisberger",
     emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
     genres: ["drama", "comedy","romance"],
     year: 2003
@@ -93,6 +93,16 @@ Each card must have a title. This should be the full title.
 ```
 {
   title: "The Devil Wears Prada",
+}
+```
+
+### Author 📚
+
+Add the author as a string. If there are multiple authors, include them all in one string such as `author: "Author One, Author Two"`.
+
+```
+{
+  author: "Lauren Weisberger",
 }
 ```
 
@@ -163,7 +173,7 @@ Use the following object as a template:
 ```
 {
     title: "The Devil Wears Prada",
-    author: ["Lauren Weisberger"],
+    author: "Lauren Weisberger",
     emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
     genres: ["drama", "comedy","romance"],
     year: 2003
@@ -208,7 +218,7 @@ Use the following object as a template:
 ```
 {
   title: "Matilda",
-  author: ["Roald Dahl"],
+  author: "Roald Dahl",
   emojiImgs: "👩‍🏫📚👧🦎🎂✨",
   genres: ["children","fantasy"],
   year: 1988
