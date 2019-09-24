@@ -38,11 +38,11 @@ Here are some links to lists of books and plays in case you're having trouble th
 #### I have also [added Issues for individual books and plays](https://github.com/brittanyrw/emojipages/labels/add%20book) that I think would be fun to add to EmojiPages. Feel free to add any of the books listed in Issues. Make sure to comment inside of the Issue if you plan on taking it and add the Issue number in your Pull Request.
 
 ### Issues by Genre
+> These are loose, very general genres just to help categorize issues. You can use more specific genres when you add cards.
 * View [Issues for Adventure Books](https://github.com/brittanyrw/emojipages/labels/adventure)
 * View [Issues for Children's Books](https://github.com/brittanyrw/emojipages/labels/Fairytale%20%26%20Children%27s)
 * View [Issues for Classic Books](https://github.com/brittanyrw/emojipages/labels/classic)
-* View [Issues for Comedy Books](https://github.com/brittanyrw/emojipages/labels/comedy)
-* View [Issues for Crime Books](https://github.com/brittanyrw/emojipages/labels/criume)
+* View [Issues for Crime Books](https://github.com/brittanyrw/emojipages/labels/crime)
 * View [Issues for Drama Books](https://github.com/brittanyrw/emojipages/labels/drama)
 * View [Issues for Dystopian Books](https://github.com/brittanyrw/emojipages/labels/dystopian)
 * View [Issues for Fantasy Books](https://github.com/brittanyrw/emojipages/labels/fantasy)
