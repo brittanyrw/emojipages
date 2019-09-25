@@ -6,6 +6,12 @@ const emojiItems = [
         genres: ["drama", "comedy","romance"],
         year: 2003
     },{
+        title: "Dune",
+        author: "Frank Herbert",
+        emojiImgs: "🏜🌠⚔💊💧",
+        genres: ["science-fiction"],
+        year: 1965
+    },{
         title: "Frankenstein",
         author: "Mary Shelley",
         emojiImgs: "🧪➕➡️🧟⚰️",
@@ -41,12 +47,6 @@ const emojiItems = [
         emojiImgs: "⚔️🕊️💌🇷🇺",
         genres: ["historical-fiction"],
         year: 1869
-    },{
-        title: "Dune",
-        author: "Frank Herbert",
-        emojiImgs: "🏜🌠⚔💊💧",
-        genres: ["science-fiction"],
-        year: 1965
     }
     
 ]
