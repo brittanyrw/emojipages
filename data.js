@@ -5,7 +5,15 @@ const emojiItems = [
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
         genres: ["drama", "comedy","romance"],
         year: 2003
-    },{
+    },
+    {
+        title: "Fight Club",
+        author: "Chuck Palahniuk",
+        emojiImgs: "👨🧒🚬👊💣💥♣🌆",
+        genres: ["crime", "satire"],
+        year: 1996
+    },
+    {
         title: "Frankenstein",
         author: "Mary Shelley",
         emojiImgs: "🧪➕➡️🧟⚰️",
