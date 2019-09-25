@@ -9,7 +9,7 @@ const emojiItems = [
     {
         title: "Fight Club",
         author: "Chuck Palahniuk",
-        emojiImgs: "👨🧒🚬👊💣💥♣🌆",
+        emojiImgs: "👨🚬👊💣♣🌆",
         genres: ["crime", "satire"],
         year: 1996
     },
