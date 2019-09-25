@@ -46,7 +46,7 @@ const emojiItems = [
       author: "Sir Arthur Conan Doyle",
       emojiImgs: "🧠🎻⚰👣🕵️‍♂️",
       genres: ["mystery","crime","classic"],
-      year: 1988
+      year: 1892
     }
     
 ]
