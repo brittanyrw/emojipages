@@ -12,6 +12,12 @@ const emojiItems = [
         genres: ["gothic", "science-fiction", "horror-fiction"],
         year: 1818
     },{
+        title: "Hamlet",
+        author: "William Shakespeare",
+        emojiImgs: "🤴🇩🇰🏰⚔👻💔",
+        genres: ["classic", "drama", "crime", "romance", "death"],
+        year: 1602
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
