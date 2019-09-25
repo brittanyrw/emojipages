@@ -44,7 +44,7 @@ const emojiItems = [
     },{
       title: "The Adventures of Sherlock Holmes",
       author: "Sir Arthur Conan Doyle",
-      emojiImgs: "👥🧐🧠🎻⚰👣🕵️‍♂️",
+      emojiImgs: "🧠🎻⚰👣🕵️‍♂️",
       genres: ["mystery","crime","classic"],
       year: 1988
     }
