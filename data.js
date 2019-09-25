@@ -46,7 +46,7 @@ const emojiItems = [
         author: " H. G. Wells",
         emojiImgs: "👽👾🌎⚔️💣",
         genres: ["science-fiction","sci-fi","space"],
-        year: 1869
+        year: 1898
     }
     
 ]
