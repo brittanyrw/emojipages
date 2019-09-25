@@ -36,17 +36,17 @@ const emojiItems = [
         genres: ["childrens","fantasy"],
         year: 1950
     },{
-        title: "War and Peace",
-        author: "Leo Tolstoy",
-        emojiImgs: "⚔️🕊️💌🇷🇺",
-        genres: ["historical-fiction"],
-        year: 1869
-    },{
         title: "Harry Potter and the Methods of Rationality",
         author: "Eliezer Yudkowsky",
         emojiImgs: "📚⚗✨🧙‍♂️👦",
         genres: ["fantasy", "science-fiction"],
         year: 2010
+    },{
+        title: "War and Peace",
+        author: "Leo Tolstoy",
+        emojiImgs: "⚔️🕊️💌🇷🇺",
+        genres: ["historical-fiction"],
+        year: 1869
     }
     
 ]
