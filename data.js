@@ -30,6 +30,12 @@ const emojiItems = [
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
     },{
+        title: "The Perks of Being a Wallflower",
+        author: "Stephen Chbosky",
+        emojiImgs: "🌼📗🌟🎶",
+        genres: ["coming-of-age","yound-adult"],
+        year: 1999
+    },{
         title: "The Lion, the Witch and the Wardrobe",
         author: "C.S.Lewis",
         emojiImgs: "🦁🧙‍♀️🚪👧🧒🏞️",
