@@ -41,6 +41,12 @@ const emojiItems = [
         emojiImgs: "⚔️🕊️💌🇷🇺",
         genres: ["historical-fiction"],
         year: 1869
+    },{
+        title: "Harry Potter and the Methods of Rationality",
+        author: "Eliezer Yudkowsky",
+        emojiImgs: "📚⚗✨🧙‍♂️👦",
+        genres: ["fantasy"],
+        year: 2010
     }
     
 ]
