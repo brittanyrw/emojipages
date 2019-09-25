@@ -26,6 +26,12 @@ const emojiItems = [
         genres: ["drama","romance"],
         year: 1862
     },{
+        title: "Life of Pi",
+        author: "Yann Martel",
+        emojiImgs: "👳🛶🌊🐯",
+        genres: ["fiction","animals"],
+        year: 2001
+    },{
         title: "Matilda",
         author: "Roald Dahl",
         emojiImgs: "👩‍🏫📚👧🦎🎂✨",
