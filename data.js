@@ -44,6 +44,12 @@ const emojiItems = [
         genres: ["childrens","fantasy"],
         year: 1950
     },{
+        title: "The Shining",
+        author: "Stephen King",
+        emojiImgs: "👨🔪🚪😱",
+        genres: ["horror"],
+        year: 1977
+    },{
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
