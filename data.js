@@ -41,6 +41,12 @@ const emojiItems = [
         emojiImgs: "⚔️🕊️💌🇷🇺",
         genres: ["historical-fiction"],
         year: 1869
+    },{
+        title: "The War of the Worlds",
+        author: " H. G. Wells",
+        emojiImgs: "👽👾🌎⚔️💣",
+        genres: ["science-fiction","sci-fi","space"],
+        year: 1869
     }
     
 ]
