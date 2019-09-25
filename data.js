@@ -1,5 +1,11 @@
 const emojiItems = [
     {
+        title: "A Dance with Dragons",
+        author: "George R. R. Martin",
+        emojiImgs: "💃🐉🐲🐉",
+        genres: ["fantasy", "political-fiction"],
+        year: 2011
+    },{
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
