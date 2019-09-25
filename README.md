@@ -48,6 +48,7 @@ Here are some links to lists of books and plays in case you're having trouble th
 * View [Issues for Dystopian Books](https://github.com/brittanyrw/emojipages/labels/dystopian)
 * View [Issues for Fantasy Books](https://github.com/brittanyrw/emojipages/labels/fantasy)
 * View [Issues for Historical Books](https://github.com/brittanyrw/emojipages/labels/historical)
+* View [Issues for Historical Books](https://github.com/brittanyrw/emojipages/labels/horror)
 * View [Issues for Mystery Books](https://github.com/brittanyrw/emojipages/labels/mystery)
 * View [Issues for Romance Books](https://github.com/brittanyrw/emojipages/labels/romance)
 * View [Issues for Satire Books](https://github.com/brittanyrw/emojipages/labels/satire)
