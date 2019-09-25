@@ -36,6 +36,12 @@ const emojiItems = [
         genres: ["childrens","fantasy"],
         year: 1950
     },{
+        title: "Twelve Angry Men",
+        author: "Reginald Rose",
+        emojiImgs:" 1⃣ 2⃣ 😡🧔",
+        genres: ["drama","crime"],
+        year: 1954
+    },{
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
