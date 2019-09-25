@@ -1,5 +1,5 @@
 const emojiItems = [
-    {
+   {
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
@@ -29,6 +29,12 @@ const emojiItems = [
         emojiImgs: "👀👨🏻👩🏻📕💌🐁",
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
+    },{
+        title: "Of Mice and Men",
+        author: "John Steinbeck",
+        emojiImgs: "🐭🐭➕👨🧔",
+        genres: ["classic", "fiction"],
+        year: 1937
     },{
         title: "The Lion, the Witch and the Wardrobe",
         author: "C.S.Lewis",
