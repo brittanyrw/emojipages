@@ -1,5 +1,11 @@
 const emojiItems = [
     {
+        title: "CloudAtlas",
+        author: "David Mitchell",
+        emojiImgs: "☁️🌎🏝🌺",
+        genres: ["science-fiction", "drama", "fantasy-history"],
+        year: 2004
+    },{
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
