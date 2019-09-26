@@ -47,6 +47,12 @@ const emojiItems = [
         emojiImgs: "⚔️🕊️💌🇷🇺",
         genres: ["historical-fiction"],
         year: 1869
+    },{
+        title: "Winnie the Pooh",
+        author: "A. A. Milne",
+        emojiImgs: "🧸🍯🐅🤔",
+        genres: ["childrens", "classic", "fantasy"],
+        year: 1926
     }
 ]
 
