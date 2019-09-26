@@ -47,7 +47,16 @@ const emojiItems = [
         emojiImgs: "👀👨🏻👩🏻📕💌🐁",
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
-    },{
+    },
+    {
+        title: "Pet Sematary",
+        author: "Stephen King",
+        // emojiImgs: "🙀🕊️💌🇷🇺✝️😱",
+        emojiImgs: "🐈✝️🧟😱",
+        genres: ["Horror"],
+        year: 1986
+    },
+    {
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
