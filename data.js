@@ -18,6 +18,12 @@ const emojiItems = [
         genres: ["crime","mystery","thriller"],
         year: 2005
     },{
+        title: "Jaws",
+        authot: "Peter Benchley",
+        emojiImgs: "😱🦈🌊🌴💀",
+        genres: ["thriller", "fiction"],
+        year: 1974
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
@@ -47,12 +53,6 @@ const emojiItems = [
         emojiImgs: "⚔️🕊️💌🇷🇺",
         genres: ["historical-fiction"],
         year: 1869
-    },{
-        title: "Jaws",
-        authot: "Peter Benchley",
-        emojiImgs: "😱🦈🌊🌴💀",
-        genres: ["thriller"],
-        year: 1974
     }
 ]
 
