@@ -6,7 +6,7 @@
 - [ ] 👍 My pull request has a descriptive title (such as `Added Matilda` or `Added all of Jane Austen's books`)
 - [ ] 🕵🏽‍♀️ I have searched the `data.js` file and confirmed I am not adding a duplicate entry.
 - [ ] 🖍️ I have placed the new books(s) or play(s) in alphabetical order based on `title` inside of the `data.js` file. 
-- [ ] 3️⃣ I have at least four emojis listed under `emojiImgs`
+- [ ] 4️⃣ I have at least four emojis listed under `emojiImgs`
 - [ ] 6️⃣ I have a maximum of six emojis listed under `emojiImgs`.
 - [ ] ⭐ My genres are all inside of square brackets `[ ]` and each are individually wrapped in quotation marks and have a comma between each one. (such as submitting this `"genres": ["fantasy", "children", "adventure"]` and not this `"genres":["fantasy, children, adventure"]`). 
 - [ ] 💜 I have used genres from this [genre.md](https://github.com/brittanyrw/emojipages/blob/master/genres.md) file or if I want to use genres not in this file already, I have added them to this file in alphabetical order.
