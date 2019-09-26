@@ -18,11 +18,23 @@ const emojiItems = [
         genres: ["childrens","literature","comedy"],
         year: 1972
     },{
+        title: "The Girl with the Dragon Tattoo",
+        author: "Stieg Larsson",
+        emojiImgs: "👧🏻🐉💉🇸🇪",
+        genres: ["crime","mystery","thriller"],
+        year: 2005
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
         genres: ["drama","romance"],
         year: 1862
+    },{
+        title: "The Lion, the Witch and the Wardrobe",
+        author: "C.S.Lewis",
+        emojiImgs: "🦁🧙‍♀️🚪👧🧒🏞️",
+        genres: ["childrens","fantasy"],
+        year: 1950
     },{
         title: "Matilda",
         author: "Roald Dahl",
@@ -36,17 +48,17 @@ const emojiItems = [
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
     },{
-        title: "The Lion, the Witch and the Wardrobe",
-        author: "C.S.Lewis",
-        emojiImgs: "🦁🧙‍♀️🚪👧🧒🏞️",
-        genres: ["childrens","fantasy"],
-        year: 1950
-    },{
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
         genres: ["historical-fiction"],
         year: 1869
+    },{
+        title: "Winnie the Pooh",
+        author: "A. A. Milne",
+        emojiImgs: "🧸🍯🐅🤔",
+        genres: ["childrens", "classic", "fantasy"],
+        year: 1926
     }
 ]
 
