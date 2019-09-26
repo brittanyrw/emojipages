@@ -47,6 +47,12 @@ const emojiItems = [
         emojiImgs: "⚔️🕊️💌🇷🇺",
         genres: ["historical-fiction"],
         year: 1869
+    },{
+        title: "Jaws",
+        authot: "Peter Benchley",
+        emojiImgs: "😱🦈🌊🌴💀",
+        genres: ["thriller"],
+        year: 1974
     }
 ]
 
