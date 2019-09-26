@@ -12,6 +12,12 @@ const emojiItems = [
         genres: ["gothic", "science-fiction", "horror-fiction"],
         year: 1818
     },{
+        title: "The Goldfinch",
+        author: "Donna Tartt",
+        emojiImgs: "🥇🐤🖼️👱‍♂",
+        genres: ["fiction", "contemporary","literary fiction"],
+        year: 2013
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
