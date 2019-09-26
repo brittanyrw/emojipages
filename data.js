@@ -47,6 +47,12 @@ const emojiItems = [
         emojiImgs: "⚔️🕊️💌🇷🇺",
         genres: ["historical-fiction"],
         year: 1869
+    },{
+        title: "A Game of Thrones",
+        author: "George R. R. Martin",
+        emojiImgs: "👑🗡️🐺⚔️🤴",
+        genres: ["fantasy-history", "action-and-adventure","war"],
+        year: 1996
     }
 ]
 
