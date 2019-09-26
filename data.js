@@ -18,6 +18,12 @@ const emojiItems = [
         genres: ["crime","mystery","thriller"],
         year: 2005
     },{
+        title: "Jaws",
+        author: "Peter Benchley",
+        emojiImgs: "🦈🌊😱💀",
+        genres: ["thriller", "fiction"],
+        year: 1974
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
