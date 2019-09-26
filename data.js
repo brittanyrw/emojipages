@@ -1,5 +1,11 @@
 const emojiItems = [
     {
+        title: "Alice's Adventures in Wonderland",
+        author: "Lewis Carroll",
+        emojiImgs: "👩🐇😼☕🎩♕",
+        genres: ["fantasy", "childrens"],
+        year: 1865
+    },{
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
