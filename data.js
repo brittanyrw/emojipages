@@ -18,6 +18,12 @@ const emojiItems = [
         genres: ["crime","mystery","thriller"],
         year: 2005
     },{
+        title: "The Great Gatsby",
+        author: "F. Scott Fitzgerald",
+        emojiImgs: "💰🎉🍾🚙💥💀",
+        genres: ["drama","romance", "tragedy"],
+        year: 1925
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
