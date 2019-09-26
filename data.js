@@ -45,7 +45,7 @@ const emojiItems = [
         title: 'To Kill a Mockingbird',
         author: 'Harper Lee',
         emojiImgs: '🏹🐦👧👦🧓🇺🇸',
-        genres: ['classic', 'historical', 'drama'],
+        genres: ['classic', 'historical-fiction', 'drama'],
         year: 1960
     },{
         title: "War and Peace",
