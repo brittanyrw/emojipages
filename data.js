@@ -30,6 +30,13 @@ const emojiItems = [
         genres: ["childrens","fantasy"],
         year: 1950
     },{
+        title: 'To Kill a Mockingbird',
+        author: 'Harper Lee',
+        emojiImgs: '🏹🐦👧👦🧓🇺🇸',
+        genres: ['classic', 'historical', 'drama'],
+        year: 1960
+    },
+    {
         title: "Matilda",
         author: "Roald Dahl",
         emojiImgs: "👩‍🏫📚👧🦎🎂✨",
