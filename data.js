@@ -12,6 +12,12 @@ const emojiItems = [
         genres: ["gothic", "science-fiction", "horror-fiction"],
         year: 1818
     },{
+        title: "Freaky Friday",
+        author: "Mary Rodgers",
+        emojiImgs: "🥢🥠👧➡️👩",
+        genres: ["childrens","literature","comedy"],
+        year: 1972
+    },{
         title: "The Girl with the Dragon Tattoo",
         author: "Stieg Larsson",
         emojiImgs: "👧🏻🐉💉🇸🇪",
