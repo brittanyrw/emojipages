@@ -12,6 +12,12 @@ const emojiItems = [
         genres: ["gothic", "science-fiction", "horror-fiction"],
         year: 1818
     },{
+        title: "The Hitchhiker's Guide to the Galaxy",
+        author: "Douglas Adams",
+        emojiImgs: "👍🌌💛🛸🤖",
+        genres: ["science-fiction", "comedy", "surreal"],
+        year: 1979      
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
@@ -42,8 +48,5 @@ const emojiItems = [
         genres: ["historical-fiction"],
         year: 1869
     }
-    
+
 ]
-
-
-
