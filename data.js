@@ -41,6 +41,12 @@ const emojiItems = [
         emojiImgs: "⚔️🕊️💌🇷🇺",
         genres: ["historical-fiction"],
         year: 1869
+    },{
+        title: "The Girl with the Dragon Tattoo",
+        author: "Stieg Larsson",
+        emojiImgs: "👧🏻🐉💉🇸🇪",
+        genres: ["crime","mystery","thriller"],
+        year: 2005
     }
     
 ]
