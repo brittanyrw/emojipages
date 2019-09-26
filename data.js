@@ -36,6 +36,12 @@ const emojiItems = [
         genres: ["childrens","fantasy"],
         year: 1950
     },{
+        title: "The Martian",
+        author: "Andy Weir",
+        emojiImgs: "🚀🥔🧪🤔",
+        genres: ["science-fiction"],
+        year: 2011
+    },{
         title: "Matilda",
         author: "Roald Dahl",
         emojiImgs: "👩‍🏫📚👧🦎🎂✨",
