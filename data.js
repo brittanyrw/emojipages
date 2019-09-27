@@ -12,11 +12,29 @@ const emojiItems = [
         genres: ["gothic", "science-fiction", "horror-fiction"],
         year: 1818
     },{
+        title: "Freaky Friday",
+        author: "Mary Rodgers",
+        emojiImgs: "🥢🥠👧➡️👩",
+        genres: ["childrens","literature","comedy"],
+        year: 1972
+    },{
+        title: "The Girl with the Dragon Tattoo",
+        author: "Stieg Larsson",
+        emojiImgs: "👧🏻🐉💉🇸🇪",
+        genres: ["crime","mystery","thriller"],
+        year: 2005
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
         genres: ["drama","romance"],
         year: 1862
+    },{
+        title: "The Lion, the Witch and the Wardrobe",
+        author: "C.S.Lewis",
+        emojiImgs: "🦁🧙‍♀️🚪👧🧒🏞️",
+        genres: ["childrens","fantasy"],
+        year: 1950
     },{
         title: "Matilda",
         author: "Roald Dahl",
@@ -30,12 +48,6 @@ const emojiItems = [
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
     },{
-        title: "The Lion, the Witch and the Wardrobe",
-        author: "C.S.Lewis",
-        emojiImgs: "🦁🧙‍♀️🚪👧🧒🏞️",
-        genres: ["childrens","fantasy"],
-        year: 1950
-    },{
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
@@ -47,9 +59,11 @@ const emojiItems = [
         emojiImgs: "👽👾🌎⚔️💣",
         genres: ["science-fiction","war","space","thriller"],
         year: 1898
+    },{
+        title: "Winnie the Pooh",
+        author: "A. A. Milne",
+        emojiImgs: "🧸🍯🐅🤔",
+        genres: ["childrens", "classic", "fantasy"],
+        year: 1926
     }
-    
 ]
-
-
-
