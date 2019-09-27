@@ -1,5 +1,12 @@
 const emojiItems = [
     {
+        title: "Animal Farm",
+        author: "George Orwell",
+        emojiImgs: "🐷🐰🐭🐴🐮🐔",
+        genres: ["satire"],
+        year: 1945
+    },
+    {
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
