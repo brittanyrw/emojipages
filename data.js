@@ -5,8 +5,13 @@ const emojiItems = [
         emojiImgs: "🐷🐰🐭🐴🐮🐔",
         genres: ["satire"],
         year: 1945
-    },
-    {
+    },{
+        title: "Charlie and the Chocolate Factory",
+        author: "Roald Dahl",
+        emojiImgs: "🎩🏭🍫🎫👦🏼",
+        genres: ["fantasy", "childrens"],
+        year: 1964
+    },{
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
@@ -78,11 +83,5 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
-    },{
-        title: "Charlie and the Chocolate Factory",
-        author: "Roald Dahl",
-        emojiImgs: "🎩🏭🍫🎫👦🏼",
-        genres: ["fantasy", "childrens"],
-        year: 1964
     }
 ]
