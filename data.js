@@ -5,18 +5,38 @@ const emojiItems = [
         emojiImgs: "👩🐇😼☕🎩♕",
         genres: ["fantasy", "childrens"],
         year: 1865
-    },{
+    },
+    {
+        title: "Animal Farm",
+        author: "George Orwell",
+        emojiImgs: "🐷🐰🐭🐴🐮🐔",
+        genres: ["satire"],
+        year: 1945
+    },
+    {
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
         genres: ["drama", "comedy","romance"],
         year: 2003
     },{
+        title: "Fight Club",
+        author: "Chuck Palahniuk",
+        emojiImgs: "👨🚬👊💣♣🌆",
+        genres: ["crime", "satire"],
+        year: 1996
+    },{
         title: "Frankenstein",
         author: "Mary Shelley",
         emojiImgs: "🧪➕➡️🧟⚰️",
         genres: ["gothic", "science-fiction", "horror-fiction"],
         year: 1818
+    },{
+        title: "Freaky Friday",
+        author: "Mary Rodgers",
+        emojiImgs: "🥢🥠👧➡️👩",
+        genres: ["childrens","literature","comedy"],
+        year: 1972
     },{
         title: "The Girl with the Dragon Tattoo",
         author: "Stieg Larsson",
@@ -53,8 +73,17 @@ const emojiItems = [
         emojiImgs: "⚔️🕊️💌🇷🇺",
         genres: ["historical-fiction"],
         year: 1869
+    },{
+        title: "The War of the Worlds",
+        author: " H. G. Wells",
+        emojiImgs: "👽👾🌎⚔️💣",
+        genres: ["science-fiction","war","space","thriller"],
+        year: 1898
+    },{
+        title: "Winnie the Pooh",
+        author: "A. A. Milne",
+        emojiImgs: "🧸🍯🐅🤔",
+        genres: ["childrens", "classic", "fantasy"],
+        year: 1926
     }
 ]
-
-
-
