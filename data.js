@@ -78,5 +78,11 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
+    },{
+        title: "Charlie and the Chocolate Factory",
+        author: "Roald Dahl",
+        emojiImgs: "🎩🏭🍫🎫👦🏼",
+        genres: ["fantasy", "childrens"],
+        year: 1964
     }
 ]
