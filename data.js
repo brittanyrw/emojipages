@@ -37,6 +37,12 @@ const emojiItems = [
         genres: ["crime","mystery","thriller"],
         year: 2005
     },{
+        title: "The Hobbit",
+        author: "J.R.R. Tolkien",
+        emojiImgs: "👦🧙‍♂️🧔🐉",
+        genres: ["fantasy"],
+        year: 1937
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
@@ -80,3 +86,6 @@ const emojiItems = [
         year: 1926
     }
 ]
+
+
+
