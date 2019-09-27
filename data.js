@@ -54,6 +54,12 @@ const emojiItems = [
         genres: ["historical-fiction"],
         year: 1869
     },{
+        title: "The War of the Worlds",
+        author: " H. G. Wells",
+        emojiImgs: "👽👾🌎⚔️💣",
+        genres: ["science-fiction","war","space","thriller"],
+        year: 1898
+    },{
         title: "Winnie the Pooh",
         author: "A. A. Milne",
         emojiImgs: "🧸🍯🐅🤔",
@@ -61,6 +67,3 @@ const emojiItems = [
         year: 1926
     }
 ]
-
-
-
