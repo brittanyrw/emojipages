@@ -11,8 +11,7 @@ const emojiItems = [
         emojiImgs: "🤑🤦‍♀️💅🙆‍♀️💔🙌",
         genres: ["romance"],
         year: 2000
-    },
-    {
+    },{
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
