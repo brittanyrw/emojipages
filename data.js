@@ -5,6 +5,12 @@ const emojiItems = [
         emojiImgs: "🐷🐰🐭🐴🐮🐔",
         genres: ["satire"],
         year: 1945
+    },{
+        title: "Confessions of a Shopaholic",
+        author: "Sophie Kinsella",
+        emojiImgs: "🤑🤦‍♀️💅🙆‍♀️💔🙌",
+        genres: ["romance"],
+        year: 2000
     },
     {
         title: "The Devil Wears Prada",
