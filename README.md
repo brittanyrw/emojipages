@@ -19,7 +19,11 @@ Below are instructions for how to contribute to this project. The easiest way to
 
 For other ways to contribute, see the repo Issues [under the label 'enhancement'](https://github.com/brittanyrw/emojipages/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement). If you want to work on one of the features but aren't sure where to start, write a comment and I will be happy to help you out or get you started. You are also welcome to suggest other features [by adding an Issue](https://github.com/brittanyrw/emojipages/issues).
 
-## If you want to work on one of the Issues that are labeled with `enhancement` please comment in the Issue and wait for confirmation before you start working on it.
+### If you want to work on one of the [Issues to add a book](https://github.com/brittanyrw/emojipages/labels/add%20book)
+* Please comment in the Issue so that others know to not add that book. You do not have to wait for confirmation for Issues adding books or plays before creating a Pull Request. Your comment will just help 'bookmark' the Issue for you to prevent duplicate Pull Requests.
+
+### If you want to work on one of the Issues that are labeled with `enhancement` 
+* Please comment in the Issue and wait for confirmation before you start working on it.
 
 Read below for a detailed overview and walkthrough on how to add an `Emoji Card` to this project. Please read all of the instructions before contributing! First time pull-requests are encouraged and you can make multiple pull requests if you desire. If you run into trouble, feel free [to create an Issue](https://github.com/brittanyrw/emojipages/issues)!
 
