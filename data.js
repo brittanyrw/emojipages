@@ -61,6 +61,12 @@ const emojiItems = [
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
     },{
+        title: "Romeo and Juliet",
+        author: "William Shakespeare",
+        emojiImgs: "👨🏻❤️👩🏻🧪☠",
+        genres: ["drama", "romance"],
+        year: 1597
+    },{
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
