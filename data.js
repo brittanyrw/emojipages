@@ -55,6 +55,12 @@ const emojiItems = [
         genres: ["childrens"],
         year: 1988
     },{
+        title: "Twelfth Night",
+        author: "William Shakespeare",
+        emojiImgs: "💁🏼‍⛵️✉️❤️👰🏼😂",
+        genres: ["comedy","romance"],
+        year: 1602
+    },{
         title: "Nineteen Eighty-Four: A Novel",
         author: "George Orwell",
         emojiImgs: "👀👨🏻👩🏻📕💌🐁",
@@ -78,11 +84,5 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
-    },{
-        title: "Twelfth Night",
-        author: "William Shakespeare",
-        emojiImgs: "💁🏼‍⛵️✉️❤️👰🏼😂",
-        genres: ["comedy","romance"],
-        year: 1602
     }
 ]
