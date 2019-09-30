@@ -78,5 +78,11 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
+    },{
+        title: "The Secret Garden",
+        author: "Frances Hodgson Burnett",
+        emojiImgs: "👱‍♀🧛‍",
+        genres: ["children", "fantasy"],
+        year: 1911
     }
 ]
