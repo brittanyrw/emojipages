@@ -13,6 +13,12 @@ const emojiItems = [
         genres: ["drama", "comedy","romance"],
         year: 2003
     },{
+        title: "Diary of A Wimpy Kid",
+        author: "Jeff Kinney",
+        emojiImgs: "📔🧀🎒🎮",
+        genres: ["comedy","fiction", "young-adult"],
+        year: 2007
+    },{
         title: "Fight Club",
         author: "Chuck Palahniuk",
         emojiImgs: "👨🚬👊💣♣🌆",
