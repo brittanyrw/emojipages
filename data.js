@@ -31,6 +31,12 @@ const emojiItems = [
         genres: ["childrens","literature","comedy"],
         year: 1972
     },{
+        title: "Harry Potter and the Deathly Hallows",
+        author: "J. K. Rowling",
+        emojiImgs: "👓🕮🔮🐍✨",
+        genres: ["fantasy-history"],
+        year: 2007
+    },{
         title: "The Girl with the Dragon Tattoo",
         author: "Stieg Larsson",
         emojiImgs: "👧🏻🐉💉🇸🇪",
