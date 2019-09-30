@@ -78,5 +78,11 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
+    },{
+        title: "The Tempest",
+        author: "William Shakespeare",
+        emojiImgs: "🚢 ⛈🧙‍😱",
+        genres: ["romance"],
+        year: 1611
     }
 ]
