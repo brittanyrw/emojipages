@@ -36,6 +36,12 @@ const emojiItems = [
         genres: ["childrens","fantasy"],
         year: 1950
     },{
+        title: "The Scarlet Letter",
+        author: "Nathaniel Hawthorne",
+        emojiImgs: "🅰️❤️👶🤱⚖️",
+        genres: ["Romantic", "Historical"],
+        year: 1850
+    },{
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
