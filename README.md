@@ -36,7 +36,7 @@ Below are some guidelines to follow when contributing to this project.
 * We are not accepting Pull Requests for things such as white space updates or README.md updates for Hacktoberfest. These types of Pull Requests will be marked as invalid. 
 
 #### Please do not approve or make suggestions on other people's Pull Requests.
-* We do not need additional maintainers at this time. To avoid confusion and incorrect approvals, only maintainers approve or comment on Pull Requests. 
+* We do not need additional maintainers at this time. To avoid confusion and incorrect approvals, only maintainers approve Pull Requests. 
 
 ### If you want to work on one of the [Issues to add a book](https://github.com/brittanyrw/emojipages/labels/add%20book)
 * Please comment in the Issue so that others know to not add that book. You do not have to wait for confirmation for Issues adding books or plays before creating a Pull Request. Your comment will just help 'bookmark' the Issue for you to prevent duplicate Pull Requests.
