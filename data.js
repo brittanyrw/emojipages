@@ -78,5 +78,11 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
+    },{
+        title: "Twelfth Night",
+        author: "William Shakespeare",
+        emojiImgs: "💁🏼‍⛵️✉️❤️👰🏼😂",
+        genres: ["comedy","romance"],
+        year: 1602
     }
 ]
