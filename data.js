@@ -78,5 +78,11 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
+    },{
+        title: "The Merchant of Venice",
+        author: "William Shakespeare",
+        emojiImgs: "🚢⌛💰🔪👨",
+        genres: ["drama", "comedy","romance"],
+        year: 1600
     }
 ]
