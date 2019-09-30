@@ -61,6 +61,13 @@ const emojiItems = [
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
     },{
+        title: "The Tempest",
+        author: "William Shakespeare",
+        emojiImgs: "🚢 ⛈🧙‍😱",
+        genres: ["romance"],
+        year: 1611
+    },
+    {
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
@@ -78,11 +85,5 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
-    },{
-        title: "The Tempest",
-        author: "William Shakespeare",
-        emojiImgs: "🚢 ⛈🧙‍😱",
-        genres: ["romance"],
-        year: 1611
     }
 ]
