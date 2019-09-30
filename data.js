@@ -7,6 +7,13 @@ const emojiItems = [
         year: 1945
     },
     {
+        title: "Eclipse",
+        author: "Stephenie Meyer",
+        emojiImgs: "❤️🐺🧛‍♂️🌕💑",
+        genres: ["young-adult", "fantasy-history", "romance"],
+        year: 2007
+    },
+    {
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
