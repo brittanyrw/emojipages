@@ -78,5 +78,12 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
+    },
+    {
+        title: "Macbeth",
+        author: "William Shakespeare",
+        emojiImgs: "🧙‍♀️🧙‍♀️🧙‍♀️👨⚔️👑",
+        genres: ["tragedy", "drama"],
+        year: 1623
     }
 ]
