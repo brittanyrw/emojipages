@@ -61,6 +61,12 @@ const emojiItems = [
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
     },{
+        title: "The Strange Case of Dr Jekyll and Mr Hyde",
+        author: "Robert Louis Stevenson",
+        emojiImgs: "🏴󠁧󠁢󠁳󠁣󠁴󠁿👨‍⚕️🦹‍♂️󠁧󠁢󠁳󠁣󠁴󠁿🧪☯️",
+        genres: ["classic","mystery","science-fiction"],
+        year: 1886
+    },{
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
