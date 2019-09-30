@@ -78,5 +78,12 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
+    },
+    {
+        title: "Watchmen",
+        author: "Alan Moore",
+        emojiImgs: "🙂❤️🦸🧛‍🦇",
+        genres: ["drama", "fantasy", "comedy", "childrens"],
+        year: 1987
     }
 ]
