@@ -37,6 +37,12 @@ const emojiItems = [
         genres: ["crime","mystery","thriller"],
         year: 2005
     },{
+        title: "Jurassic Park",
+        author: "Michael Crichton",
+        emojiImgs: "🦖🦕🏞️👨‍🔬⚠",
+        genres: ["science-fiction", "thriller"],
+        year: 1990
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
