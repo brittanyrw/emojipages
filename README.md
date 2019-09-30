@@ -77,6 +77,7 @@ Here are some links to lists of books and plays in case you're having trouble th
 * View [Issues for Romance Books](https://github.com/brittanyrw/emojipages/labels/romance)
 * View [Issues for Satire Books](https://github.com/brittanyrw/emojipages/labels/satire)
 * View [Issues for Science Fiction Books](https://github.com/brittanyrw/emojipages/labels/Science%20Fiction)
+* View [Issues for Sports Books](https://github.com/brittanyrw/emojipages/labels/sports)
 * View [Issues for Young Adult Books](https://github.com/brittanyrw/emojipages/labels/Young%20Adult)
 
 
