@@ -5,6 +5,12 @@ const emojiItems = [
         emojiImgs: "🐷🐰🐭🐴🐮🐔",
         genres: ["satire"],
         year: 1945
+    },{
+        title:"Divergent",
+        author:"Veronica Roth",
+        emojiImgs:"⚔️❤️🌎🤕👩‍👧🧩",
+        genres:["Dystopia","Science Fiction", "Young Adult Fiction"],
+        year:2011
     },
     {
         title: "The Devil Wears Prada",
@@ -78,11 +84,5 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
-    },{
-        title:"Divergent",
-        author:"Veronica Roth",
-        emojiImgs:"⚔️❤️🌎🤕👩‍👧🧩",
-        genres:["Science Fiction", "Dystopia", "Young Adult Fiction"],
-        year:2011
     }
 ]
