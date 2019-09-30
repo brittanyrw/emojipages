@@ -61,6 +61,12 @@ const emojiItems = [
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
     },{
+        title: "The Andromeda Strain",
+        author: "Michael Crichton",
+        emojiImgs: "👨‍🔬💉👽🛸",
+        genres: ["thriller"],
+        year: 1969
+    },{
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
