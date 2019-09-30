@@ -31,6 +31,12 @@ const emojiItems = [
         genres: ["childrens","literature","comedy"],
         year: 1972
     },{
+        title: "Gone Girl",
+        author: "Gillian Flynn",
+        emojiImgs:"👧👦🛣️👩🔪👨",
+        genres: ["mystery","crime"],
+        year: 2012
+    },{
         title: "The Girl with the Dragon Tattoo",
         author: "Stieg Larsson",
         emojiImgs: "👧🏻🐉💉🇸🇪",
