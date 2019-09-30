@@ -1,5 +1,12 @@
 const emojiItems = [
     {
+        title: "Angels & Demons",
+        author: "Dan Brown",
+        emojiImgs: "👨‍🏫🇻🇦⏳💣🔎",
+        genres: ["crime","mystery","thriller"],
+        year: 2000
+    },
+    {
         title: "Animal Farm",
         author: "George Orwell",
         emojiImgs: "🐷🐰🐭🐴🐮🐔",
