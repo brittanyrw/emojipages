@@ -60,27 +60,6 @@ Read below for a detailed overview and walkthrough on how to add an `Emoji Card`
 
 Here are some links to lists of books and plays in case you're having trouble thinking of something to add! 
 
-#### I have also [added Issues for individual books and plays](https://github.com/brittanyrw/emojipages/labels/add%20book) that I think would be fun to add to EmojiPages. Feel free to add any of the books listed in Issues. Make sure to comment inside of the Issue if you plan on taking it and add the Issue number in your Pull Request.
-
-### Issues by Genre
-> These are loose, very general genres just to help categorize issues. You can use more specific genres when you add cards.
-* View [Issues for Adventure Books](https://github.com/brittanyrw/emojipages/labels/adventure)
-* View [Issues for Children's Books](https://github.com/brittanyrw/emojipages/labels/Fairytale%20%26%20Children%27s)
-* View [Issues for Classic Books](https://github.com/brittanyrw/emojipages/labels/classic)
-* View [Issues for Crime Books](https://github.com/brittanyrw/emojipages/labels/crime)
-* View [Issues for Dystopian Books](https://github.com/brittanyrw/emojipages/labels/dystopian)
-* View [Issues for Fantasy Books](https://github.com/brittanyrw/emojipages/labels/fantasy)
-* View [Issues for Historical Books](https://github.com/brittanyrw/emojipages/labels/historical)
-* View [Issues for Historical Books](https://github.com/brittanyrw/emojipages/labels/horror)
-* View [Issues for Mystery Books](https://github.com/brittanyrw/emojipages/labels/mystery)
-* View [Issues for Plays/Theater](https://github.com/brittanyrw/emojipages/labels/play)
-* View [Issues for Romance Books](https://github.com/brittanyrw/emojipages/labels/romance)
-* View [Issues for Satire Books](https://github.com/brittanyrw/emojipages/labels/satire)
-* View [Issues for Science Fiction Books](https://github.com/brittanyrw/emojipages/labels/Science%20Fiction)
-* View [Issues for Sports Books](https://github.com/brittanyrw/emojipages/labels/sports)
-* View [Issues for Young Adult Books](https://github.com/brittanyrw/emojipages/labels/Young%20Adult)
-
-
 ### Book/Play Lists
 * [The Greatest Books List](https://thegreatestbooks.org/)
 * [ALL-TIME 100 Novels - Time Magazine](http://entertainment.time.com/2005/10/16/all-time-100-novels/?iid=ent-category-mostpop1)
@@ -189,9 +168,7 @@ Follow these instructions to add a card. You can add a card using the Github web
 
 ### This method will use the Github website to contribute to this project. You will not need to download any programs to your computer using these instructions.
 
-1. Check the [Issues to see if the book](https://github.com/brittanyrw/emojipages/issues?q=is%3Aopen+is%3Aissue+label%3A%22Add+Book%22) you would like to add is listed. You can filter the Issues by genre if desired.
-- If it is not listed as an issue, continue to the next step.
-- If it is listed as an Issue, take note of the Issue number (the number next to the title of the Issue) so that you can add it to your pull request and write a comment in the Issue stating that you will be adding that particular book. If there is already a comment in the Issue from someone saying that they will add that book, choose something else to add. 
+1. Check the [Issues](https://github.com/brittanyrw/emojipages/issues?q=is%3Aopen+is%3Aissue+label%3A%22Add+Book%22) and [Pull Requests](https://github.com/brittanyrw/emojipages/pulls) to see if the book you would like to add is listed. If it is not listed as an Issue or Pull Request, continue to the next step. If it is listed as an Issue or Pull Request already, please choose something else to add. 
 2. Fork this repository. This will create a copy of the repository and create a new repository on your account. Note: the `Fork` button is located in the top right area of the repo.
 3. Once the repo is forked, you will be taken to the forked repo. Note: In the top left, the name of the repo should now include your username.
 4. Navigate to the `data.js` file in your forked repo by clicking on the file name.
@@ -232,9 +209,7 @@ Use the following object as a template:
 
 ### Local Development Instructions
 
-1. Check the [Issues to see if the book](https://github.com/brittanyrw/emojipages/issues?q=is%3Aopen+is%3Aissue+label%3A%22Add+Book%22) you would like to add is listed. You can filter the Issues by genre if desired.
-- If it is not listed as an Issue, continue to the next step.
-- If it is listed as an Issue, take note of the issue number (the number next to the title of the Issue) so that you can add it to your pull request and write a comment in the Issue stating that you will be adding that particular book. If there is already a comment in the Issue from someone saying that they will add that book, choose something else to add. 
+1. Check the [Issues](https://github.com/brittanyrw/emojipages/issues?q=is%3Aopen+is%3Aissue+label%3A%22Add+Book%22) and [Pull Requests](https://github.com/brittanyrw/emojipages/pulls) to see if the book you would like to add is listed. If it is not listed as an Issue or Pull Request, continue to the next step. If it is listed as an Issue or Pull Request already, please choose something else to add. 
 2. Fork this repository. This will create a copy of the repository and create a new repository on your account.
 3. Once the repo is forked, you will be taken to the forked repo. Note: In the top left, the name of the repo should now include your username.
 4. Download the project to your computer. Click on the `Clone or Download` button. Copy the HTTPS github repo link.
