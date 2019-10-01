@@ -67,6 +67,12 @@ const emojiItems = [
         genres: ["historical-fiction"],
         year: 1869
     },{
+        title: "Talking To Strangers",
+        author: " Malcom Gladwell",
+        emojiImgs: " 🙋🏼  🙋🏼‍♂️ 👩🏼‍💻 👨🏼‍💻 🎭",
+        genres: ["self-help"],
+        year: 2019
+    },{
         title: "The War of the Worlds",
         author: " H. G. Wells",
         emojiImgs: "👽👾🌎⚔️💣",
