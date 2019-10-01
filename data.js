@@ -43,7 +43,7 @@ const emojiItems = [
         emojiImgs: "👍🚀💛📘🐬",
         genres: ["science-fiction", "comedy"],
         year: 1979
-    },    
+    },   
     {
         title: "Les Miserables",
         author: "Victor Hugo",
