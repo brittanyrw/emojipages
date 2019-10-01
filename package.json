@@ -6,6 +6,7 @@
     "sass:build": "node-sass source/scss/main.scss -o ./ --output-style expanded",
     "sass:prod": "node-sass source/scss/main.scss -o ./ --output-style compressed",
     "sass:watch": "node-sass --watch source/scss/main.scss -o ./ --output-style compressed",
+    "postinstall": "npm run sass:build",
     "dev": "npm run sass:build && npm run sass:watch"
   },
   "repository": {
