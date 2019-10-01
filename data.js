@@ -58,7 +58,7 @@ const emojiItems = [
         title: "Who Moved My Cheese",
         author: "Spencer Johnson",
         emojiImgs: "🐭🏃🕵️🗺️🧀",
-        genres: ["fiction", "self-help", "business"],
+        genres: ["fiction"],
         year: 1998
     }
 ]
