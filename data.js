@@ -37,6 +37,12 @@ const emojiItems = [
         genres: ["crime","mystery","thriller"],
         year: 2005
     },{
+        title: "Inherent Vice",
+        author: "Thomas Pynchon",
+        emojiImgs: "🌱💨💰🕵️‍♂️",
+        genres: ["fiction", "mystery", "crime", "noir"],
+        year: 2009
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
@@ -78,11 +84,5 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
-    },{
-        title: "Inherent Vice",
-        author: "Thomas Pynchon",
-        emojiImgs: "🌱💨💰🕵️‍♂️",
-        genres: ["fiction", "mystery", "crime", "noir"],
-        year: 2009
     }
 ]
