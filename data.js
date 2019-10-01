@@ -55,6 +55,12 @@ const emojiItems = [
         genres: ["childrens"],
         year: 1988
     },{
+        title: "Monsieur Malaussène",
+        author: "Daniel Pennac",
+        emojiImgs: "👶👴👱‍♀️👵🐕🗼",
+        genres: ["crime", "fiction", "satire"],
+        year: 1995
+    },{
         title: "Nineteen Eighty-Four: A Novel",
         author: "George Orwell",
         emojiImgs: "👀👨🏻👩🏻📕💌🐁",
