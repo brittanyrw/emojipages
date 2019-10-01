@@ -40,7 +40,7 @@ const emojiItems = [
         author: "Kazuo Ishiguro",
         emojiImgs: "🏩📜🕊️👴🏽",
         genres: ["historical-fiction","graphic-novel","classic"],
-        year: 1950
+        year: 1989
     },{
         title: "Matilda",
         author: "Roald Dahl",
