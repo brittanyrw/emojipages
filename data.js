@@ -66,6 +66,12 @@ const emojiItems = [
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
     },{
+        title: "James and the Giant Peach",
+        author: "Roald Dahl",
+        emojiImgs: "👀👨🏻👩🏻📕💌🐁",
+        genres: ["Children's novel", "Fantasy"],
+        year: 1951
+    },{
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
