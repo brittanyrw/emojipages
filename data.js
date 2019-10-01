@@ -55,6 +55,12 @@ const emojiItems = [
         genres: ["childrens"],
         year: 1988
     },{
+        title: "Mockingjay",
+        author: "Suzanne Collins",
+        emojiImgs: "🐦⚔️💣🏹👩",
+        genres: ["action-and-adventure","science-fiction", "war"],
+        year: 2010
+    },{
         title: "Nineteen Eighty-Four: A Novel",
         author: "George Orwell",
         emojiImgs: "👀👨🏻👩🏻📕💌🐁",
