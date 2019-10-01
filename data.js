@@ -37,6 +37,12 @@ const emojiItems = [
         genres: ["crime","mystery","thriller"],
         year: 2005
     },{
+        title: "Harry Potter and the Chamber of Secrets",
+        author: "J.K. Rowling",
+        emojiImgs: "👓⚡🐍🚽",
+        genres: ["childrens","fantasy"],
+        year: 1998
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
