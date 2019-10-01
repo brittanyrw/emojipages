@@ -63,7 +63,7 @@ const emojiItems = [
     },{
         title: "The Princess Bride",
         author: "William Goldman",
-        emojiImgs: "👸❤️👨‍🌾🏴‍☠️⚔️🤴⚭👰🤵",
+        emojiImgs: "👸❤️👨‍🌾🏴‍☠️⚔️🤴",
         genres: ["comedy","fantasy","romance"],
         year: 1962
     },{
