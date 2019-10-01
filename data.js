@@ -5,13 +5,18 @@ const emojiItems = [
         emojiImgs: "🐷🐰🐭🐴🐮🐔",
         genres: ["satire"],
         year: 1945
-    },
-    {
+    },{
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
         genres: ["drama", "comedy","romance"],
         year: 2003
+    },{
+        title: "The Hunger Games",
+        author: "Suzanne Collins",
+        emojiImgs: "👧1️⃣2️⃣🏹☠🥇",
+        genres: ["romance", "action-and-adventure", "science-fiction"],
+        year: 2008
     },{
         title: "Fight Club",
         author: "Chuck Palahniuk",
