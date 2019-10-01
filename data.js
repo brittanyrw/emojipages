@@ -37,6 +37,12 @@ const emojiItems = [
         genres: ["crime","mystery","thriller"],
         year: 2005
     },{
+        title: "Iliad",
+        author: "Homer",
+        emojiImgs: "🤴👸⚔️🏹🌳🐎",
+        genres: ["classic", "mythology"],
+        year: 800
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
