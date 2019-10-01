@@ -90,5 +90,11 @@ const emojiItems = [
         emojiImgs: "👧👶👦🐍",
         genres: ["comedy", "drama"],
         year: 1999
+    },{
+        title: "The Wide Window",
+        author: "Lemony Snicket",
+        emojiImgs: "👧👶👦🍳",
+        genres: ["comedy", "drama"],
+        year: 2000
     }
 ]
