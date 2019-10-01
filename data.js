@@ -61,6 +61,12 @@ const emojiItems = [
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
     },{
+        title: "The Princess Bride",
+        author: "William Goldman",
+        emojiImgs: "👸❤️👨‍🌾🏴‍☠️⚔️🤴⚭👰🤵",
+        genres: ["comedy","fantasy","romance"],
+        year: 1962
+    },{
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
