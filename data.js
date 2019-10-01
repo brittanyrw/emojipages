@@ -1,19 +1,5 @@
 const emojiItems = [
     {
-        title: "Animal Farm",
-        author: "George Orwell",
-        emojiImgs: "🐷🐰🐭🐴🐮🐔",
-        genres: ["satire"],
-        year: 1945
-    },
-    {
-        title: "Where the Wild Things Are",
-        author: "Maurice Sendak",
-        emojiImgs: "❔🐗🦍🐆🦙",
-        genres: ["drama","story"],
-        year: 1963
-    },
-    {
         title: "A Feast for Crows",
         author: "George R. R. Martin",
         emojiImgs: "🍳🐛🐦🦅",
@@ -26,6 +12,13 @@ const emojiItems = [
         emojiImgs: "🌩️🌪️⚔️🛡️🗡️",
         genres: ["fantasy","fiction"],
         year: 2000
+    },
+    {
+        title: "Animal Farm",
+        author: "George Orwell",
+        emojiImgs: "🐷🐰🐭🐴🐮🐔",
+        genres: ["satire"],
+        year: 1945
     },
     {
         title: "The Devil Wears Prada",
@@ -93,7 +86,15 @@ const emojiItems = [
         emojiImgs: "👽👾🌎⚔️💣",
         genres: ["science-fiction","war","space","thriller"],
         year: 1898
-    },{
+    },
+    {
+        title: "Where the Wild Things Are",
+        author: "Maurice Sendak",
+        emojiImgs: "❔🐗🦍🐆🦙",
+        genres: ["drama","story"],
+        year: 1963
+    },
+    {
         title: "Winnie the Pooh",
         author: "A. A. Milne",
         emojiImgs: "🧸🍯🐅🤔",
