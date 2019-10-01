@@ -1,0 +1,32 @@
+{
+  "name": "emojipages",
+  "version": "1.0.0",
+  "description": "EmojiPages is a listing of books and plays depicted through emojis.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node-sass --watch source/scss -o ./ --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brittanyrw/emojipages.git"
+  },
+  "keywords": [
+    "beginner",
+    "first-pull-request",
+    "hacktoberfest",
+    "emojis",
+    "open-source",
+    "community",
+    "tutorial",
+    "books"
+  ],
+  "author": "https://github.com/brittanyrw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brittanyrw/emojipages/issues"
+  },
+  "homepage": "https://github.com/brittanyrw/emojipages#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
