@@ -39,6 +39,7 @@ Select genres from the list below. If you would like to add a genre not listed, 
 * memoir
 * mystery
 * mythology
+* noir
 * non-fiction
 * paranormal-romance
 * poetry
