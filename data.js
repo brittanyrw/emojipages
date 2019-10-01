@@ -1,5 +1,11 @@
 const emojiItems = [
     {
+        title: "Harry Potter and the Prisoner of Azkaban",
+        author: "J.K. Rowling",
+        emojiImgs: "🔒🏢🧟🐀🌕🐺",
+        genres: ["fantasy"],
+        year: 1999
+    },{
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
