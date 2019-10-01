@@ -37,6 +37,12 @@ const emojiItems = [
         genres: ["crime","mystery","thriller"],
         year: 2005
     },{
+        title: "Jane Eyre",
+        author: "Charlotte Brontë",
+        emojiImgs: "🐦🏚️💑😱🔥💒",
+        genres: ["gothic", "classic", "romance"],
+        year: 1847
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
