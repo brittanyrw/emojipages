@@ -49,6 +49,12 @@ const emojiItems = [
         genres: ["childrens","fantasy"],
         year: 1950
     },{
+        title: "The Lost Symbol",
+        author: "Dan Brown",
+        emojiImgs: "🧐🎚🗝🔎",
+        genres: ["crime", "mystery", "thriller"],
+        year: 2009
+    },{
         title: "Matilda",
         author: "Roald Dahl",
         emojiImgs: "👩‍🏫📚👧🦎🎂✨",
@@ -78,11 +84,5 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
-    },{
-        title: "The Lost Symbol",
-        author: "Dan Brown",
-        emojiImgs: "🧐🎚🗝🔎",
-        genres: ["crime", "mystery", "thriller"],
-        year: 2009
     }
 ]
