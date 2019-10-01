@@ -78,5 +78,11 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
+    },{
+      title: "The Very Hungry Caterpillar",
+      author: "Eric Carle",
+      emojiImgs: "🐛🍏🍊🎂🍉🦋",
+      genres: ["childrens","classic",],
+      year: 1969
     }
 ]
