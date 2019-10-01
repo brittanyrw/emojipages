@@ -40,7 +40,7 @@ const emojiItems = [
         title: "The Hobbit",
         author: "J.R.R. Tolkien",
         emojiImgs: "👦🧙‍♂️🧔🐉",
-        genres: ["fantasy"],
+        genres: ["fantasy-history"],
         year: 1937
     },{
         title: "Les Miserables",
