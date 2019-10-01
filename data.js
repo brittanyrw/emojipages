@@ -47,7 +47,13 @@ const emojiItems = [
         emojiImgs: "⚔️🕊️💌🇷🇺",
         genres: ["historical-fiction"],
         year: 1869
-    }
+    },{
+        title: "Charlotte's Web",
+        author: "E.B. White",
+        emojiImgs: "🕷️🕸️🖊️🐖👪",
+        genre: ["fiction", "childrens", "general"],
+        year: 1952
+   }
 ]
 
 
