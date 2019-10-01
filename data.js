@@ -1,5 +1,12 @@
 const emojiItems = [
     {
+        title: "A Clash of Kings",
+        author: "George R. R. Martin",
+        emojiImgs: "👑👑🐺⚔",
+        genres: ["fantasy"],
+        year: 1998
+    },
+    {
         title: "Animal Farm",
         author: "George Orwell",
         emojiImgs: "🐷🐰🐭🐴🐮🐔",
