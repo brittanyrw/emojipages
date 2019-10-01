@@ -55,6 +55,12 @@ const emojiItems = [
         genres: ["childrens"],
         year: 1988
     },{
+        title: "Moby-Dick",
+        author: " Herman Melville",
+        emojiImgs: "🦈🌊🛶🎣",
+        genres: ["adventure fiction, sea story, encyclopedic novel"],
+        year: 1851
+    },{
         title: "Nineteen Eighty-Four: A Novel",
         author: "George Orwell",
         emojiImgs: "👀👨🏻👩🏻📕💌🐁",
