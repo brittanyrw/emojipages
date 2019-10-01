@@ -78,5 +78,11 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
+    },{
+        title: "12 Angry Men",
+        author: "Reginald Rose",
+        emojiImgs: "1️⃣2️⃣😠👨",
+        genres: ["drama"],
+        year: 1954
     }
 ]
