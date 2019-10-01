@@ -78,5 +78,11 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
+    },{
+        title: "The Bad Beginning",
+        author: "Lemony Snicket",
+        emojiImgs: "👧👶👦😈",
+        genres: ["black-comedy", "drama"],
+        year: 1999
     }
 ]
