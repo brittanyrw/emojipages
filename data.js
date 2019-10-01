@@ -78,5 +78,11 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
+    },{
+        title: "The Lost Symbol",
+        author: "Dan Brown",
+        emojiImgs: "🧐🎚🗝🔎",
+        genres: ["crime", "mystery", "thriller"],
+        year: 2009
     }
 ]
