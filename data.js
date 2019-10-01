@@ -7,6 +7,27 @@ const emojiItems = [
         year: 1945
     },
     {
+        title: "Where the Wild Things Are",
+        author: "Maurice Sendak",
+        emojiImgs: "❔🐗🦍🐆🦙",
+        genres: ["drama","story"],
+        year: 1963
+    },
+    {
+        title: "A Feast for Crows",
+        author: "George R. R. Martin",
+        emojiImgs: "🍳🐛🐦🦅",
+        genres: ["fantasy","fiction"],
+        year: 2005
+    },
+    {
+        title: "A Storm of Swords",
+        author: "George R. R. Martin",
+        emojiImgs: "🌩️🌪️⚔️🛡️🗡️",
+        genres: ["fantasy","fiction"],
+        year: 2000
+    },
+    {
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
