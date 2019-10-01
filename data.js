@@ -61,6 +61,12 @@ const emojiItems = [
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
     },{
+        title: "Ship of Magic",
+        author: "Robin Hobb",
+        emojiImgs: "🐉🌊🚢💰🏴‍☠️💑",
+        genres: ["fantasy"],
+        year: 1998
+    },{
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
