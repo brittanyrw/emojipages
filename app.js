@@ -1,3 +1,6 @@
+import "./main.css";
+import emojiItems from "./data";
+
 // Create a variable for the container to hold the emoji cards.
 const emojiCardContainer = document.querySelector("#books");
 

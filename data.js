@@ -80,3 +80,8 @@ const emojiItems = [
         year: 1926
     }
 ]
+
+export default emojiItems;
+
+
+
