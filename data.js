@@ -49,6 +49,12 @@ const emojiItems = [
         genres: ["childrens","fantasy"],
         year: 1950
     },{
+        title: "The Metamorphosis",
+        author: "Franz Kafka",
+        emojiImgs: "👨😴✨🐜😱",
+        genres: ["absurdism","fantasy"],
+        year: 1915
+    },{
         title: "Matilda",
         author: "Roald Dahl",
         emojiImgs: "👩‍🏫📚👧🦎🎂✨",
