@@ -36,8 +36,7 @@ const emojiItems = [
         emojiImgs: "👧🏻🐉💉🇸🇪",
         genres: ["crime","mystery","thriller"],
         year: 2005
-    },
-    {
+    },{
         title: "The Hitchhiker's Guide to the Galaxy",
         author: "Douglas Adams",
         emojiImgs: "👍🚀💛📘🐬",
