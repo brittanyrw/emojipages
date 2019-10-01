@@ -31,6 +31,12 @@ const emojiItems = [
         genres: ["childrens","literature","comedy"],
         year: 1972
     },{
+        title: "Harry Potter and the Chamber of Secrets",
+        author: "J. K. Rowling",
+        emojiImgs: "👦🏻⚡🐈😨📸🐍",
+        genres: ["childrens","literature","fantasy"],
+        year: 1998
+    },{
         title: "The Girl with the Dragon Tattoo",
         author: "Stieg Larsson",
         emojiImgs: "👧🏻🐉💉🇸🇪",
