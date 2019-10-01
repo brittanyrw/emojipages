@@ -41,6 +41,12 @@ const emojiItems = [
         emojiImgs: "⚔️🕊️💌🇷🇺",
         genres: ["historical-fiction"],
         year: 1869
+    },{
+        title: "Harry Potter-The Philosopher's Stone",
+        author: "J. K. Rowling",
+        emojiImgs: "🏰👨📚🏆🦉💉",
+        genres: ["fantasy", "drama", "mystery", "thriller"],
+        year: 1997
     }
     
 ]
