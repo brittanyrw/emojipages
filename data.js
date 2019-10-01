@@ -78,5 +78,17 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
+    },{
+        title: "The Da Vinci Code",
+        author: "Dan Brown",
+        emojiImgs: "🕵‍♂ 🔎 🤔",
+        genres: ["Mystery", "Detective", "Conspiracy", "Thriller", "fiction"],
+        year: 2003
+    },{
+        title: "The Pillars of the Earth",
+        author: "Ken Follett",
+        emojiImgs: "💒 🏭 🌏",
+        genres: ["Historical", "fiction", "fantasy"],
+        year: 1989
     }
 ]
