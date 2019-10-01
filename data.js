@@ -61,6 +61,12 @@ const emojiItems = [
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
     },{
+        title: "Ready Player One",
+        author: "Ernest Cline",
+        emojiImgs: "🕹️🥚🎮🕹️🗝️",
+        genres: ["science-fiction", "dystopian"],
+        year: 2011
+    },{
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
