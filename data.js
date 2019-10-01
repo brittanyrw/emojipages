@@ -1,11 +1,5 @@
 const emojiItems = [
     {
-        title: "Harry Potter and the Prisoner of Azkaban",
-        author: "J.K. Rowling",
-        emojiImgs: "🔒🏢🧟🐀🌕🐺",
-        genres: ["fantasy"],
-        year: 1999
-    },{
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
@@ -23,6 +17,12 @@ const emojiItems = [
         emojiImgs: "👧🏻🐉💉🇸🇪",
         genres: ["crime","mystery","thriller"],
         year: 2005
+    },{
+        title: "Harry Potter and the Prisoner of Azkaban",
+        author: "J.K. Rowling",
+        emojiImgs: "🔒🏢🧟🐀🌕🐺",
+        genres: ["fantasy"],
+        year: 1999
     },{
         title: "Les Miserables",
         author: "Victor Hugo",
