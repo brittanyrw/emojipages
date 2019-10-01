@@ -78,5 +78,11 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
-    }
+    },{
+        title: "Alexander Hamilton",
+        author: "Ron Chernow",
+        emojiImgs: "🇺🇸⚔️💵👨",
+        genres: ["non-fiction", "biography"],
+        year: 2004
+    }     
 ]
