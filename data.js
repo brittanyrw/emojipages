@@ -61,6 +61,12 @@ const emojiItems = [
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
     },{
+        title: "Structure and Interpretation of Computer Programs",
+        author: "Hal Abelson, Gerald Jay Sussman",
+        emojiImgs: "🧙‍♂️🔮🧙‍♀️🙃🙂😈",
+        genres: ["math", "science"],
+        year: 1979
+    },{
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
