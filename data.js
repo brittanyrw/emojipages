@@ -37,6 +37,12 @@ const emojiItems = [
         genres: ["crime","mystery","thriller"],
         year: 2005
     },{
+        title: "Harry Potter and the Order of the Phoenix",
+        author: "J.K. Rowling",
+        emojiImgs: "🧙‍♂️👦🏻⚡💀🐦",
+        genres: ["young-adult","fiction"],
+        year: 2004
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
