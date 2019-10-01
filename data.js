@@ -55,6 +55,12 @@ const emojiItems = [
         genres: ["childrens"],
         year: 1988
     },{
+        title: "Much Ado About Nothing",
+        author: "William Shakespeare",
+        emojiImgs: "💑👿💔💀💑",
+        genres: ["classic", "comedy", "romance"],
+        year: 1623
+    },{
         title: "Nineteen Eighty-Four: A Novel",
         author: "George Orwell",
         emojiImgs: "👀👨🏻👩🏻📕💌🐁",
