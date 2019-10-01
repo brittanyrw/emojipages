@@ -7,6 +7,13 @@ const emojiItems = [
         year: 1945
     },
     {
+        title: "Breaking Dawn",
+        author: "Stephenie Meyer",
+        emojiImgs: "🧛‍♂️💔👼💫🌖",
+        genres: ["young-adult", "fantasy", "romance"],
+        year: 2008
+    },
+    {
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
