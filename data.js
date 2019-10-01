@@ -1,5 +1,11 @@
 const emojiItems = [
     {
+        title: "Black Beauty",
+        author: " Anna Sewell",
+        emojiImgs: "⬛️ 👧  💅 🧜‍♀️ ",
+        genres: ["childrens", "classic", "fantasy"],
+        year: 2013
+    },{
         title: "Animal Farm",
         author: "George Orwell",
         emojiImgs: "🐷🐰🐭🐴🐮🐔",
