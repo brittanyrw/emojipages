@@ -84,5 +84,11 @@ const emojiItems = [
         emojiImgs: "👧👶👦😈",
         genres: ["comedy", "drama"],
         year: 1999
+    },{
+        title: "The Reptile Room",
+        author: "Lemony Snicket",
+        emojiImgs: "👧👶👦🐍",
+        genres: ["comedy", "drama"],
+        year: 1999
     }
 ]
