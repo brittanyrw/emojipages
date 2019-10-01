@@ -12,7 +12,15 @@ const emojiItems = [
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
         genres: ["drama", "comedy","romance"],
         year: 2003
-    },{
+    },
+    {
+  	title: "Disgrace",
+	author: "J. M. Coetzee",
+	emojiImgs: "🇿🇦🌹👨‍🏫👩‍🎓",
+	genres: ["fiction","romance"],
+	year: 1999
+    },    
+    {
         title: "Fight Club",
         author: "Chuck Palahniuk",
         emojiImgs: "👨🚬👊💣♣🌆",
@@ -79,4 +87,5 @@ const emojiItems = [
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
     }
+
 ]
