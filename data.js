@@ -61,6 +61,12 @@ const emojiItems = [
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
     },{
+        title: "PS, I love you",
+        author: "Cecilia Ahern",
+        emojiImgs: "👩🏼 ⚰️ 💌👱🏻‍♂️",
+        genres: ["romance"],
+        year: 2004
+    },{
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
