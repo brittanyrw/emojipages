@@ -1,4 +1,11 @@
 const emojiItems = [
+    },{
+        title: "Charlotte's Web",
+        author: "E.B. White",
+        emojiImgs: "🕷️🕸️🖊️🐖👪",
+        genre: ["fiction", "childrens", "general"],
+        year: 1952
+   }
     {
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
@@ -47,13 +54,7 @@ const emojiItems = [
         emojiImgs: "⚔️🕊️💌🇷🇺",
         genres: ["historical-fiction"],
         year: 1869
-    },{
-        title: "Charlotte's Web",
-        author: "E.B. White",
-        emojiImgs: "🕷️🕸️🖊️🐖👪",
-        genre: ["fiction", "childrens", "general"],
-        year: 1952
-   }
+    }
 ]
 
 
