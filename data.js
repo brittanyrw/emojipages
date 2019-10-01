@@ -78,5 +78,11 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
+    },{
+        title: "The Little Prince",
+        author: " Antoine de Saint-Exupery",
+        emojiImgs: "👶🏻👑🛡🗡",
+        genres: ["childrens", "storybook", "picturebook","Fiction"],
+        year: 2017
     }
 ]
