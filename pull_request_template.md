@@ -13,6 +13,3 @@
 - [ ] 📅 I have added a single year under `year`. 
 
 <!-- 👋 If this pull request closes an issue, add the note 'Closes #---' to the bottom of the pull request (replace the --- with the issue number) Only add this if you have completed the entire issue, do not add if you have only partially completed the issue. 
-
-<!-- 👋 If you would like me to Tweet about your contribution, add your Twitter handle to the bottom of this pull request. I will tweet a short summary and a screenshot of what you added. Example tweet: Congrats to @musicalwebdev for contributing to EmojiPages with their first ever pull request by adding The Cat in the Hat by Dr. Seuss, one of our favorite childhood reads! 🎩😸 -->
-
