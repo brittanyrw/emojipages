@@ -19,6 +19,25 @@ Below are instructions for how to contribute to this project. The easiest way to
 
 For other ways to contribute, see the repo Issues [under the label 'enhancement'](https://github.com/brittanyrw/emojipages/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement). If you want to work on one of the features but aren't sure where to start, write a comment and I will be happy to help you out or get you started. You are also welcome to suggest other features [by adding an Issue](https://github.com/brittanyrw/emojipages/issues).
 
+### Contribution Guidlines
+
+Below are some guidelines to follow when contributing to this project. 
+
+#### We are limiting contributions per person to 4 additions per project. 
+* Please limit yourself to up to 4 additions to this project. (Example: Complete 1 feature and add three books, complete 4 Issues for books and add one feature, add four books, etc). This is due to the high level of activity on this project at the moment. We want to make sure many people have a chance to contribute to this project. The limit will be lifted once the activity has died down. 🙂
+
+#### Check Issues and current Pull Requests before contributing to avoid adding duplicates. 
+* If your Pull Request is a duplicate, we will let you know so that you can update it if you like. 
+ 
+#### If someone has commented inside of the Issue saying they are working on it, that item is reserved for them. 
+* Please choose something else to add if someone else has already said they will add something. We will let you know if you accidently add something that someone else is assigned. It is easy to tell if someone is adding something accidently vs if they are ignoring our rules. We will mark Pull Requests as invalid (and therefore it will not count towards Hacktoberfest) if you are purposely creating multiple Pull Requests for Issues that someone else is assigned to or has reserved. 
+
+#### Please limit Pull Requests to adding a book/play, completing an Issue or adding a feature. 
+* We are not accepting Pull Requests for things such as white space updates or README.md updates for Hacktoberfest. These types of Pull Requests will be marked as invalid. 
+
+#### Please do not approve or make suggestions on other people's Pull Requests.
+* We do not need additional maintainers at this time. To avoid confusion and incorrect approvals, only maintainers approve Pull Requests. 
+
 ### If you want to work on one of the [Issues to add a book](https://github.com/brittanyrw/emojipages/labels/add%20book)
 * Please comment in the Issue so that others know to not add that book. You do not have to wait for confirmation for Issues adding books or plays before creating a Pull Request. Your comment will just help 'bookmark' the Issue for you to prevent duplicate Pull Requests.
 
@@ -58,6 +77,7 @@ Here are some links to lists of books and plays in case you're having trouble th
 * View [Issues for Romance Books](https://github.com/brittanyrw/emojipages/labels/romance)
 * View [Issues for Satire Books](https://github.com/brittanyrw/emojipages/labels/satire)
 * View [Issues for Science Fiction Books](https://github.com/brittanyrw/emojipages/labels/Science%20Fiction)
+* View [Issues for Sports Books](https://github.com/brittanyrw/emojipages/labels/sports)
 * View [Issues for Young Adult Books](https://github.com/brittanyrw/emojipages/labels/Young%20Adult)
 
 
