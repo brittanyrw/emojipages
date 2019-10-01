@@ -36,6 +36,12 @@ const emojiItems = [
         genres: ["childrens","fantasy"],
         year: 1950
     },{
+        title: "The Remains of the Day",
+        author: "Kazuo Ishiguro",
+        emojiImgs: "🏩📜🕊️👴🏽",
+        genres: ["historical-fiction","graphic-novel","classic"],
+        year: 1950
+    },{
         title: "Matilda",
         author: "Roald Dahl",
         emojiImgs: "👩‍🏫📚👧🦎🎂✨",
