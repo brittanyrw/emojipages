@@ -67,6 +67,12 @@ const emojiItems = [
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
     },{
+        title: "Othello",
+        author: "William Shakespeare",
+        emojiImgs: "👨👎👨🏿⚔️👩‍🦰",
+        genres: ["tragedy", "drama"],
+        year: 1622
+    },{
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
