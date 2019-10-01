@@ -55,17 +55,17 @@ const emojiItems = [
         genres: ["childrens"],
         year: 1988
     },{
-        title: "Mockingjay",
-        author: "Suzanne Collins",
-        emojiImgs: "🐦⚔️💣🏹👩",
-        genres: ["action-and-adventure","science-fiction", "war"],
-        year: 2010
-    },{
         title: "Nineteen Eighty-Four: A Novel",
         author: "George Orwell",
         emojiImgs: "👀👨🏻👩🏻📕💌🐁",
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
+    },{
+        title: "Peter Pan",
+        author: "J.M. Barrie",
+        emojiImgs: "🧝‍♂️👧🧒🏴‍☠️🐊",
+        genres: ["fantasy-history", "classic", "childrens"],
+        year: 1904
     },{
         title: "War and Peace",
         author: "Leo Tolstoy",
