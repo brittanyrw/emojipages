@@ -1,17 +1,15 @@
 # EmojiPages 📚 
+
+## 🚧 October 2 Update: 
+### Due to the high volume of activity from Hacktoberfest we are pausing contributions to this project while we review the current backlog of Pull Requests. You will not be able to make any new Pull Requests or Issues at the moment. Please feel free to contribute to other projects on GitHub during this time. Thanks!
+
 ## A listing of books and play depicted through emojis.
 
 [Visit emojipages.com](https://emojipages.com)
 
 ![Screenshot of Emojipages homepage](readme/emojipages-screenshot.png)
 
-## Also contribute to our companion projects:
-
-## [EmojiScreen: A listing of TV shows, movies and musicals depicted as emojis](https://github.com/brittanyrw/emojiscreen/).
-
-## [EmojiBops: A listing of songs depicted via emojis](https://github.com/brittanyrw/emojibops/).
-
-> These projects were built to create a fun, judgement free space for those learning Git and Github to practice making pull requests, branches, adding features, and more. 💛 💙 💜 💚 💖
+> This project were built to create a fun, judgement free space for those learning Git and Github to practice making pull requests, branches, adding features, and more. 💛 💙 💜 💚 💖
 
 ## Contributing 🎁
 
@@ -19,7 +17,33 @@ Below are instructions for how to contribute to this project. The easiest way to
 
 For other ways to contribute, see the repo Issues [under the label 'enhancement'](https://github.com/brittanyrw/emojipages/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement). If you want to work on one of the features but aren't sure where to start, write a comment and I will be happy to help you out or get you started. You are also welcome to suggest other features [by adding an Issue](https://github.com/brittanyrw/emojipages/issues).
 
-## If you want to work on one of the Issues that are labeled with `enhancement` please comment in the Issue and wait for confirmation before you start working on it.
+### Contribution Guidlines
+
+Below are some guidelines to follow when contributing to this project. 
+
+#### 🛑 We are limiting contributions per person to 3 additions across EmojiScreen, EmojiBops and EmojiPages. (Updated Oct 1)
+* Please limit yourself to up to 3 additions across the three emoji projects. (Example One: Complete 1 feature, add two movies; Example Two: add three songs; Example Three: add one song, one movie and one book, etc). This is due to the high level of activity on these projects at the moment. We want to make sure many people have a chance to contribute. The limit will be lifted once the activity has died down. 🙂
+
+#### Check Issues and current Pull Requests before contributing to avoid adding duplicates. 
+* If your Pull Request is a duplicate, we will let you know so that you can update it if you like. 
+ 
+#### If someone has commented inside of the Issue saying they are working on it, that item is reserved for them. 
+* Please choose something else to add if someone else has already said they will add something. We will let you know if you accidently add something that someone else is assigned. It is easy to tell if someone is adding something accidently vs if they are ignoring our rules. We will mark Pull Requests as invalid (and therefore it will not count towards Hacktoberfest) if you are purposely creating multiple Pull Requests for Issues that someone else is assigned to or has reserved. 
+
+#### Please limit Pull Requests to adding a book/play, completing an Issue or adding a feature. 
+* We are not accepting Pull Requests for things such as white space updates or README.md updates for Hacktoberfest. These types of Pull Requests will be marked as invalid. 
+
+#### Please do not approve or make suggestions on other people's Pull Requests.
+* We do not need additional maintainers at this time. To avoid confusion and incorrect approvals, only maintainers approve Pull Requests. 
+
+#### Please do not create Pull Requests for new features without creating an Issue first.
+* Do not start work on a new feature without getting confirmation from the maintainers via an Issue. We need to approve all new features first. This also goes for Issues that are for features, please wait for confirmation from the maintainers before working on those types of Issues.
+
+### If you want to work on one of the [Issues to add a book](https://github.com/brittanyrw/emojipages/labels/add%20book)
+* Please comment in the Issue so that others know to not add that book. You do not have to wait for confirmation for Issues adding books or plays before creating a Pull Request. Your comment will just help 'bookmark' the Issue for you to prevent duplicate Pull Requests.
+
+### If you want to work on one of the Issues that are labeled with `enhancement` 
+* Please comment in the Issue and wait for confirmation before you start working on it.
 
 Read below for a detailed overview and walkthrough on how to add an `Emoji Card` to this project. Please read all of the instructions before contributing! First time pull-requests are encouraged and you can make multiple pull requests if you desire. If you run into trouble, feel free [to create an Issue](https://github.com/brittanyrw/emojipages/issues)!
 
@@ -36,24 +60,6 @@ Read below for a detailed overview and walkthrough on how to add an `Emoji Card`
 ## Choosing a Book or Play to Add
 
 Here are some links to lists of books and plays in case you're having trouble thinking of something to add! 
-
-#### I have also [added Issues for individual books and plays](https://github.com/brittanyrw/emojipages/labels/add%20book) that I think would be fun to add to EmojiPages. Feel free to add any of the books listed in Issues. Make sure to comment inside of the Issue if you plan on taking it and add the Issue number in your Pull Request.
-
-### Issues by Genre
-> These are loose, very general genres just to help categorize issues. You can use more specific genres when you add cards.
-* View [Issues for Adventure Books](https://github.com/brittanyrw/emojipages/labels/adventure)
-* View [Issues for Children's Books](https://github.com/brittanyrw/emojipages/labels/Fairytale%20%26%20Children%27s)
-* View [Issues for Classic Books](https://github.com/brittanyrw/emojipages/labels/classic)
-* View [Issues for Crime Books](https://github.com/brittanyrw/emojipages/labels/crime)
-* View [Issues for Dystopian Books](https://github.com/brittanyrw/emojipages/labels/dystopian)
-* View [Issues for Fantasy Books](https://github.com/brittanyrw/emojipages/labels/fantasy)
-* View [Issues for Historical Books](https://github.com/brittanyrw/emojipages/labels/historical)
-* View [Issues for Mystery Books](https://github.com/brittanyrw/emojipages/labels/mystery)
-* View [Issues for Romance Books](https://github.com/brittanyrw/emojipages/labels/romance)
-* View [Issues for Satire Books](https://github.com/brittanyrw/emojipages/labels/satire)
-* View [Issues for Science Fiction Books](https://github.com/brittanyrw/emojipages/labels/Science%20Fiction)
-* View [Issues for Young Adult Books](https://github.com/brittanyrw/emojipages/labels/Young%20Adult)
-
 
 ### Book/Play Lists
 * [The Greatest Books List](https://thegreatestbooks.org/)
@@ -163,9 +169,7 @@ Follow these instructions to add a card. You can add a card using the Github web
 
 ### This method will use the Github website to contribute to this project. You will not need to download any programs to your computer using these instructions.
 
-1. Check the [Issues to see if the book](https://github.com/brittanyrw/emojipages/issues?q=is%3Aopen+is%3Aissue+label%3A%22Add+Book%22) you would like to add is listed. You can filter the Issues by genre if desired.
-- If it is not listed as an issue, continue to the next step.
-- If it is listed as an Issue, take note of the Issue number (the number next to the title of the Issue) so that you can add it to your pull request and write a comment in the Issue stating that you will be adding that particular book. If there is already a comment in the Issue from someone saying that they will add that book, choose something else to add. 
+1. Check the [Issues](https://github.com/brittanyrw/emojipages/issues?q=is%3Aopen+is%3Aissue+label%3A%22Add+Book%22) and [Pull Requests](https://github.com/brittanyrw/emojipages/pulls) to see if the book you would like to add is listed. If it is not listed as an Issue or Pull Request, continue to the next step. If it is listed as an Issue or Pull Request already, please choose something else to add. 
 2. Fork this repository. This will create a copy of the repository and create a new repository on your account. Note: the `Fork` button is located in the top right area of the repo.
 3. Once the repo is forked, you will be taken to the forked repo. Note: In the top left, the name of the repo should now include your username.
 4. Navigate to the `data.js` file in your forked repo by clicking on the file name.
@@ -206,9 +210,7 @@ Use the following object as a template:
 
 ### Local Development Instructions
 
-1. Check the [Issues to see if the book](https://github.com/brittanyrw/emojipages/issues?q=is%3Aopen+is%3Aissue+label%3A%22Add+Book%22) you would like to add is listed. You can filter the Issues by genre if desired.
-- If it is not listed as an Issue, continue to the next step.
-- If it is listed as an Issue, take note of the issue number (the number next to the title of the Issue) so that you can add it to your pull request and write a comment in the Issue stating that you will be adding that particular book. If there is already a comment in the Issue from someone saying that they will add that book, choose something else to add. 
+1. Check the [Issues](https://github.com/brittanyrw/emojipages/issues?q=is%3Aopen+is%3Aissue+label%3A%22Add+Book%22) and [Pull Requests](https://github.com/brittanyrw/emojipages/pulls) to see if the book you would like to add is listed. If it is not listed as an Issue or Pull Request, continue to the next step. If it is listed as an Issue or Pull Request already, please choose something else to add. 
 2. Fork this repository. This will create a copy of the repository and create a new repository on your account.
 3. Once the repo is forked, you will be taken to the forked repo. Note: In the top left, the name of the repo should now include your username.
 4. Download the project to your computer. Click on the `Clone or Download` button. Copy the HTTPS github repo link.
