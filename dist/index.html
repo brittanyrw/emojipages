@@ -2,14 +2,6 @@
 <html class="no-js" lang="">
 
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97195950-6"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-97195950-6');
-    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>EmojiPages</title>
@@ -19,22 +11,24 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Kreon:700|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
     <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
 </head>
 
 <body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
     <main>
         <header>
             <h1>EmojiPages</h1>
             <div class="heading-content">
                 <div class="header">
-                    <h2>A listing of books depicted through emojis. <img draggable="false" class="emoji" alt="💖"
-                            src="https://twemoji.maxcdn.com/v/12.1.3/72x72/1f496.png"></h2>
+                    <h2>A listing of books depicted through emojis. 💖</h2>
                     <p>Click on the emojis to reveal the book name, year and author!</p>
                 </div>
                 <div class="contribute-callout">
-                    <p>Want to add to EmojiPages? Head to Github! <img draggable="false" class="emoji" alt="✨"
-                            src="https://twemoji.maxcdn.com/v/12.1.3/72x72/2728.png"></p>
+                    <p>Want to add to EmojiPages? Head to Github! ✨</p>
                     <a href="https://github.com/brittanyrw/emojipages" target="_blank">Contribute</a>
                 </div>
             </div>
@@ -45,7 +39,8 @@
         </footer>
     </main>
     <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    <script src="data.js"></script>
     <script src="app.js"></script>
-</body>
+<script type="text/javascript" src="app.js"></script></body>
 
 </html>
