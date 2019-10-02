@@ -22,6 +22,7 @@ Select genres from the list below. If you would like to add a genre not listed, 
 * diary
 * drama
 * fairytale
+* fantasy
 * fantasy-history
 * feminism
 * fiction

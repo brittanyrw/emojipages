@@ -31,6 +31,12 @@ const emojiItems = [
         genres: ["childrens","literature","comedy"],
         year: 1972
     },{
+        title: "Harry Potter and the Half Blood Prince",
+        author: "J.K. Rowling",
+        emojiImgs: "💔🤴📚🚣💀🐍",
+        genres: ["fantasy", "childrens", "fiction"],
+        year: 2005
+    },{
         title: "The Girl with the Dragon Tattoo",
         author: "Stieg Larsson",
         emojiImgs: "👧🏻🐉💉🇸🇪",
