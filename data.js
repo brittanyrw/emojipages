@@ -5,8 +5,7 @@ const emojiItems = [
         emojiImgs: "🐷🐰🐭🐴🐮🐔",
         genres: ["satire"],
         year: 1945
-    },
-    {
+    },{
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
@@ -72,6 +71,12 @@ const emojiItems = [
         emojiImgs: "👀👨🏻👩🏻📕💌🐁",
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
+    },{
+        title: "The Perks of Being a Wallflower",
+        author: "Stephen Chbosky",
+        emojiImgs: "🌼📗🌟🎶",
+        genres: ["coming-of-age","yound-adult"],
+        year: 1999
     },{
         title: "The Shining",
         author: "Stephen King",
