@@ -55,6 +55,12 @@ const emojiItems = [
         genres: ["childrens"],
         year: 1988
     },{
+        title: "Mistborn",
+        author: "Brandon Sanderson",
+        emojiImgs: "🧪🕴🌋🙎🏻⚔️👑",
+        genres: ["action-and-adventure", "fantasy"],
+        year: 2006
+    },{
         title: "Nineteen Eighty-Four: A Novel",
         author: "George Orwell",
         emojiImgs: "👀👨🏻👩🏻📕💌🐁",
