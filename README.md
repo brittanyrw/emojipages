@@ -1,6 +1,6 @@
 # EmojiPages 📚 
 
-## Due to the high volume of activity from Hacktoberfest we are pausing contributions to this project at the moment while we review the current backlog of Pull Request. Please feel free to contribute to other projects on GitHub during this time. Thanks!
+## 🚧 October 2 Update: Due to the high volume of activity from Hacktoberfest we are pausing contributions to this project while we review the current backlog of Pull Request. You will not be able to make any new Pull Requests or Issues at the moment. Please feel free to contribute to other projects on GitHub during this time. Thanks!
 
 ## A listing of books and play depicted through emojis.
 
@@ -8,13 +8,7 @@
 
 ![Screenshot of Emojipages homepage](readme/emojipages-screenshot.png)
 
-## Also contribute to our companion projects:
-
-## [EmojiScreen: A listing of TV shows, movies and musicals depicted as emojis](https://github.com/brittanyrw/emojiscreen/).
-
-## [EmojiBops: A listing of songs depicted via emojis](https://github.com/brittanyrw/emojibops/).
-
-> These projects were built to create a fun, judgement free space for those learning Git and Github to practice making pull requests, branches, adding features, and more. 💛 💙 💜 💚 💖
+> This project were built to create a fun, judgement free space for those learning Git and Github to practice making pull requests, branches, adding features, and more. 💛 💙 💜 💚 💖
 
 ## Contributing 🎁
 
