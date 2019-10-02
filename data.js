@@ -78,6 +78,12 @@ const emojiItems = [
         genres: ["coming-of-age","yound-adult"],
         year: 1999
     },{
+        title: "Twelve Angry Men",
+        author: "Reginald Rose",
+        emojiImgs:" 1⃣ 2⃣ 😡🧔",
+        genres: ["drama","crime"],
+        year: 1954
+    },{
         title: "The Shining",
         author: "Stephen King",
         emojiImgs: "👨🔪🚪😱",
