@@ -13,6 +13,12 @@ const emojiItems = [
         genres: ["drama", "comedy","romance"],
         year: 2003
     },{
+        title: "Dune",
+        author: "Frank Herbert",
+        emojiImgs: "🏜🌠⚔💊💧",
+        genres: ["science-fiction"],
+        year: 1965
+    },{
         title: "Fight Club",
         author: "Chuck Palahniuk",
         emojiImgs: "👨🚬👊💣♣🌆",
