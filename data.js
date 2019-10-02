@@ -43,6 +43,12 @@ const emojiItems = [
         genres: ["drama","romance"],
         year: 1862
     },{
+        title: "Life of Pi",
+        author: "Yann Martel",
+        emojiImgs: "👳🛶🌊🐯",
+        genres: ["fiction","animals"],
+        year: 2001
+    },{
         title: "The Lion, the Witch and the Wardrobe",
         author: "C.S.Lewis",
         emojiImgs: "🦁🧙‍♀️🚪👧🧒🏞️",
