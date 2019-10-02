@@ -49,6 +49,12 @@ const emojiItems = [
         genres: ["childrens","fantasy"],
         year: 1950
     },{
+        title: "Looking for Alaska",
+        author: "John Green",
+        emojiImgs: "🏫👦🔍👧❤️",
+        genres: ["young-adult"],
+        year: 2005
+    },{
         title: "Matilda",
         author: "Roald Dahl",
         emojiImgs: "👩‍🏫📚👧🦎🎂✨",
