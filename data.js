@@ -78,6 +78,12 @@ const emojiItems = [
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
     },{
+        title: "Of Mice and Men",
+        author: "John Steinbeck",
+        emojiImgs: "🐭🐭➕👨🧔",
+        genres: ["classic", "fiction"],
+        year: 1937
+    },{
         title: "The Perks of Being a Wallflower",
         author: "Stephen Chbosky",
         emojiImgs: "🌼📗🌟🎶",
