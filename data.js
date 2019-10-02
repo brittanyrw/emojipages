@@ -47,6 +47,12 @@ const emojiItems = [
         emojiImgs: "⚔️🕊️💌🇷🇺",
         genres: ["historical-fiction"],
         year: 1869
+    },{
+        title: "Harry Potter and the Half Blood Prince",
+        author: "J.K. Rowling",
+        emojiImgs: "💔🤴📚🚣💀🐍",
+        genres: ["fantasy", "childrens", "fiction"],
+        year: 2005
     }
 ]
 
