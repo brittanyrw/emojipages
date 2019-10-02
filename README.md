@@ -1,17 +1,17 @@
 # EmojiPages 📚 
+
+## 🚧 October 2 Update: 
+### Due to the high volume of activity from Hacktoberfest we are pausing contributions to this project while we review the current backlog of Pull Requests and work on setting additional contribution limits. You will not be able to make any new Pull Requests or Issues at the moment. Please feel free to contribute to other projects on GitHub during this time. Thanks!
+
+If you are working on an Issue, you can work on it in your forked repo and you will be able to create a Pull Request once we open this project again.
+
 ## A listing of books and play depicted through emojis.
 
 [Visit emojipages.com](https://emojipages.com)
 
 ![Screenshot of Emojipages homepage](readme/emojipages-screenshot.png)
 
-## Also contribute to our companion projects:
-
-## [EmojiScreen: A listing of TV shows, movies and musicals depicted as emojis](https://github.com/brittanyrw/emojiscreen/).
-
-## [EmojiBops: A listing of songs depicted via emojis](https://github.com/brittanyrw/emojibops/).
-
-> These projects were built to create a fun, judgement free space for those learning Git and Github to practice making pull requests, branches, adding features, and more. 💛 💙 💜 💚 💖
+> This project were built to create a fun, judgement free space for those learning Git and Github to practice making pull requests, branches, adding features, and more. 💛 💙 💜 💚 💖
 
 ## Contributing 🎁
 
@@ -37,6 +37,9 @@ Below are some guidelines to follow when contributing to this project.
 
 #### Please do not approve or make suggestions on other people's Pull Requests.
 * We do not need additional maintainers at this time. To avoid confusion and incorrect approvals, only maintainers approve Pull Requests. 
+
+#### Please do not create Pull Requests for new features without creating an Issue first.
+* Do not start work on a new feature without getting confirmation from the maintainers via an Issue. We need to approve all new features first. This also goes for Issues that are for features, please wait for confirmation from the maintainers before working on those types of Issues.
 
 ### If you want to work on one of the [Issues to add a book](https://github.com/brittanyrw/emojipages/labels/add%20book)
 * Please comment in the Issue so that others know to not add that book. You do not have to wait for confirmation for Issues adding books or plays before creating a Pull Request. Your comment will just help 'bookmark' the Issue for you to prevent duplicate Pull Requests.
