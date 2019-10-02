@@ -78,5 +78,12 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
+    },
+    {
+        title: "The Dutch House: A Novel",
+        author: "Ann Patchett",
+        emojiImgs: "🥢🥠👧➡️👩",
+        genres: ["classic"],
+        year: 2019
     }
 ]
