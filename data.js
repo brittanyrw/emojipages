@@ -54,6 +54,12 @@ const emojiItems = [
         genres: ["fantasy", "science-fiction"],
         year: 2010
     },{
+        title: "IT",
+        author: "Stephen King",
+        emojiImgs: "🤡🎈👿🧒",
+        genres: ["fiction", "horror", "thriller"],
+        year: 1986
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
