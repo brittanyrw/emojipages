@@ -1,6 +1,6 @@
 # EmojiPages 📚 
 
-## Due to the high volume of activity from Hacktoberfest we are pausing contributions to this project at the moment. Please feel free to contribute to other projects on Github at this time. Thanks!
+## Due to the high volume of activity from Hacktoberfest we are pausing contributions to this project at the moment. Please feel free to contribute to other projects on GitHub at this time. Thanks!
 
 ## A listing of books and play depicted through emojis.
 
