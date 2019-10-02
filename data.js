@@ -48,6 +48,12 @@ const emojiItems = [
         genres: ["classic", "drama", "crime", "romance", "death"],
         year: 1602
     },{
+        title: "Harry Potter and the Methods of Rationality",
+        author: "Eliezer Yudkowsky",
+        emojiImgs: "📚⚗✨🧙‍♂️👦",
+        genres: ["fantasy", "science-fiction"],
+        year: 2010
+    },{
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
