@@ -43,12 +43,18 @@ const emojiItems = [
         emojiImgs: "🐷🐰🐭🐴🐮🐔",
         genres: ["satire"],
         year: 1945
-    }, {
-      title: "Confessions of a Shopaholic",
-      author: "Sophie Kinsella",
-      emojiImgs: "👠🧣🛍️📈💸",
-      genres: ["comedy", "chick lit"],
-      year: 2000
+    },{
+        title: "The Bad Beginning",
+        author: "Lemony Snicket",
+        emojiImgs: "👧👶👦😈",
+        genres: ["comedy", "drama"],
+        year: 1999
+    },{
+        title: "Confessions of a Shopaholic",
+        author: "Sophie Kinsella",
+        emojiImgs: "👠🧣🛍️📈💸",
+        genres: ["comedy", "chick lit"],
+        year: 2000
     },{
         title: "Charlie and the Chocolate Factory",
         author: "Roald Dahl",
@@ -275,6 +281,12 @@ const emojiItems = [
         genres: ["drama","crime"],
         year: 1954
     },{
+        title: "The Reptile Room",
+        author: "Lemony Snicket",
+        emojiImgs: "👧👶👦🐍",
+        genres: ["comedy", "drama"],
+        year: 1999
+    },{
         title: "The Shining",
         author: "Stephen King",
         emojiImgs: "👨🔪🚪😱",
@@ -323,18 +335,6 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
-    },{
-        title: "The Bad Beginning",
-        author: "Lemony Snicket",
-        emojiImgs: "👧👶👦😈",
-        genres: ["comedy", "drama"],
-        year: 1999
-    },{
-        title: "The Reptile Room",
-        author: "Lemony Snicket",
-        emojiImgs: "👧👶👦🐍",
-        genres: ["comedy", "drama"],
-        year: 1999
     },{
         title: "The Wide Window",
         author: "Lemony Snicket",
