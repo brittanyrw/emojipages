@@ -1,5 +1,11 @@
 const emojiItems = [
     {
+        title: "Angels & Demons",
+        author: "Dan Brown",
+        emojiImgs: "👨‍🏫🇻🇦⏳💣🔎",
+        genres: ["crime","mystery","thriller"],
+        year: 2000
+    },{
         title: "Angels in America",
         author: "Tony Kushner",
         emojiImgs: "👼🏽🇺🇸👬🏳️‍🌈👦🏽",
@@ -37,6 +43,18 @@ const emojiItems = [
         emojiImgs: "🐷🐰🐭🐴🐮🐔",
         genres: ["satire"],
         year: 1945
+    },{
+        title: "The Bad Beginning",
+        author: "Lemony Snicket",
+        emojiImgs: "👧👶👦😈",
+        genres: ["comedy", "drama"],
+        year: 1999
+    },{
+        title: "Confessions of a Shopaholic",
+        author: "Sophie Kinsella",
+        emojiImgs: "👠🧣🛍️📈💸",
+        genres: ["comedy", "chick lit"],
+        year: 2000
     },{
         title: "Charlie and the Chocolate Factory",
         author: "Roald Dahl",
@@ -136,6 +154,12 @@ const emojiItems = [
         genres: ["crime", "mystery", "thriller"],
         year: 2005
     },{
+        title: "Jurassic Park",
+        author: "Michael Crichton",
+        emojiImgs: "🦖🦕🏞️👨‍🔬⚠",
+        genres: ["science-fiction", "thriller"],
+        year: 1990
+    },{
         title: "Goodnight Moon",
         author: "Margaret Wise Brown",
         emojiImgs: "🌙🐄🐻🎈🥣🌙",
@@ -219,6 +243,12 @@ const emojiItems = [
         emojiImgs: "👀👨🏻👩🏻📕💌🐁",
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
+    },{
+        title: 'To Kill a Mockingbird',
+        author: 'Harper Lee',
+        emojiImgs: '🏹🐦👧👦🧓🇺🇸',
+        genres: ['classic', 'historical-fiction', 'drama'],
+        year: 1960
     },
     {
         title: "Twilight",
@@ -251,6 +281,12 @@ const emojiItems = [
         genres: ["drama","crime"],
         year: 1954
     },{
+        title: "The Reptile Room",
+        author: "Lemony Snicket",
+        emojiImgs: "👧👶👦🐍",
+        genres: ["comedy", "drama"],
+        year: 1999
+    },{
         title: "The Shining",
         author: "Stephen King",
         emojiImgs: "👨🔪🚪😱",
@@ -280,8 +316,13 @@ const emojiItems = [
         emojiImgs: "👽👾🌎⚔️💣",
         genres: ["science-fiction", "war", "space", "thriller"],
         year: 1898
-    },
-    {
+    },{
+        title: "Who Moved My Cheese",
+        author: "Spencer Johnson",
+        emojiImgs: "🐭🏃🕵️🗺️🧀",
+        genres: ["fiction"],
+        year: 1998
+    },{
         title: "Where the Wild Things Are",
         author: "Maurice Sendak",
         emojiImgs: "❔🐗🦍🐆🦙",
@@ -294,5 +335,11 @@ const emojiItems = [
         emojiImgs: "🧸🍯🐅🤔",
         genres: ["childrens", "classic", "fantasy"],
         year: 1926
+    },{
+        title: "The Wide Window",
+        author: "Lemony Snicket",
+        emojiImgs: "👧👶👦🍳",
+        genres: ["comedy", "drama"],
+        year: 2000
     }
 ]
