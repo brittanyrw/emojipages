@@ -319,6 +319,13 @@ const emojiItems = [
         year: 1988
     },
     {
+        title: "The Maze Runner",
+        author: "James Dashner",
+        emojiImgs: "↙️➡️🏃‍♂️🏃‍♀️↪️⤴️",
+        genres: ["young-adult", "science-fiction", "post-apocalyptic"],
+        year: 2009
+    },
+    {
         title: "Twelfth Night",
         author: "William Shakespeare",
         emojiImgs: "💁🏼‍⛵️✉️❤️👰🏼😂",
