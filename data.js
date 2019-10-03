@@ -103,6 +103,13 @@ const emojiItems = [
         year: 1952
     },
     {
+        title: "Death of a Salesman",
+        author: "Arthur Miller",
+        emojiImgs: "💀⚰️🤵💼",
+        genres: ["tragedy"],
+        year: 1949
+    },
+    {
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
