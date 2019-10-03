@@ -299,6 +299,12 @@ const emojiItems = [
     emojiImgs: "👍🌌💛🛸🤖",
     genres: ["science-fiction", "comedy", "surreal"],
     year: 1979
+  },{
+    title: "Inherent Vice",
+    author: "Thomas Pynchon",
+    emojiImgs: "🌱💨💰🕵️‍♂️",
+    genres: ["fiction", "mystery", "crime", "noir"],
+    year: 2009
   },
   {
     title: "IT",
