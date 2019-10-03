@@ -38,6 +38,12 @@ const emojiItems = [
         genres: ["satire"],
         year: 1945
     },{
+        title: "Charlie and the Chocolate Factory",
+        author: "Roald Dahl",
+        emojiImgs: "🎩🏭🍫🎫👦🏼",
+        genres: ["fantasy", "childrens"],
+        year: 1964
+    },{
         title: "The Color Purple",
         author: "Alice Walker",
         emojiImgs: "🇺🇸👧🏽👎🏿👵🏾👍🏾",
