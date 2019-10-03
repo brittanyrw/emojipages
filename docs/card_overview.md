@@ -2,7 +2,7 @@
 
 On the website, each `Emoji Card` displays 1) images of the emojis, 2) a hint icon that will show the year the book was published (when the user hovers over the question mark) and 3) the name of the book (which appears when the user clicks on a card).
 
-![Screenshot of EmojiPages Items](readme/emojipages-card.png)
+![Screenshot of EmojiPages Items](../readme/emojipages-card.png)
 
 In the `data.js` file, each `Emoji Card` consists of the following object:
 
