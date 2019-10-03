@@ -271,6 +271,13 @@ const emojiItems = [
         year: 1623
     },
     {
+		title: 'Madeline',
+		author: 'Ludwig Bemelmans',
+		emojiImgs: '👧🏫🐯⛪',
+		genres: ['childrens'],
+		year: 1939
+	  },
+    {
         title: "The Lost Symbol",
         author: "Dan Brown",
         emojiImgs: "🧐🎚🗝🔎",
