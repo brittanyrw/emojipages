@@ -53,6 +53,13 @@ const emojiItems = [
         emojiImgs: "🐷🐰🐭🐴🐮🐔",
         genres: ["satire"],
         year: 1945
+    },
+    {
+        title:"Divergent",
+        author:"Veronica Roth",
+        emojiImgs:"⚔️❤️🌎🤕👩‍👧🧩",
+        genres:["Dystopia","Science Fiction", "Young Adult Fiction"],
+        year:2011
     },{
         title: "The Cat In The Hat",
         author: "Dr. Seuss",
