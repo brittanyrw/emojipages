@@ -214,6 +214,13 @@ const emojiItems = [
         year: 2005
     },
     {
+        title: "Harry Potter and the Order of the Phoenix",
+        author: "J.K. Rowling",
+        emojiImgs: "🧙‍♂️👦🏻⚡💀🐦",
+        genres: ["young-adult","fiction"],
+        year: 2004
+    },
+    {
         title: "Jane Eyre",
         author: "Charlotte Brontë",
         emojiImgs: "🐦🏚️💑😱🔥💒",
@@ -347,6 +354,13 @@ const emojiItems = [
         year: 1988
     },
     {
+        title: "Mockingjay",
+        author: "Suzanne Collins",
+        emojiImgs: "🐦⚔️💣🏹👩",
+        genres: ["action-and-adventure","science-fiction", "war"],
+        year: 2010
+    },
+    {
         title: "Mistborn",
         author: "Brandon Sanderson",
         emojiImgs: "🧪🕴🌋🙎🏻⚔️👑",
@@ -408,6 +422,13 @@ const emojiItems = [
         emojiImgs: "👀👨🏻👩🏻📕💌🐁",
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
+    },
+    {
+        title: "Peter Pan",
+        author: "J.M. Barrie",
+        emojiImgs: "🧝‍♂️👧🧒🏴‍☠️🐊",
+        genres: ["fantasy-history", "classic", "childrens"],
+        year: 1904
     },
     {
         title: "Ready Player One",
