@@ -264,6 +264,13 @@ const emojiItems = [
         year: 1950
     },
     {
+        title: "Macbeth",
+        author: "William Shakespeare",
+        emojiImgs: "🧙‍♀️🧙‍♀️🧙‍♀️👨⚔️👑",
+        genres: ["tragedy", "drama"],
+        year: 1623
+    },
+    {
         title: "The Lost Symbol",
         author: "Dan Brown",
         emojiImgs: "🧐🎚🗝🔎",
