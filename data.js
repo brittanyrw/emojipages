@@ -61,6 +61,12 @@ const emojiItems = [
         genres: ["fantasy", "science-fiction"],
         year: 2010
     },{
+        title: "The Hitchhiker's Guide to the Galaxy",
+        author: "Douglas Adams",
+        emojiImgs: "👍🌌💛🛸🤖",
+        genres: ["science-fiction", "comedy", "surreal"],
+        year: 1979      
+    },{
         title: "IT",
         author: "Stephen King",
         emojiImgs: "🤡🎈👿🧒",
