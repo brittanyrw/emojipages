@@ -406,6 +406,12 @@ const emojiItems = [
         year: 1926
     },
     {
+        title: "Watchmen",
+        author: "Alan Moore",
+        emojiImgs: "🙂❤️🦸🧛‍🦇",
+        genres: ["drama", "fantasy", "comedy"],
+        year: 1987
+    },{
         title: "The Wide Window",
         author: "Lemony Snicket",
         emojiImgs: "👧👶👦🍳",
