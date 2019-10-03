@@ -18,7 +18,7 @@ $(document).ready(function () {
     addFilter(genreFilters, emojiItems[i].genres);
 
     emojiCard +=
-      "<div class='emoji-card' data-genre='" + emojiItems[i].genres.join(', ') + "'><div class='emoji-card-wrapper'><div class='hint-container' tabindex='0'><i class='fas fa-question-circle'></i><p class='hint'><span class='type'>" + emojiItems[i].year +
+      "<div class='emoji-card' data-genre='" + emojiItems[i].genres.join(', ') + "'><div class='emoji-card-wrapper'><div class='hint-container' role='button' aria-label='hint' tabindex='0'><i class='fas fa-question-circle'></i><p class='hint'><span class='type'>" + emojiItems[i].year +
       "</span></p></div><div class='emoji-images' tabindex='0'>" + emojiItems[i].emojiImgs +
       "</div><div class='emoji-card-title hide-card'>";
 
