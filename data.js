@@ -37,6 +37,12 @@ const emojiItems = [
         emojiImgs: "🐷🐰🐭🐴🐮🐔",
         genres: ["satire"],
         year: 1945
+    }, {
+      title: "Confessions of a Shopaholic",
+      author: "Sophie Kinsella",
+      emojiImgs: "👠🧣🛍️📈💸",
+      genres: ["comedy", "chick lit"],
+      year: 2000
     },{
         title: "Charlie and the Chocolate Factory",
         author: "Roald Dahl",
