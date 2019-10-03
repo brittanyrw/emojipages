@@ -123,6 +123,13 @@ const emojiItems = [
         year: 2003
     },
     {
+        title: "Disgrace",
+        author: "J. M. Coetzee",
+        emojiImgs: "🇿🇦🌹👨‍🏫👩‍🎓",
+        genres: ["fiction","romance"],
+        year: 1999
+    },
+    {    
         title: "Diary of A Wimpy Kid",
         author: "Jeff Kinney",
         emojiImgs: "📔🧀🎒🎮",
