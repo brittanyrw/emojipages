@@ -159,6 +159,13 @@ const emojiItems = [
         year: 1972
     },
     {
+        title: "Gone Girl",
+        author: "Gillian Flynn",
+        emojiImgs:"👧👦🛣️👩🔪👨",
+        genres: ["mystery","crime"],
+        year: 2012
+    },
+    {
         title: "Harry Potter and the Half Blood Prince",
         author: "J.K. Rowling",
         emojiImgs: "💔🤴📚🚣💀🐍",
