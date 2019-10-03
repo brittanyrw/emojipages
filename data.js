@@ -116,6 +116,12 @@ const emojiItems = [
         genres: ["childrens"],
         year: 1988
     },{
+        title: "New Moon",
+        author: "Stephenie Meyer",
+        emojiImgs: "✨🌑🧛👧",
+        genres: ["young-adult", "romance", "vampire-fiction"],
+        year: 2006
+    },{
         title: "Nineteen Eighty-Four: A Novel",
         author: "George Orwell",
         emojiImgs: "👀👨🏻👩🏻📕💌🐁",
