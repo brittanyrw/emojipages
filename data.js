@@ -237,6 +237,12 @@ const emojiItems = [
         emojiImgs: "👀👨🏻👩🏻📕💌🐁",
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
+    },{
+        title: 'To Kill a Mockingbird',
+        author: 'Harper Lee',
+        emojiImgs: '🏹🐦👧👦🧓🇺🇸',
+        genres: ['classic', 'historical-fiction', 'drama'],
+        year: 1960
     },
     {
         title: "Twilight",
