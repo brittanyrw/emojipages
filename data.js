@@ -298,8 +298,13 @@ const emojiItems = [
         emojiImgs: "👽👾🌎⚔️💣",
         genres: ["science-fiction", "war", "space", "thriller"],
         year: 1898
-    },
-    {
+    },{
+        title: "Who Moved My Cheese",
+        author: "Spencer Johnson",
+        emojiImgs: "🐭🏃🕵️🗺️🧀",
+        genres: ["fiction"],
+        year: 1998
+    },{
         title: "Where the Wild Things Are",
         author: "Maurice Sendak",
         emojiImgs: "❔🐗🦍🐆🦙",
