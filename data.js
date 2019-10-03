@@ -232,6 +232,12 @@ const emojiItems = [
         genres: ["childrens"],
         year: 1988
     },{
+        title: "The Martian",
+        author: "Andy Weir",
+        emojiImgs: "🚀🥔🧪🤔",
+        genres: ["science-fiction", "fiction"],
+        year: 2011
+    },{
         title: "Moby-Dick",
         author: " Herman Melville",
         emojiImgs: "🦈🌊🛶🎣",
