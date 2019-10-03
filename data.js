@@ -124,6 +124,12 @@ const emojiItems = [
         genres: ["crime","mystery","thriller"],
         year: 2005
     },{
+        title: "Goodnight Moon",
+        author: "Margaret Wise Brown",
+        emojiImgs: "🌙🐄🐻🎈🥣🌙",
+        genres: ["childrens", "classic"],
+        year: 1947
+    },{
         title: "Harry Potter and the Philosopher's Stone",
         author: "J. K. Rowling",
         emojiImgs: "📨🎂✨📖💎",
