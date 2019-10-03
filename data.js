@@ -1,5 +1,11 @@
 const emojiItems = [
     {
+        title: "Angels & Demons",
+        author: "Dan Brown",
+        emojiImgs: "👨‍🏫🇻🇦⏳💣🔎",
+        genres: ["crime","mystery","thriller"],
+        year: 2000
+    },{
         title: "Angels in America",
         author: "Tony Kushner",
         emojiImgs: "👼🏽🇺🇸👬🏳️‍🌈👦🏽",
