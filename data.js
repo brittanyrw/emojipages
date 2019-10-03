@@ -47,8 +47,13 @@ const emojiItems = [
         emojiImgs: "🐷🐰🐭🐴🐮🐔",
         genres: ["satire"],
         year: 1945
-    },
-    {
+    },{
+        title: "The Cat In The Hat",
+        author: "Dr. Seuss",
+        emojiImgs: "🐱🎩😸🎉",
+        genres: ["fantasy", "childrens"],
+        year: 1957
+    },{
         title: "The Bad Beginning",
         author: "Lemony Snicket",
         emojiImgs: "👧👶👦😈",
