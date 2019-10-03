@@ -81,6 +81,12 @@ const emojiItems = [
         genres: ["fantasy"],
         year: 1997
     },{
+        title: "Harry Potter and the Prisoner of Azkaban",
+        author: "J.K. Rowling",
+        emojiImgs: "🔒🏢🧟🐀🌕🐺",
+        genres: ["fantasy"],
+        year: 1999
+    },{
         title: "Hamlet",
         author: "William Shakespeare",
         emojiImgs: "🤴🇩🇰🏰⚔👻💔",
