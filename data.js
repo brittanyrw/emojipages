@@ -78,6 +78,12 @@ const emojiItems = [
         genres: ["childrens","fantasy"],
         year: 1950
     },{
+      title: "The Lord of the Rings",
+      author: "J. R. R. Tolkien",
+      emojiImgs: "🧙‍💍🧝🌋",
+      genres: ["fantasy", "adventure"],
+      year: 1968
+    },{
         title: "Matilda",
         author: "Roald Dahl",
         emojiImgs: "👩‍🏫📚👧🦎🎂✨",
