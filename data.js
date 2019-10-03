@@ -287,11 +287,11 @@ const emojiItems = [
         genres: ["coming-of-age","yound-adult"],
         year: 1999
     },{
-        title: "Twelve Angry Men",
-        author: "Reginald Rose",
-        emojiImgs:" 1⃣ 2⃣ 😡🧔",
-        genres: ["drama","crime"],
-        year: 1954
+        title: "Romeo and Juliet",
+        author: "William Shakespeare",
+        emojiImgs: "👨🏻❤️👩🏻🧪☠",
+        genres: ["drama", "romance"],
+        year: 1597
     },{
         title: "The Reptile Room",
         author: "Lemony Snicket",
@@ -304,6 +304,12 @@ const emojiItems = [
         emojiImgs: "👨🔪🚪😱",
         genres: ["horror"],
         year: 1977
+    },{
+        title: "Twelve Angry Men",
+        author: "Reginald Rose",
+        emojiImgs:" 1⃣ 2⃣ 😡🧔",
+        genres: ["drama","crime"],
+        year: 1954
     },{
         title: "The Princess Bride",
         author: "William Goldman",
