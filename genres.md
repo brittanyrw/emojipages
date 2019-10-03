@@ -58,6 +58,7 @@ Select genres from the list below. If you would like to add a genre not listed, 
 * surreal
 * suspense
 * thriller
+* tragedy
 * travel
 * true-crime
 * urban
