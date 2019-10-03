@@ -284,6 +284,13 @@ const emojiItems = [
         year: 1950
     },
     {
+        title: "The Remains of the Day",
+        author: "Kazuo Ishiguro",
+        emojiImgs: "🏩📜🕊️👴🏽",
+        genres: ["historical-fiction","graphic-novel","classic"],
+        year: 1989
+    },
+    {
         title: "Macbeth",
         author: "William Shakespeare",
         emojiImgs: "🧙‍♀️🧙‍♀️🧙‍♀️👨⚔️👑",
@@ -291,11 +298,11 @@ const emojiItems = [
         year: 1623
     },
     {
-		title: 'Madeline',
-		author: 'Ludwig Bemelmans',
-		emojiImgs: '👧🏫🐯⛪',
-		genres: ['childrens'],
-		year: 1939
+        title: 'Madeline',
+        author: 'Ludwig Bemelmans',
+        emojiImgs: '👧🏫🐯⛪',
+        genres: ['childrens'],
+        year: 1939
 	  },
     {
         title: "The Lost Symbol",
