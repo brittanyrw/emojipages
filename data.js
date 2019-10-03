@@ -1,5 +1,11 @@
 const emojiItems = [
     {
+        title: "Angels in America",
+        author: "Tony Kushner",
+        emojiImgs: "👼🏽🇺🇸👬🏳️‍🌈👦🏽",
+        genres: ["drama"],
+        year: 1991
+    },{
         title: "A Feast for Crows",
         author: "George R. R. Martin",
         emojiImgs: "🍳🐛🐦🦅",
@@ -61,7 +67,7 @@ const emojiItems = [
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
-        genres: ["drama", "comedy","romance"],
+        genres: ["drama", "comedy", "romance"],
         year: 2003
     },{
         title: "Diary of A Wimpy Kid",
@@ -97,7 +103,7 @@ const emojiItems = [
         title: "Freaky Friday",
         author: "Mary Rodgers",
         emojiImgs: "🥢🥠👧➡️👩",
-        genres: ["childrens","literature","comedy"],
+        genres: ["childrens", "literature", "comedy"],
         year: 1972
     },{
         title: "Harry Potter and the Half Blood Prince",
@@ -121,7 +127,7 @@ const emojiItems = [
         title: "The Girl with the Dragon Tattoo",
         author: "Stieg Larsson",
         emojiImgs: "👧🏻🐉💉🇸🇪",
-        genres: ["crime","mystery","thriller"],
+        genres: ["crime", "mystery", "thriller"],
         year: 2005
     },{
         title: "Goodnight Moon",
@@ -169,7 +175,7 @@ const emojiItems = [
         title: "Les Miserables",
         author: "Victor Hugo",
         emojiImgs: "🇫🇷👮🏻‍♂️🥖🎵",
-        genres: ["drama","romance"],
+        genres: ["drama", "romance"],
         year: 1862
     },{
         title: "Life of Pi",
@@ -181,7 +187,7 @@ const emojiItems = [
         title: "The Lion, the Witch and the Wardrobe",
         author: "C.S.Lewis",
         emojiImgs: "🦁🧙‍♀️🚪👧🧒🏞️",
-        genres: ["childrens","fantasy"],
+        genres: ["childrens", "fantasy"],
         year: 1950
     },{
       title: "The Lord of the Rings",
@@ -260,7 +266,7 @@ const emojiItems = [
         title: "The War of the Worlds",
         author: " H. G. Wells",
         emojiImgs: "👽👾🌎⚔️💣",
-        genres: ["science-fiction","war","space","thriller"],
+        genres: ["science-fiction", "war", "space", "thriller"],
         year: 1898
     },
     {
