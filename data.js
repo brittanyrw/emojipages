@@ -214,6 +214,13 @@ const emojiItems = [
         year: 2005
     },
     {
+        title: "The Hitchhiker's Guide to the Galaxy",
+        author: "Douglas Adams",
+        emojiImgs: "👍🚀💛📘🐬",
+        genres: ["science-fiction", "comedy"],
+        year: 1979
+    },
+    {
         title: "Harry Potter and the Order of the Phoenix",
         author: "J.K. Rowling",
         emojiImgs: "🧙‍♂️👦🏻⚡💀🐦",
