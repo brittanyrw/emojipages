@@ -1,5 +1,11 @@
 const emojiItems = [
     {
+        title: "Alexander Hamilton",
+        author: "Ron Chernow",
+        emojiImgs: "🇺🇸⚔️💵👨",
+        genres: ["non-fiction", "biography"],
+        year: 2004
+    },{
         title: "Angels & Demons",
         author: "Dan Brown",
         emojiImgs: "👨‍🏫🇻🇦⏳💣🔎",
