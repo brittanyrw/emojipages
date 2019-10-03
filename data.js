@@ -1,5 +1,18 @@
 const emojiItems = [
     {
+        title: "A Feast for Crows",
+        author: "George R. R. Martin",
+        emojiImgs: "🍳🐛🐦🦅",
+        genres: ["fantasy","fiction"],
+        year: 2005
+    },
+    {
+        title: "A Storm of Swords",
+        author: "George R. R. Martin",
+        emojiImgs: "🌩️🌪️⚔️🛡️🗡️",
+        genres: ["fantasy","fiction"],
+        year: 2000
+    },{
         title: "A Clash of Kings",
         author: "George R. R. Martin",
         emojiImgs: "👑👑🐺⚔",
@@ -231,7 +244,15 @@ const emojiItems = [
         emojiImgs: "👽👾🌎⚔️💣",
         genres: ["science-fiction","war","space","thriller"],
         year: 1898
-    },{
+    },
+    {
+        title: "Where the Wild Things Are",
+        author: "Maurice Sendak",
+        emojiImgs: "❔🐗🦍🐆🦙",
+        genres: ["drama","story"],
+        year: 1963
+    },
+    {
         title: "Winnie the Pooh",
         author: "A. A. Milne",
         emojiImgs: "🧸🍯🐅🤔",
