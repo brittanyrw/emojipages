@@ -42,7 +42,7 @@ Add the author as a string. If there are multiple authors, include them all in o
 
 The emojis should be added to `emojiImgs` as a string. Your emojis should be surrounded by double quotation marks.
 
-## **Important Note: Add at least four emojis and a maxioum of six emojis for each card**
+## **Important Note: Add at least four emojis and a maximum of six emojis for each card**
 
 ```
 {
