@@ -418,6 +418,13 @@ const emojiItems = [
         year: 1869
     },
     {
+        title: "The Merchant of Venice",
+        author: "William Shakespeare",
+        emojiImgs: "🚢⌛💰🔪👨",
+        genres: ["drama", "comedy","romance"],
+        year: 1600
+    },
+    {
         title: "The War of the Worlds",
         author: " H. G. Wells",
         emojiImgs: "👽👾🌎⚔️💣",
