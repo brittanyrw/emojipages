@@ -578,6 +578,12 @@ const emojiItems = [
     emojiImgs: "👸❤️👨‍🌾🏴‍☠️⚔️🤴",
     genres: ["comedy", "fantasy", "romance"],
     year: 1962
+  },{
+    title: "Ship of Magic",
+    author: "Robin Hobb",
+    emojiImgs: "🐉🌊🚢💰🏴‍☠️💑",
+    genres: ["fantasy"],
+    year: 1998
   },
   {
     title: "The Very Hungry Caterpillar",
