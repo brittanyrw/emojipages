@@ -383,6 +383,13 @@ const emojiItems = [
         year: 1937
     },
     {
+        title: "The Andromeda Strain",
+        author: "Michael Crichton",
+        emojiImgs: "👨‍🔬💉👽🛸",
+        genres: ["thriller"],
+        year: 1969
+    },
+    {
         title: "The Perks of Being a Wallflower",
         author: "Stephen Chbosky",
         emojiImgs: "🌼📗🌟🎶",
