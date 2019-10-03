@@ -361,6 +361,13 @@ const emojiItems = [
         year: 1949
     },
     {
+        title: "Ready Player One",
+        author: "Ernest Cline",
+        emojiImgs: "🕹️🥚🎮🕹️🗝️",
+        genres: ["science-fiction", "dystopian"],
+        year: 2011
+    },
+    {
         title: "Othello",
         author: "William Shakespeare",
         emojiImgs: "👨👎👨🏿⚔️👩‍🦰",
