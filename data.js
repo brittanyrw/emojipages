@@ -292,6 +292,13 @@ const emojiItems = [
         year: 1988
     },
     {
+        title: "Much Ado About Nothing",
+        author: "William Shakespeare",
+        emojiImgs: "💑👿💔💀💑",
+        genres: ["classic", "comedy", "romance"],
+        year: 1623
+    },
+    {
         title: "The Martian",
         author: "Andy Weir",
         emojiImgs: "🚀🥔🧪🤔",
