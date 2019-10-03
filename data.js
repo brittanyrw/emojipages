@@ -257,6 +257,13 @@ const emojiItems = [
         year: 1950
     },
     {
+        title: "The Lost Symbol",
+        author: "Dan Brown",
+        emojiImgs: "🧐🎚🗝🔎",
+        genres: ["crime", "mystery", "thriller"],
+        year: 2009
+    },
+    {
         title: "The Lord of the Rings",
         author: "J. R. R. Tolkien",
         emojiImgs: "🧙‍💍🧝🌋",
