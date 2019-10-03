@@ -319,6 +319,13 @@ const emojiItems = [
         year: 1950
     },
     {
+        title: "Looking for Alaska",
+        author: "John Green",
+        emojiImgs: "🏫👦🔍👧❤️",
+        genres: ["young-adult"],
+        year: 2005
+    },
+    {
         title: "The Remains of the Day",
         author: "Kazuo Ishiguro",
         emojiImgs: "🏩📜🕊️👴🏽",
