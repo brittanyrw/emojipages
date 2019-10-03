@@ -1,5 +1,12 @@
 const emojiItems = [
     {
+        title: "Alice's Adventures in Wonderland",
+        author: "Lewis Carroll",
+        emojiImgs: "👩🐇😼☕🎩♕",
+        genres: ["fantasy", "childrens"],
+        year: 1865
+    },
+    {
         title: "Animal Farm",
         author: "George Orwell",
         emojiImgs: "🐷🐰🐭🐴🐮🐔",
