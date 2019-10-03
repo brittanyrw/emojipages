@@ -263,6 +263,12 @@ const emojiItems = [
         genres: ["comedy","fantasy","romance"],
         year: 1962
     },{
+      title: "The Very Hungry Caterpillar",
+      author: "Eric Carle",
+      emojiImgs: "🐛🍏🍊🎂🍉🦋",
+      genres: ["childrens","classic",],
+      year: 1969
+    },{
         title: "War and Peace",
         author: "Leo Tolstoy",
         emojiImgs: "⚔️🕊️💌🇷🇺",
