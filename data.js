@@ -31,6 +31,12 @@ const emojiItems = [
         emojiImgs: "🐷🐰🐭🐴🐮🐔",
         genres: ["satire"],
         year: 1945
+    },{
+        title: "The Color Purple",
+        author: "Alice Walker",
+        emojiImgs: "🇺🇸👧🏽👎🏿👵🏾👍🏾",
+        genres: ["classic","historical"],
+        year: 1982
     },
     {
         title: "Breaking Dawn",
