@@ -605,12 +605,20 @@ const emojiItems = [
         year: 1926
     },
     {
+        title: "The Dutch House: A Novel",
+        author: "Ann Patchett",
+        emojiImgs: "🥢🥠👧➡️👩",
+        genres: ["classic"],
+        year: 2019
+    },
+    {
         title: "Watchmen",
         author: "Alan Moore",
         emojiImgs: "🙂❤️🦸🧛‍🦇",
         genres: ["drama", "fantasy", "comedy"],
         year: 1987
-    },{
+    },
+    {
         title: "The Wide Window",
         author: "Lemony Snicket",
         emojiImgs: "👧👶👦🍳",
