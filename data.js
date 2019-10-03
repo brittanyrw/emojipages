@@ -13,6 +13,12 @@ const emojiItems = [
         genres: ["satire"],
         year: 1945
     },{
+        title: "Charlotte's Web",
+        author: "E.B. White",
+        emojiImgs: "🕷️🕸️🖊️🐖👩‍👩‍👧",
+        genre: ["Fiction", "Children's", "General"],
+        year: 1952
+},{
         title: "The Devil Wears Prada",
         author: "Lauren Weisberger",
         emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
