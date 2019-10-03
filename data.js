@@ -69,6 +69,12 @@ const emojiItems = [
         genres: ["crime","mystery","thriller"],
         year: 2005
     },{
+        title: "Harry Potter and the Philosopher's Stone",
+        author: "J. K. Rowling",
+        emojiImgs: "📨🎂✨📖💎",
+        genres: ["fantasy"],
+        year: 1997
+    },{
         title: "Hamlet",
         author: "William Shakespeare",
         emojiImgs: "🤴🇩🇰🏰⚔👻💔",
