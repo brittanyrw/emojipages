@@ -266,7 +266,7 @@ const emojiItems = [
       title: "The Very Hungry Caterpillar",
       author: "Eric Carle",
       emojiImgs: "🐛🍏🍊🎂🍉🦋",
-      genres: ["childrens","classic",],
+      genres: ["childrens","classic"],
       year: 1969
     },{
         title: "War and Peace",
