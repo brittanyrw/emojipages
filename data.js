@@ -549,6 +549,13 @@ const emojiItems = [
         year: 1869
     },
     {
+        title: "Talking To Strangers",
+        author: " Malcom Gladwell",
+        emojiImgs: " 🙋🏼  🙋🏼‍♂️ 👩🏼‍💻 👨🏼‍💻 🎭",
+        genres: ["self-help"],
+        year: 2019
+    },
+    {
         title: "The Merchant of Venice",
         author: "William Shakespeare",
         emojiImgs: "🚢⌛💰🔪👨",
