@@ -12,6 +12,13 @@ const emojiItems = [
         emojiImgs: "🐷🐰🐭🐴🐮🐔",
         genres: ["satire"],
         year: 1945
+    },
+    {
+        title: "Eclipse",
+        author: "Stephenie Meyer",
+        emojiImgs: "❤️🐺🧛‍♂️🌕💑",
+        genres: ["young-adult", "fantasy-history", "romance"],
+        year: 2007
     },{
         title: "Charlotte's Web",
         author: "E.B. White",
