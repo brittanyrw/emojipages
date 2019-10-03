@@ -363,6 +363,13 @@ const emojiItems = [
     year: 1939
   },
   {
+    title: "The Metamorphosis",
+    author: "Franz Kafka",
+    emojiImgs: "👨😴✨🐜😱",
+    genres: ["absurdism","fantasy"],
+    year: 1915
+  },
+  {
     title: "The Little Prince",
     author: " Antoine de Saint-Exupery",
     emojiImgs: "👶🏻👑🛡🗡",
