@@ -63,6 +63,12 @@ const emojiItems = [
         genres: ["childrens","literature","comedy"],
         year: 1972
     },{
+        title: "Harry Potter and the Deathly Hallows",
+        author: "J. K. Rowling",
+        emojiImgs: "👓🕮🔮🐍✨",
+        genres: ["fantasy-history"],
+        year: 2007
+    },{
         title: "Harry Potter and the Chamber of Secrets",
         author: "J. K. Rowling",
         emojiImgs: "👦🏻⚡🐈😨📸🐍",
