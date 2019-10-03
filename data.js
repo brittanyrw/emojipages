@@ -320,6 +320,13 @@ const emojiItems = [
         year: 1949
     },
     {
+        title: "The Tempest",
+        author: "William Shakespeare",
+        emojiImgs: "🚢 ⛈🧙‍😱",
+        genres: ["romance"],
+        year: 1611
+    },
+    {
         title: "To Kill a Mockingbird",
         author: "Harper Lee",
         emojiImgs: "🏹🐦👧👦🧓🇺🇸",
