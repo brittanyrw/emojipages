@@ -292,6 +292,13 @@ const emojiItems = [
         year: 1988
     },
     {
+        title: "Twelfth Night",
+        author: "William Shakespeare",
+        emojiImgs: "💁🏼‍⛵️✉️❤️👰🏼😂",
+        genres: ["comedy","romance"],
+        year: 1602
+    },
+    {
         title: "Much Ado About Nothing",
         author: "William Shakespeare",
         emojiImgs: "💑👿💔💀💑",
