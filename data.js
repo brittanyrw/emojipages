@@ -194,6 +194,13 @@ const emojiItems = [
         year: 2005
     },
     {
+        title: "Iliad",
+        author: "Homer",
+        emojiImgs: "🤴👸⚔️🏹🌳🐎",
+        genres: ["classic", "mythology"],
+        year: 800
+    },
+    {
         title: "Jurassic Park",
         author: "Michael Crichton",
         emojiImgs: "🦖🦕🏞️👨‍🔬⚠",
