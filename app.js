@@ -13,7 +13,7 @@ $(document).ready(function () {
 
     emojiCard +=
     "<div class='emoji-card'><div class='emoji-card-wrapper'><div class='hint-container' tabindex='0'><i class='fas fa-question-circle'></i><p class='hint'><span class='type'>" + emojiItems[i].year +
-    "</span></p></div><button class='emoji-images' tabindex='0'>" + emojiItems[i].emojiImgs +
+    "</span></p></div><button class='emoji-images' aria-label='emoji-card' tabindex='0'>" + emojiItems[i].emojiImgs +
     "</button><div class='emoji-card-title hide-card'>";
 
     emojiCard += "<div class='title-content'><h3>" + emojiItems[i].title +
