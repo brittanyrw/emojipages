@@ -341,13 +341,12 @@ const emojiItems = [
         genres: ["fiction"],
         year: 1998
     },{
-        title: "Where the Wild Things Are",
-        author: "Maurice Sendak",
-        emojiImgs: "❔🐗🦍🐆🦙",
-        genres: ["drama","story"],
-        year: 1963
-    },
-    {
+    title: "Where the Wild Things Are",
+    author: "Maurice Sendak",
+    emojiImgs: "👦🛏️🐺⛵🌲👹",
+    genres: ["childrens", "classic", "fantasy"],
+    year: 1963
+    },{
         title: "Winnie the Pooh",
         author: "A. A. Milne",
         emojiImgs: "🧸🍯🐅🤔",
