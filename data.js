@@ -114,6 +114,13 @@ const emojiItems = [
         emojiImgs: "👀👨🏻👩🏻📕💌🐁",
         genres: ["dystopian", "political-fiction", "science-fiction"],
         year: 1949
+    },
+    {
+        title: "Twilight",
+        author: "Stephenie Meyer",
+        emojiImgs: "❤️🐺🧛‍♂️🌕💑",
+        genres: ["young-adult", "fantasy-history", "romance"],
+        year: 2005
     },{
         title: "The Strange Case of Dr Jekyll and Mr Hyde",
         author: "Robert Louis Stevenson",
