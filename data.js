@@ -532,6 +532,13 @@ const emojiItems = [
     year: 1999
   },
   {
+    title: "Pet Sematary",
+    author: "Stephen King",
+    emojiImgs: "🐈✝️🧟😱",
+    genres: ["Horror"],
+    year: 1986
+  },
+  {
     title: "Romeo and Juliet",
     author: "William Shakespeare",
     emojiImgs: "👨🏻❤️👩🏻🧪☠",
