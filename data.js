@@ -58,6 +58,12 @@ const emojiItems = [
         genres: ["drama", "comedy","romance"],
         year: 2003
     },{
+        title: "Diary of A Wimpy Kid",
+        author: "Jeff Kinney",
+        emojiImgs: "📔🧀🎒🎮",
+        genres: ["comedy","fiction", "young-adult"],
+        year: 2007
+    },{
         title: "The Hunger Games",
         author: "Suzanne Collins",
         emojiImgs: "👧1️⃣2️⃣🏹☠🥇",
