@@ -1,5 +1,12 @@
 const emojiItems = [
   {
+      title: "The Adventures of Sherlock Holmes",
+      author: "Sir Arthur Conan Doyle",
+      emojiImgs: "🧠🎻⚰👣🕵️‍♂️",
+      genres: ["mystery","crime","classic"],
+      year: 1892
+  },
+  {
     title: "Alexander Hamilton",
     author: "Ron Chernow",
     emojiImgs: "🇺🇸⚔️💵👨",
