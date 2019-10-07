@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const emojiItems = [
   {
       title: "The Adventures of Sherlock Holmes",
@@ -194,6 +195,13 @@ const emojiItems = [
     emojiImgs: "🥢🥠👧➡️👩",
     genres: ["childrens", "literature", "comedy"],
     year: 1972
+  },
+  {
+    title: "The Goldfinch",
+    author: "Donna Tartt",
+    emojiImgs: "🥇🐤🖼️👱‍♂",
+    genres: ["fiction", "contemporary", "literary fiction"],
+    year: 2013
   },
   {
     title: "Gone Girl",
