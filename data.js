@@ -501,6 +501,13 @@ const emojiItems = [
     year: 1989
   },
   {
+    title: "PS, I Love You",
+    author: "Cecilia Ahern",
+    emojiImgs: "👩🏼 ⚰️ 💌👱🏻‍♂️",
+    genres: ["romance"],
+    year: 2004
+  },
+  {
     title: "Structure and Interpretation of Computer Programs",
     author: "Hal Abelson, Gerald Jay Sussman",
     emojiImgs: "🧙‍♂️🔮🧙‍♀️🙃🙂😈",
