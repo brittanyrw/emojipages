@@ -84,6 +84,13 @@ const emojiItems = [
     year: 1999
   },
   {
+    title: "Cloud Atlas",
+    author: "David Mitchell",
+    emojiImgs: "☁️🌎🏝🌺",
+    genres: ["science-fiction", "drama", "fantasy-history"],
+    year: 2004
+  },
+  {
     title: "Confessions of a Shopaholic",
     author: "Sophie Kinsella",
     emojiImgs: "👠🧣🛍️📈💸",
@@ -689,4 +696,3 @@ const emojiItems = [
     year: 2000
   }
 ];
-
