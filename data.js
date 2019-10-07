@@ -1,10 +1,10 @@
 const emojiItems = [
   {
-      title: "The Adventures of Sherlock Holmes",
-      author: "Sir Arthur Conan Doyle",
-      emojiImgs: "🧠🎻⚰👣🕵️‍♂️",
-      genres: ["mystery","crime","classic"],
-      year: 1892
+    title: "The Adventures of Sherlock Holmes",
+    author: "Sir Arthur Conan Doyle",
+    emojiImgs: "🧠🎻⚰👣🕵️‍♂️",
+    genres: ["mystery","crime","classic"],
+    year: 1892
   },
   {
     title: "Alexander Hamilton",
@@ -615,13 +615,13 @@ const emojiItems = [
   {
     title: "The Princess Bride",
     author: "William Goldman",
-    emojiImgs: "👸❤️👨‍🌾🏴‍☠️⚔️🤴",
-    genres: ["comedy", "fantasy", "romance"],
-    year: 1962
+    emojiImgs: "👸👰🚜🏰💕⚔️",
+    genres: ["fantasy", "romance", "comedy"],
+    year: 1973
   },{
     title: "Ship of Magic",
     author: "Robin Hobb",
-    emojiImgs: "🐉🌊🚢💰🏴‍☠️💑",
+    emojiImgs: "🐉🌊🚢💰🏴‍☠️",
     genres: ["fantasy"],
     year: 1998
   },
