@@ -1,0 +1,23 @@
+footer {
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+  border-top: 1px solid white;
+  padding-top: 20px;
+
+  p {
+    line-height: 26px;
+    color: white;
+    font-size: 18px;
+  }
+
+  span {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #F8CB45;
+  }
+
+  img {
+    height: 19px;
+  }
+}
