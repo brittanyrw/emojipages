@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const emojiItems = [
   {
       title: "The Adventures of Sherlock Holmes",
@@ -125,6 +124,12 @@ const emojiItems = [
     emojiImgs: "🕷️🕸️🖊️🐖👩‍👩‍👧",
     genre: ["Fiction", "Children's", "General"],
     year: 1952
+  },{
+    title: "The Da Vinci Code",
+    author: "Dan Brown",
+    emojiImgs: "🕵‍♂ 🔎 🤔",
+    genres: ["Mystery", "Detective", "Conspiracy", "Thriller", "fiction"],
+    year: 2003
   },
   {
     title: "Death of a Salesman",
@@ -481,6 +486,12 @@ const emojiItems = [
     emojiImgs: "👀👨🏻👩🏻📕💌🐁",
     genres: ["dystopian", "political-fiction", "science-fiction"],
     year: 1949
+  },{
+    title: "The Pillars of the Earth",
+    author: "Ken Follett",
+    emojiImgs: "💒 🏭 🌏",
+    genres: ["Historical", "fiction", "fantasy"],
+    year: 1989
   },
   {
     title: "Structure and Interpretation of Computer Programs",
@@ -678,3 +689,4 @@ const emojiItems = [
     year: 2000
   }
 ];
+
