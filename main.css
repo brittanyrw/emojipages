@@ -32,6 +32,12 @@ header img {
   height: 29px;
 }
 
+@media screen and (max-width: 667px){
+  nav {
+    font-size: 50px;
+  }
+}
+
 .heading-content {
   display: grid;
   grid-template-columns: 1fr;
@@ -122,17 +128,20 @@ h2 {
 }
 
 .emoji-textbar {
-  height: 30px;
-  max-width: 1000px;
+  min-height: 30px;
+  height: auto;
+  overflow: hidden;
+  min-width: inherit;
   background-color: white;
   align-self: center;
 }
 
-.emoji-textbar-double {
-  height: 50px;
-  max-width: 1000px;
-  background-color: white;
-  align-self: center;
+.wrong-answer {
+  background-color: lightcoral;
+}
+
+.right-answer {
+  background-color: lightgreen;
 }
 
 .emoji-card {

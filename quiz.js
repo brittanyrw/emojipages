@@ -9,7 +9,7 @@ $(document).ready(function () {
     var emojiCard = "";
     
     // Create and assign a variable for number of books
-    var num = 10;
+    var num = 20;
 
     // Run the random order function below on the data inside data.js. This will display the cards in a random order on the page every time the page is refreshed.
     shuffleAndShorten(emojiItems, num);
@@ -76,24 +76,22 @@ $(document).ready(function () {
         .find(".hint")
         .removeClass("hint-reveal");
     });
-  
     // Submit and check the answers given
     $("#submit").click(function(){
+      //check the answers regardless of case
       for (var i in emojiItems) {
-        console.log($("#" + i).html());
-        if ($("#" + i).html() === emojiItems[i].title) {
+        if ($("#" + i).html().toUpperCase() === emojiItems[i].title.toUpperCase()) {
           score += 1;
+          $("#" + i).addClass("right-answer");
+        }
+        else {
+          $("#" + i).addClass("wrong-answer");
         }
       }
-      $(".emoji-textbar").css("background-color", "palegoldenrod");
       $("footer").html("<p class='score'>Your score is <span>" +  score + " / " + num + "</span></p>");
       for (var j in emojiItems) {
-        if (emojiItems[j].title.length > 25) {
-          $("#" + j).toggleClass("emoji-textbar-double")
-        }
         $("#" + j).attr("contenteditable", "false").html(emojiItems[j].title);
       }
-  }); 
-
-  });
+    });
+});
   
