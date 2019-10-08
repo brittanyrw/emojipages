@@ -134,7 +134,7 @@ const emojiItems = [
     title: "The Da Vinci Code",
     author: "Dan Brown",
     emojiImgs: "🕵‍♂ 🔎 🤔",
-    genres: ["mystery", "detective", "thriller", "fiction"],
+    genres: ["mystery", "thriller", "fiction"],
     year: 2003
   },
   {
@@ -204,7 +204,7 @@ const emojiItems = [
     title: "Freaky Friday",
     author: "Mary Rodgers",
     emojiImgs: "🥢🥠👧➡️👩",
-    genres: ["children's", "literature", "comedy"],
+    genres: ["children's", "comedy"],
     year: 1972
   },
   {
@@ -245,7 +245,7 @@ const emojiItems = [
     title: "Harry Potter and the Chamber of Secrets",
     author: "J. K. Rowling",
     emojiImgs: "👦🏻⚡🐈😨📸🐍",
-    genres: ["children's", "literature", "fantasy"],
+    genres: ["children's", "fantasy"],
     year: 1998
   },
   {
