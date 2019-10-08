@@ -1,7 +1,5 @@
 # EmojiPages 📚 
 
-## 🚧 Contributions are paused for this project at the moment. You will not be able to make Pull Requests or Issues at this time.
-
 ## A listing of books and play depicted through emojis.
 
 [Visit emojipages.com](https://emojipages.com)
