@@ -10,7 +10,7 @@ $(document).ready(function () {
 
   // Loop through the data from the data.js file and insert parts of the data into HTML. On each loop, we are appending a new card with the HTML below.
   for (var i in emojiItems) {
-    
+
     emojiCard +=
     "<div class='emoji-card'><div class='emoji-card-wrapper'><div class='hint-container' tabindex='0'><i class='fas fa-question-circle'></i><p class='hint'><span class='type'>" + emojiItems[i].year +
     "</span></p></div><div class='emoji-images' tabindex='0'>" + emojiItems[i].emojiImgs +
@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     emojiCard += "<div class='title-content'><h3>" + emojiItems[i].title +
         " (" + emojiItems[i].year + ")" + "</h3><div class='author-container'><h4>" + emojiItems[i].author + "</h4></div>";
-    
+
     emojiCard += "</div></div></div></div>";
   }
 
@@ -68,6 +68,21 @@ $(document).ready(function () {
     $(this)
       .find(".hint")
       .removeClass("hint-reveal");
+  });
+
+  $('#view-all-books').on('click', function() {
+    //If all books are opened - hide all books
+    if( !$('.emoji-card-title').hasClass('hide-card') ){
+      $('.emoji-card-title').each(function() {
+        $(this).toggleClass('hide-card');
+      });
+    }
+    //If there is at least one hidden book description - expand all books
+    else {
+      $('.emoji-card-title.hide-card').each(function() {
+        $(this).toggleClass('hide-card');
+      });
+    }
   });
 
 });

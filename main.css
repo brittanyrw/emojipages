@@ -1,5 +1,5 @@
-*, *:before, *:after { 
-  box-sizing: border-box; 
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
 body {
@@ -85,6 +85,25 @@ header img {
 
 h2 {
   color: #3c3a4a;
+}
+
+.view-all-button {
+  margin-top: 10px;
+  color: #3c3a4a;
+  background-color: #a797ec;
+  padding: 15px;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  transition: .5s;
+  max-width: 230px;
+}
+
+.view-all-button:hover {
+  background-color: #6462ef;
+  transition: .5s;
 }
 
 #books {
