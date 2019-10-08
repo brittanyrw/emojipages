@@ -100,7 +100,7 @@ const emojiItems = [
     title: "Charlotte's Web",
     author: "E.B. White",
     emojiImgs: "🕷️🕸️🖊️🐖👩‍👩‍👧",
-    genre: ["Fiction", "Children's", "General"],
+    genres: ["fiction", "childrens", "general"],
     year: 1952
   },
   {
@@ -114,7 +114,7 @@ const emojiItems = [
     title: "Confessions of a Shopaholic",
     author: "Sophie Kinsella",
     emojiImgs: "👠🧣🛍️📈💸",
-    genres: ["comedy", "chick lit"],
+    genres: ["comedy", "chick-lit"],
     year: 2000
   },
   {
@@ -128,7 +128,7 @@ const emojiItems = [
     title: "Divergent",
     author: "Veronica Roth",
     emojiImgs: "⚔️❤️🌎🤕👩‍👧🧩",
-    genres: ["Dystopia", "Science Fiction", "Young Adult Fiction"],
+    genres: ["Dystopia", "Science-Fiction", "Young-Adult-Fiction"],
     year: 2011
   },{
     title: "The Da Vinci Code",
@@ -211,7 +211,7 @@ const emojiItems = [
     title: "The Goldfinch",
     author: "Donna Tartt",
     emojiImgs: "🥇🐤🖼️👱‍♂",
-    genres: ["fiction", "contemporary", "literary fiction"],
+    genres: ["fiction", "contemporary", "literary-fiction"],
     year: 2013
   },
   {
@@ -447,7 +447,7 @@ const emojiItems = [
     title: "Moby-Dick",
     author: " Herman Melville",
     emojiImgs: "🦈🌊🛶🎣",
-    genres: ["adventure fiction, sea story, encyclopedic novel"],
+    genres: ["adventure-fiction", "sea-story", "encyclopedic-novel"],
     year: 1851
   },
   {
