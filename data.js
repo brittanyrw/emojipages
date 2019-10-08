@@ -1,5 +1,26 @@
 const emojiItems = [
   {
+    title: "A Feast for Crows",
+    author: "George R. R. Martin",
+    emojiImgs: "🍳🐛🐦🦅",
+    genres: ["fantasy", "fiction"],
+    year: 2005
+  },
+  {
+    title: "A Clash of Kings",
+    author: "George R. R. Martin",
+    emojiImgs: "👑👑🐺⚔",
+    genres: ["fantasy"],
+    year: 1998
+  },
+  {
+    title: "A Storm of Swords",
+    author: "George R. R. Martin",
+    emojiImgs: "🌩️🌪️⚔️🛡️🗡️",
+    genres: ["fantasy", "fiction"],
+    year: 2000
+  },
+  {
     title: "The Adventures of Sherlock Holmes",
     author: "Sir Arthur Conan Doyle",
     emojiImgs: "🧠🎻⚰👣🕵️‍♂️",
@@ -12,6 +33,20 @@ const emojiItems = [
     emojiImgs: "🇺🇸⚔️💵👨",
     genres: ["non-fiction", "biography"],
     year: 2004
+  },
+  {
+    title: "Alice's Adventures in Wonderland",
+    author: "Lewis Carroll",
+    emojiImgs: "👩🐇😼☕🎩♕",
+    genres: ["fantasy", "childrens"],
+    year: 1865
+  },
+  {
+    title: "The Andromeda Strain",
+    author: "Michael Crichton",
+    emojiImgs: "👨‍🔬💉👽🛸",
+    genres: ["thriller"],
+    year: 1969
   },
   {
     title: "Angels & Demons",
@@ -28,34 +63,6 @@ const emojiItems = [
     year: 1991
   },
   {
-    title: "A Feast for Crows",
-    author: "George R. R. Martin",
-    emojiImgs: "🍳🐛🐦🦅",
-    genres: ["fantasy", "fiction"],
-    year: 2005
-  },
-  {
-    title: "A Storm of Swords",
-    author: "George R. R. Martin",
-    emojiImgs: "🌩️🌪️⚔️🛡️🗡️",
-    genres: ["fantasy", "fiction"],
-    year: 2000
-  },
-  {
-    title: "A Clash of Kings",
-    author: "George R. R. Martin",
-    emojiImgs: "👑👑🐺⚔",
-    genres: ["fantasy"],
-    year: 1998
-  },
-  {
-    title: "Alice's Adventures in Wonderland",
-    author: "Lewis Carroll",
-    emojiImgs: "👩🐇😼☕🎩♕",
-    genres: ["fantasy", "childrens"],
-    year: 1865
-  },
-  {
     title: "Animal Farm",
     author: "George Orwell",
     emojiImgs: "🐷🐰🐭🐴🐮🐔",
@@ -63,11 +70,18 @@ const emojiItems = [
     year: 1945
   },
   {
-    title: "Divergent",
-    author: "Veronica Roth",
-    emojiImgs: "⚔️❤️🌎🤕👩‍👧🧩",
-    genres: ["Dystopia", "Science Fiction", "Young Adult Fiction"],
-    year: 2011
+    title: "The Bad Beginning",
+    author: "Lemony Snicket",
+    emojiImgs: "👧👶👦😈",
+    genres: ["comedy", "drama"],
+    year: 1999
+  },
+  {
+    title: "Breaking Dawn",
+    author: "Stephenie Meyer",
+    emojiImgs: "🧛‍♂️💔👼💫🌖",
+    genres: ["young-adult", "fantasy", "romance"],
+    year: 2008
   },
   {
     title: "The Cat In The Hat",
@@ -77,11 +91,17 @@ const emojiItems = [
     year: 1957
   },
   {
-    title: "The Bad Beginning",
-    author: "Lemony Snicket",
-    emojiImgs: "👧👶👦😈",
-    genres: ["comedy", "drama"],
-    year: 1999
+    title: "Charlie and the Chocolate Factory",
+    author: "Roald Dahl",
+    emojiImgs: "🎩🏭🍫🎫👦🏼",
+    genres: ["fantasy", "childrens"],
+    year: 1964
+  },{
+    title: "Charlotte's Web",
+    author: "E.B. White",
+    emojiImgs: "🕷️🕸️🖊️🐖👩‍👩‍👧",
+    genre: ["Fiction", "Children's", "General"],
+    year: 1952
   },
   {
     title: "Cloud Atlas",
@@ -98,13 +118,6 @@ const emojiItems = [
     year: 2000
   },
   {
-    title: "Charlie and the Chocolate Factory",
-    author: "Roald Dahl",
-    emojiImgs: "🎩🏭🍫🎫👦🏼",
-    genres: ["fantasy", "childrens"],
-    year: 1964
-  },
-  {
     title: "The Color Purple",
     author: "Alice Walker",
     emojiImgs: "🇺🇸👧🏽👎🏿👵🏾👍🏾",
@@ -112,25 +125,11 @@ const emojiItems = [
     year: 1982
   },
   {
-    title: "Breaking Dawn",
-    author: "Stephenie Meyer",
-    emojiImgs: "🧛‍♂️💔👼💫🌖",
-    genres: ["young-adult", "fantasy", "romance"],
-    year: 2008
-  },
-  {
-    title: "Eclipse",
-    author: "Stephenie Meyer",
-    emojiImgs: "❤️🐺🧛‍♂️🌕💑",
-    genres: ["young-adult", "fantasy-history", "romance"],
-    year: 2007
-  },
-  {
-    title: "Charlotte's Web",
-    author: "E.B. White",
-    emojiImgs: "🕷️🕸️🖊️🐖👩‍👩‍👧",
-    genre: ["Fiction", "Children's", "General"],
-    year: 1952
+    title: "Divergent",
+    author: "Veronica Roth",
+    emojiImgs: "⚔️❤️🌎🤕👩‍👧🧩",
+    genres: ["Dystopia", "Science Fiction", "Young Adult Fiction"],
+    year: 2011
   },{
     title: "The Da Vinci Code",
     author: "Dan Brown",
@@ -167,13 +166,6 @@ const emojiItems = [
     year: 2007
   },
   {
-    title: "The Hunger Games",
-    author: "Suzanne Collins",
-    emojiImgs: "👧1️⃣2️⃣🏹☠🥇",
-    genres: ["romance", "action-and-adventure", "science-fiction"],
-    year: 2008
-  },
-  {
     title: "Dune",
     author: "Frank Herbert",
     emojiImgs: "🏜🌠⚔💊💧",
@@ -186,6 +178,13 @@ const emojiItems = [
     emojiImgs: "🥢🥠👧➡️👩",
     genres: ["classic"],
     year: 2019
+  },
+  {
+    title: "Eclipse",
+    author: "Stephenie Meyer",
+    emojiImgs: "❤️🐺🧛‍♂️🌕💑",
+    genres: ["young-adult", "fantasy-history", "romance"],
+    year: 2007
   },
   {
     title: "Fight Club",
@@ -223,18 +222,24 @@ const emojiItems = [
     year: 2012
   },
   {
-    title: "Harry Potter and the Half Blood Prince",
-    author: "J.K. Rowling",
-    emojiImgs: "💔🤴📚🚣💀🐍",
-    genres: ["fantasy", "childrens", "fiction"],
+    title: "The Girl with the Dragon Tattoo",
+    author: "Stieg Larsson",
+    emojiImgs: "👧🏻🐉💉🇸🇪",
+    genres: ["crime", "mystery", "thriller"],
     year: 2005
   },
   {
-    title: "Harry Potter and the Deathly Hallows",
-    author: "J. K. Rowling",
-    emojiImgs: "👓🕮🔮🐍✨",
-    genres: ["fantasy-history"],
-    year: 2007
+    title: "Goodnight Moon",
+    author: "Margaret Wise Brown",
+    emojiImgs: "🌙🐄🐻🎈🥣🌙",
+    genres: ["childrens", "classic"],
+    year: 1947
+  },{
+    title: "Hamlet",
+    author: "William Shakespeare",
+    emojiImgs: "🤴🇩🇰🏰⚔👻💔",
+    genres: ["classic", "drama", "crime", "romance", "death"],
+    year: 1602
   },
   {
     title: "Harry Potter and the Chamber of Secrets",
@@ -244,18 +249,25 @@ const emojiItems = [
     year: 1998
   },
   {
-    title: "The Girl with the Dragon Tattoo",
-    author: "Stieg Larsson",
-    emojiImgs: "👧🏻🐉💉🇸🇪",
-    genres: ["crime", "mystery", "thriller"],
+    title: "Harry Potter and the Deathly Hallows",
+    author: "J. K. Rowling",
+    emojiImgs: "👓🕮🔮🐍✨",
+    genres: ["fantasy-history"],
+    year: 2007
+  },
+  {
+    title: "Harry Potter and the Half Blood Prince",
+    author: "J.K. Rowling",
+    emojiImgs: "💔🤴📚🚣💀🐍",
+    genres: ["fantasy", "childrens", "fiction"],
     year: 2005
   },
   {
-    title: "The Hitchhiker's Guide to the Galaxy",
-    author: "Douglas Adams",
-    emojiImgs: "👍🚀💛📘🐬",
-    genres: ["science-fiction", "comedy"],
-    year: 1979
+    title: "Harry Potter and the Methods of Rationality",
+    author: "Eliezer Yudkowsky",
+    emojiImgs: "📚⚗✨🧙‍♂️👦",
+    genres: ["fantasy", "science-fiction"],
+    year: 2010
   },
   {
     title: "Harry Potter and the Order of the Phoenix",
@@ -263,34 +275,6 @@ const emojiItems = [
     emojiImgs: "🧙‍♂️👦🏻⚡💀🐦",
     genres: ["young-adult", "fiction"],
     year: 2004
-  },
-  {
-    title: "Jane Eyre",
-    author: "Charlotte Brontë",
-    emojiImgs: "🐦🏚️💑😱🔥💒",
-    genres: ["gothic", "classic", "romance"],
-    year: 1847
-  },
-  {
-    title: "Iliad",
-    author: "Homer",
-    emojiImgs: "🤴👸⚔️🏹🌳🐎",
-    genres: ["classic", "mythology"],
-    year: 800
-  },
-  {
-    title: "Jurassic Park",
-    author: "Michael Crichton",
-    emojiImgs: "🦖🦕🏞️👨‍🔬⚠",
-    genres: ["science-fiction", "thriller"],
-    year: 1990
-  },
-  {
-    title: "Goodnight Moon",
-    author: "Margaret Wise Brown",
-    emojiImgs: "🌙🐄🐻🎈🥣🌙",
-    genres: ["childrens", "classic"],
-    year: 1947
   },
   {
     title: "Harry Potter and the Philosopher's Stone",
@@ -307,26 +291,27 @@ const emojiItems = [
     year: 1999
   },
   {
-    title: "Hamlet",
-    author: "William Shakespeare",
-    emojiImgs: "🤴🇩🇰🏰⚔👻💔",
-    genres: ["classic", "drama", "crime", "romance", "death"],
-    year: 1602
-  },
-  {
-    title: "Harry Potter and the Methods of Rationality",
-    author: "Eliezer Yudkowsky",
-    emojiImgs: "📚⚗✨🧙‍♂️👦",
-    genres: ["fantasy", "science-fiction"],
-    year: 2010
-  },
-  {
     title: "The Hitchhiker's Guide to the Galaxy",
     author: "Douglas Adams",
     emojiImgs: "👍🌌💛🛸🤖",
     genres: ["science-fiction", "comedy", "surreal"],
     year: 1979
-  },{
+  },
+  {
+    title: "The Hunger Games",
+    author: "Suzanne Collins",
+    emojiImgs: "👧1️⃣2️⃣🏹☠🥇",
+    genres: ["romance", "action-and-adventure", "science-fiction"],
+    year: 2008
+  },
+  {
+    title: "Iliad",
+    author: "Homer",
+    emojiImgs: "🤴👸⚔️🏹🌳🐎",
+    genres: ["classic", "mythology"],
+    year: 800
+  },
+  {
     title: "Inherent Vice",
     author: "Thomas Pynchon",
     emojiImgs: "🌱💨💰🕵️‍♂️",
@@ -339,6 +324,20 @@ const emojiItems = [
     emojiImgs: "🤡🎈👿🧒",
     genres: ["fiction", "horror", "thriller"],
     year: 1986
+  },
+  {
+    title: "Jane Eyre",
+    author: "Charlotte Brontë",
+    emojiImgs: "🐦🏚️💑😱🔥💒",
+    genres: ["gothic", "classic", "romance"],
+    year: 1847
+  },
+  {
+    title: "Jurassic Park",
+    author: "Michael Crichton",
+    emojiImgs: "🦖🦕🏞️👨‍🔬⚠",
+    genres: ["science-fiction", "thriller"],
+    year: 1990
   },
   {
     title: "Les Miserables",
@@ -362,6 +361,13 @@ const emojiItems = [
     year: 1950
   },
   {
+    title: "The Little Prince",
+    author: " Antoine de Saint-Exupery",
+    emojiImgs: "👶🏻👑🛡🗡",
+    genres: ["childrens", "storybook", "picturebook", "Fiction"],
+    year: 2017
+  },
+  {
     title: "Looking for Alaska",
     author: "John Green",
     emojiImgs: "🏫👦🔍👧❤️",
@@ -369,11 +375,18 @@ const emojiItems = [
     year: 2005
   },
   {
-    title: "The Remains of the Day",
-    author: "Kazuo Ishiguro",
-    emojiImgs: "🏩📜🕊️👴🏽",
-    genres: ["historical-fiction", "graphic-novel", "classic"],
-    year: 1989
+    title: "The Lord of the Rings",
+    author: "J. R. R. Tolkien",
+    emojiImgs: "🧙‍💍🧝🌋",
+    genres: ["fantasy", "adventure"],
+    year: 1968
+  },
+  {
+    title: "The Lost Symbol",
+    author: "Dan Brown",
+    emojiImgs: "🧐🎚🗝🔎",
+    genres: ["crime", "mystery", "thriller"],
+    year: 2009
   },
   {
     title: "Macbeth",
@@ -397,25 +410,11 @@ const emojiItems = [
     year: 1915
   },
   {
-    title: "The Little Prince",
-    author: " Antoine de Saint-Exupery",
-    emojiImgs: "👶🏻👑🛡🗡",
-    genres: ["childrens", "storybook", "picturebook", "Fiction"],
-    year: 2017
-  },
-  {
-    title: "The Lost Symbol",
-    author: "Dan Brown",
-    emojiImgs: "🧐🎚🗝🔎",
-    genres: ["crime", "mystery", "thriller"],
-    year: 2009
-  },
-  {
-    title: "The Lord of the Rings",
-    author: "J. R. R. Tolkien",
-    emojiImgs: "🧙‍💍🧝🌋",
-    genres: ["fantasy", "adventure"],
-    year: 1968
+    title: "The Martian",
+    author: "Andy Weir",
+    emojiImgs: "🚀🥔🧪🤔",
+    genres: ["science-fiction", "fiction"],
+    year: 2011
   },
   {
     title: "Matilda",
@@ -425,20 +424,6 @@ const emojiItems = [
     year: 1988
   },
   {
-    title: "Mockingjay",
-    author: "Suzanne Collins",
-    emojiImgs: "🐦⚔️💣🏹👩",
-    genres: ["action-and-adventure", "science-fiction", "war"],
-    year: 2010
-  },
-  {
-    title: "Mistborn",
-    author: "Brandon Sanderson",
-    emojiImgs: "🧪🕴🌋🙎🏻⚔️👑",
-    genres: ["action-and-adventure", "fantasy"],
-    year: 2006
-  },
-  {
     title: "The Maze Runner",
     author: "James Dashner",
     emojiImgs: "↙️➡️🏃‍♂️🏃‍♀️↪️⤴️",
@@ -446,25 +431,17 @@ const emojiItems = [
     year: 2009
   },
   {
-    title: "Twelfth Night",
+    title: "The Merchant of Venice",
     author: "William Shakespeare",
-    emojiImgs: "💁🏼‍⛵️✉️❤️👰🏼😂",
-    genres: ["comedy", "romance"],
-    year: 1602
-  },
-  {
-    title: "Much Ado About Nothing",
-    author: "William Shakespeare",
-    emojiImgs: "💑👿💔💀💑",
-    genres: ["classic", "comedy", "romance"],
-    year: 1623
-  },
-  {
-    title: "The Martian",
-    author: "Andy Weir",
-    emojiImgs: "🚀🥔🧪🤔",
-    genres: ["science-fiction", "fiction"],
-    year: 2011
+    emojiImgs: "🚢⌛💰🔪👨",
+    genres: ["drama", "comedy", "romance"],
+    year: 1600
+  },{
+    title: "Mistborn",
+    author: "Brandon Sanderson",
+    emojiImgs: "🧪🕴🌋🙎🏻⚔️👑",
+    genres: ["action-and-adventure", "fantasy"],
+    year: 2006
   },
   {
     title: "Moby-Dick",
@@ -474,11 +451,11 @@ const emojiItems = [
     year: 1851
   },
   {
-    title: "New Moon",
-    author: "Stephenie Meyer",
-    emojiImgs: "✨🌑🧛👧",
-    genres: ["young-adult", "romance", "vampire-fiction"],
-    year: 2006
+    title: "Mockingjay",
+    author: "Suzanne Collins",
+    emojiImgs: "🐦⚔️💣🏹👩",
+    genres: ["action-and-adventure", "science-fiction", "war"],
+    year: 2010
   },
   {
     title: "Monsieur Malaussène",
@@ -488,80 +465,25 @@ const emojiItems = [
     year: 1995
   },
   {
+    title: "Much Ado About Nothing",
+    author: "William Shakespeare",
+    emojiImgs: "💑👿💔💀💑",
+    genres: ["classic", "comedy", "romance"],
+    year: 1623
+  },
+  {
+    title: "New Moon",
+    author: "Stephenie Meyer",
+    emojiImgs: "✨🌑🧛👧",
+    genres: ["young-adult", "romance", "vampire-fiction"],
+    year: 2006
+  },
+  {
     title: "Nineteen Eighty-Four: A Novel",
     author: "George Orwell",
     emojiImgs: "👀👨🏻👩🏻📕💌🐁",
     genres: ["dystopian", "political-fiction", "science-fiction"],
     year: 1949
-  },{
-    title: "The Pillars of the Earth",
-    author: "Ken Follett",
-    emojiImgs: "💒 🏭 🌏",
-    genres: ["Historical", "fiction", "fantasy"],
-    year: 1989
-  },
-  {
-    title: "PS, I Love You",
-    author: "Cecilia Ahern",
-    emojiImgs: "👩🏼 ⚰️ 💌👱🏻‍♂️",
-    genres: ["romance"],
-    year: 2004
-  },
-  {
-    title: "Structure and Interpretation of Computer Programs",
-    author: "Hal Abelson, Gerald Jay Sussman",
-    emojiImgs: "🧙‍♂️🔮🧙‍♀️🙃🙂😈",
-    genres: ["math", "science"],
-    year: 1979
-  },
-  {
-    title: "Peter Pan",
-    author: "J.M. Barrie",
-    emojiImgs: "🧝‍♂️👧🧒🏴‍☠️🐊",
-    genres: ["fantasy-history", "classic", "childrens"],
-    year: 1904
-  },
-  {
-    title: "Ready Player One",
-    author: "Ernest Cline",
-    emojiImgs: "🕹️🥚🎮🕹️🗝️",
-    genres: ["science-fiction", "dystopian"],
-    year: 2011
-  },
-  {
-    title: "Othello",
-    author: "William Shakespeare",
-    emojiImgs: "👨👎👨🏿⚔️👩‍🦰",
-    genres: ["tragedy", "drama"],
-    year: 1622
-  },
-  {
-    title: "The Tempest",
-    author: "William Shakespeare",
-    emojiImgs: "🚢 ⛈🧙‍😱",
-    genres: ["romance"],
-    year: 1611
-  },
-  {
-    title: "To Kill a Mockingbird",
-    author: "Harper Lee",
-    emojiImgs: "🏹🐦👧👦🧓🇺🇸",
-    genres: ["classic", "historical-fiction", "drama"],
-    year: 1960
-  },
-  {
-    title: "Twilight",
-    author: "Stephenie Meyer",
-    emojiImgs: "❤️🐺🧛‍♂️🌕💑",
-    genres: ["young-adult", "fantasy-history", "romance"],
-    year: 2005
-  },
-  {
-    title: "The Strange Case of Dr Jekyll and Mr Hyde",
-    author: "Robert Louis Stevenson",
-    emojiImgs: "🏴󠁧󠁢󠁳󠁣󠁴󠁿👨‍⚕️🦹‍♂️󠁧󠁢󠁳󠁣󠁴󠁿🧪☯️",
-    genres: ["classic", "mystery", "science-fiction"],
-    year: 1886
   },
   {
     title: "Of Mice and Men",
@@ -571,11 +493,18 @@ const emojiItems = [
     year: 1937
   },
   {
-    title: "The Andromeda Strain",
-    author: "Michael Crichton",
-    emojiImgs: "👨‍🔬💉👽🛸",
-    genres: ["thriller"],
-    year: 1969
+    title: "Othello",
+    author: "William Shakespeare",
+    emojiImgs: "👨👎👨🏿⚔️👩‍🦰",
+    genres: ["tragedy", "drama"],
+    year: 1622
+  },
+  {
+    title: "The Pillars of the Earth",
+    author: "Ken Follett",
+    emojiImgs: "💒 🏭 🌏",
+    genres: ["Historical", "fiction", "fantasy"],
+    year: 1989
   },
   {
     title: "The Perks of Being a Wallflower",
@@ -592,11 +521,39 @@ const emojiItems = [
     year: 1986
   },
   {
-    title: "Romeo and Juliet",
-    author: "William Shakespeare",
-    emojiImgs: "👨🏻❤️👩🏻🧪☠",
-    genres: ["drama", "romance"],
-    year: 1597
+    title: "Peter Pan",
+    author: "J.M. Barrie",
+    emojiImgs: "🧝‍♂️👧🧒🏴‍☠️🐊",
+    genres: ["fantasy-history", "classic", "childrens"],
+    year: 1904
+  },
+  {
+    title: "The Princess Bride",
+    author: "William Goldman",
+    emojiImgs: "👸👰🚜🏰💕⚔️",
+    genres: ["fantasy", "romance", "comedy"],
+    year: 1973
+  },
+  {
+    title: "PS, I Love You",
+    author: "Cecilia Ahern",
+    emojiImgs: "👩🏼 ⚰️ 💌👱🏻‍♂️",
+    genres: ["romance"],
+    year: 2004
+  },
+  {
+    title: "Ready Player One",
+    author: "Ernest Cline",
+    emojiImgs: "🕹️🥚🎮🕹️🗝️",
+    genres: ["science-fiction", "dystopian"],
+    year: 2011
+  },
+  {
+    title: "The Remains of the Day",
+    author: "Kazuo Ishiguro",
+    emojiImgs: "🏩📜🕊️👴🏽",
+    genres: ["historical-fiction", "graphic-novel", "classic"],
+    year: 1989
   },
   {
     title: "The Reptile Room",
@@ -606,11 +563,66 @@ const emojiItems = [
     year: 1999
   },
   {
+    title: "Romeo and Juliet",
+    author: "William Shakespeare",
+    emojiImgs: "👨🏻❤️👩🏻🧪☠",
+    genres: ["drama", "romance"],
+    year: 1597
+  },
+  {
     title: "The Shining",
     author: "Stephen King",
     emojiImgs: "👨🔪🚪😱",
     genres: ["horror"],
     year: 1977
+  }, {
+    title: "Ship of Magic",
+    author: "Robin Hobb",
+    emojiImgs: "🐉🌊🚢💰🏴‍☠️",
+    genres: ["fantasy"],
+    year: 1998
+  },
+  {
+    title: "The Strange Case of Dr Jekyll and Mr Hyde",
+    author: "Robert Louis Stevenson",
+    emojiImgs: "🏴󠁧󠁢󠁳󠁣󠁴󠁿👨‍⚕️🦹‍♂️󠁧󠁢󠁳󠁣󠁴󠁿🧪☯️",
+    genres: ["classic", "mystery", "science-fiction"],
+    year: 1886
+  },
+  {
+    title: "Talking To Strangers",
+    author: " Malcom Gladwell",
+    emojiImgs: " 🙋🏼  🙋🏼‍♂️ 👩🏼‍💻 👨🏼‍💻 🎭",
+    genres: ["self-help"],
+    year: 2019
+  },
+  {
+    title: "The Tempest",
+    author: "William Shakespeare",
+    emojiImgs: "🚢 ⛈🧙‍😱",
+    genres: ["romance"],
+    year: 1611
+  },
+  {
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    emojiImgs: "🏹🐦👧👦🧓🇺🇸",
+    genres: ["classic", "historical-fiction", "drama"],
+    year: 1960
+  },
+  {
+    title: "Twelfth Night",
+    author: "William Shakespeare",
+    emojiImgs: "💁🏼‍⛵️✉️❤️👰🏼😂",
+    genres: ["comedy", "romance"],
+    year: 1602
+  },
+  {
+    title: "Twilight",
+    author: "Stephenie Meyer",
+    emojiImgs: "❤️🐺🧛‍♂️🌕💑",
+    genres: ["young-adult", "fantasy-history", "romance"],
+    year: 2005
   },
   {
     title: "Twelve Angry Men",
@@ -618,19 +630,6 @@ const emojiItems = [
     emojiImgs: " 1⃣ 2⃣ 😡🧔",
     genres: ["drama", "crime"],
     year: 1954
-  },
-  {
-    title: "The Princess Bride",
-    author: "William Goldman",
-    emojiImgs: "👸👰🚜🏰💕⚔️",
-    genres: ["fantasy", "romance", "comedy"],
-    year: 1973
-  },{
-    title: "Ship of Magic",
-    author: "Robin Hobb",
-    emojiImgs: "🐉🌊🚢💰🏴‍☠️",
-    genres: ["fantasy"],
-    year: 1998
   },
   {
     title: "The Very Hungry Caterpillar",
@@ -647,20 +646,6 @@ const emojiItems = [
     year: 1869
   },
   {
-    title: "Talking To Strangers",
-    author: " Malcom Gladwell",
-    emojiImgs: " 🙋🏼  🙋🏼‍♂️ 👩🏼‍💻 👨🏼‍💻 🎭",
-    genres: ["self-help"],
-    year: 2019
-  },
-  {
-    title: "The Merchant of Venice",
-    author: "William Shakespeare",
-    emojiImgs: "🚢⌛💰🔪👨",
-    genres: ["drama", "comedy", "romance"],
-    year: 1600
-  },
-  {
     title: "The War of the Worlds",
     author: " H. G. Wells",
     emojiImgs: "👽👾🌎⚔️💣",
@@ -668,6 +653,18 @@ const emojiItems = [
     year: 1898
   },
   {
+    title: "Watchmen",
+    author: "Alan Moore",
+    emojiImgs: "🙂❤️🦸🧛‍🦇",
+    genres: ["drama", "fantasy", "comedy"],
+    year: 1987
+  },{
+    title: "Where the Wild Things Are",
+    author: "Maurice Sendak",
+    emojiImgs: "👦🛏️🐺⛵🌲👹",
+    genres: ["childrens", "classic", "fantasy"],
+    year: 1963
+  },{
     title: "Who Moved My Cheese",
     author: "Spencer Johnson",
     emojiImgs: "🐭🏃🕵️🗺️🧀",
@@ -675,25 +672,11 @@ const emojiItems = [
     year: 1998
   },
   {
-    title: "Where the Wild Things Are",
-    author: "Maurice Sendak",
-    emojiImgs: "👦🛏️🐺⛵🌲👹",
-    genres: ["childrens", "classic", "fantasy"],
-    year: 1963
-  },
-  {
     title: "Winnie the Pooh",
     author: "A. A. Milne",
     emojiImgs: "🧸🍯🐅🤔",
     genres: ["childrens", "classic", "fantasy"],
     year: 1926
-  },
-  {
-    title: "Watchmen",
-    author: "Alan Moore",
-    emojiImgs: "🙂❤️🦸🧛‍🦇",
-    genres: ["drama", "fantasy", "comedy"],
-    year: 1987
   },
   {
     title: "The Wide Window",
