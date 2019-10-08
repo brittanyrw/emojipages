@@ -12,7 +12,7 @@
     </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>EmojiPages</title>
+    <title>EmojiPages Quiz</title>
     <meta name="description"
         content="A listing of books depicted through emojis.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,9 +29,9 @@
             <h1>EmojiPages</h1>
             <div class="heading-content">
                 <div class="header">
-                    <h2>A listing of books depicted through emojis. <img draggable="false" class="emoji" alt="💖"
-                            src="https://twemoji.maxcdn.com/v/12.1.3/72x72/1f496.png"></h2>
-                    <p>Click on the emojis to reveal the book name, year and author!</p>
+                    <h2>EmojiPages Quiz! <img draggable="false" class="emoji" alt="❓"
+                            src="https://twemoji.maxcdn.com/v/12.1.3/72x72/2753.png"></h2>
+                    <p>Enter the book title below the emoji and score points!</p>
                 </div>
                 <div class="contribute-callout">
                     <p>Want to add to EmojiPages? Head to Github! <img draggable="false" class="emoji" alt="✨"
@@ -40,19 +40,20 @@
                 </div>
             </div>
             <nav>
-                <a class="active" href="index.html">Home</a>
-                <a class="nav-button" href="quiz.html">Quiz Yourself!</a>
+                <a class="nav-button" href="index.html">Home</a>
+                <a class="active" href="quiz.html">Quiz Yourself!</a>
             </nav>
         </header>
         <section id="books"></section>
         <footer>
-            <p>EmojiPages currently has <span></span> books and plays. 💖</p>
+            <p>Your score will be out of <span></span>❗️</p>
+            <button id="submit">Submit and Get Results</button>
         </footer>
     </main>
     <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="data.js"></script>
-    <script src="app.js"></script>
+    <script src="quiz.js"></script>
 </body>
 
 </html>

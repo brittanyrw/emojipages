@@ -121,6 +121,20 @@ h2 {
   }
 }
 
+.emoji-textbar {
+  height: 30px;
+  max-width: 1000px;
+  background-color: white;
+  align-self: center;
+}
+
+.emoji-textbar-double {
+  height: 50px;
+  max-width: 1000px;
+  background-color: white;
+  align-self: center;
+}
+
 .emoji-card {
     display: inline-block;
     text-align: center;
