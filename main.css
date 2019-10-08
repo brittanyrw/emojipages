@@ -105,7 +105,7 @@ h2 {
 
 @media screen and (min-width: 662px){
   #books {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
