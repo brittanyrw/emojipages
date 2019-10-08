@@ -100,7 +100,7 @@ const emojiItems = [
     title: "Charlotte's Web",
     author: "E.B. White",
     emojiImgs: "🕷️🕸️🖊️🐖👩‍👩‍👧",
-    genres: ["fiction", "children's", "general"],
+    genres: ["fiction", "children's"],
     year: 1952
   },
   {
@@ -350,7 +350,7 @@ const emojiItems = [
     title: "Life of Pi",
     author: "Yann Martel",
     emojiImgs: "👳🛶🌊🐯",
-    genres: ["fiction", "animals"],
+    genres: ["fiction"],
     year: 2001
   },
   {
