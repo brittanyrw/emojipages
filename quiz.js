@@ -103,6 +103,7 @@ $(document).ready(function () {
       }
       $("footer").html("<p class='score'>Your score is <span>" +  score + " / " + numOfBooks + "</span></p>");
       $("footer").append("<a class='submit-button' id='submit' href='quiz.html'>Try Again?</a>")
+      $("footer").append("<a href='https:/'" + "'/twitter.com/share?ref_src=twsrc%5Etfw' class='twitter-share-button' data-size='large' data-text='I scored "+ score + "/" + numOfBooks + " on Emojipages.com!' data-hashtags='Emojipages' data-show-count='false'>Tweet Your Score!</a><script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>")
 
       for (var k in emojis) {
         $("#" + k).attr("contenteditable", "false").html(emojis[k].title);
