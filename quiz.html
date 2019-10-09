@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97195950-6"></script>
@@ -12,7 +12,7 @@
     </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>EmojiPages Quiz</title>
+    <title>EmojiPages</title>
     <meta name="description"
         content="A listing of books depicted through emojis.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,9 +29,9 @@
             <h1>EmojiPages</h1>
             <div class="heading-content">
                 <div class="header">
-                    <h2>EmojiPages Quiz! <img draggable="false" class="emoji" alt="❓"
-                            src="https://twemoji.maxcdn.com/v/12.1.3/72x72/2753.png"></h2>
-                    <p>Enter the book title below the emoji and score points!</p>
+                    <h2>Emojipages Quiz Game. <img draggable="false" class="emoji" alt="💖"
+                            src="https://twemoji.maxcdn.com/v/12.1.3/72x72/1f496.png"></h2>
+                    <p>Guess the title of the book and score points!</p>
                 </div>
                 <div class="contribute-callout">
                     <p>Want to add to EmojiPages? Head to Github! <img draggable="false" class="emoji" alt="✨"
@@ -39,15 +39,32 @@
                     <a href="https://github.com/brittanyrw/emojipages" target="_blank">Contribute</a>
                 </div>
             </div>
-            <nav>
-                <a class="nav-button" href="index.html">Home</a>
-                <a class="active" href="quiz.html">Quiz Yourself!</a>
-            </nav>
         </header>
+        <section class="filters">
+            <nav class="navbar">
+                <a class="nav-button" href="index.html">Home</a>
+                <a class="nav-button active" href="quiz.html">Quiz Yourself!</a>
+            </nav>
+            <div class="filters-heading">
+                Number of Books:
+            </div>
+            <div class="filters-options">
+                <select name="genre-filter" id="genre-filter" class="book-count">
+                    <option class="number-option" value=5>5</option>
+                    <option class="number-option" value=10 selected>10</option>
+                    <option class="number-option" value=15>15</option>
+                    <option class="number-option" value=20>20</option>
+                    <option class="number-option" value=30>30</option>
+                    <option class="number-option" value=50>50</option> 
+                </select>
+            </div>
+        </section>
         <section id="books"></section>
+        <section id="message"></section>
+        
         <footer>
             <p>Your score will be out of <span></span>❗️</p>
-            <button id="submit">Submit and Get Results</button>
+            <a class="submit-button" id="submit" target="_blank">Submit and Get Results</a>
         </footer>
     </main>
     <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>

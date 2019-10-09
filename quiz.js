@@ -1,6 +1,6 @@
 $(document).ready(function () {
     //create variable to store the score
-    var score = 0; 
+    var score = 0;
 
     // Create a variable for the container to hold the emoji cards.
     var emojiCardContainer = $("#books");
@@ -9,32 +9,42 @@ $(document).ready(function () {
     var emojiCard = "";
     
     // Create and assign a variable for number of books
-    var num = 20;
+    var numOfBooks = $("select option:selected").attr("value");
 
-    // Run the random order function below on the data inside data.js. This will display the cards in a random order on the page every time the page is refreshed.
-    shuffleAndShorten(emojiItems, num);
+    // Create emoji array for selected number of emojis
+    var emojis = shuffleAndShorten(emojiItems, numOfBooks);
 
-    // Loop through the data from the data.js file and insert parts of the data into HTML. On each loop, we are appending a new card with the HTML below.
-    for (var i in emojiItems) {
-      emojiCard +=
-      "<div class='emoji-card'><div class='emoji-card-wrapper'><div class='hint-container' tabindex='0'><i class='fas fa-question-circle'></i><p class='hint'><span class='type'>" + emojiItems[i].year +
-      "</span></p></div><div class='emoji-images' tabindex='0'>" + emojiItems[i].emojiImgs +
-      "</div><div class='emoji-card-title hide-card'></div></div>";
-      
-      emojiCard += "<div class='emoji-textbar' id=" + i + " contenteditable='true'>";
-      
-      emojiCard += "</div></div></div>";
-      console.log(emojiItems[i].title);
+
+    generateQuiz(numOfBooks);
+
+    //Function to run and reset quiz board
+    function generateQuiz(num) {
+      emojis = shuffleAndShorten(emojiItems, num);
+
+      // Loop through the data from the data.js file and insert parts of the data into HTML. On each loop, we are appending a new card with the HTML below.
+      for (var i in emojis) {
+        emojiCard +=
+        "<div class='emoji-card'><div class='emoji-card-wrapper'><div class='hint-container' tabindex='0'><i class='fas fa-question-circle'></i><p class='hint'><span class='type'>" + emojis[i].year +
+        "</span></p></div><div class='emoji-images' tabindex='0'>" + emojis[i].emojiImgs +
+        "</div><div class='emoji-card-title hide-card'>";
+        
+        emojiCard += "<div class='title-content'><h3>" + emojiItems[i].title +
+      " (" + emojiItems[i].year + ")" + "</h3><div class='author-container'><h4>" + emojiItems[i].author + "</h4></div>";
+
+        emojiCard += "</div></div><div class='emoji-textbar' id=" + i + " contenteditable='true'>";
+        
+        emojiCard += "</div></div></div>";
+      }
+    
+      // Append the emoji card variable, which has all of the emoji cards to the initial variable we created that was for the container to hold the cards.
+      emojiCardContainer.html(emojiCard);
+    
+      // Run Twemoji to change all emojis to Twitter emojis.
+      twemoji.parse(document.body);
+    
+      // Add the count of number of shows/movies to the footer.
+      $("footer span").html(emojis.length);
     }
-  
-    // Append the emoji card variable, which has all of the emoji cards to the initial variable we created that was for the container to hold the cards.
-    emojiCardContainer.html(emojiCard);
-  
-    // Run Twemoji to change all emojis to Twitter emojis.
-    twemoji.parse(document.body);
-  
-    // Add the count of number of shows/movies to the footer.
-    $("footer span").append(emojiItems.length);
   
   
     // Display movies and show in a random order, the random order will refresh on page reload. This function is used above before the cards are rendered on the page.
@@ -51,17 +61,9 @@ $(document).ready(function () {
         array[currentIndex] = array[randomIndex];
         array[randomIndex] = temporaryValue;
       }
-  
-      array.splice(num, array.length);
-      return array;
+
+      return array.slice(0, num);
     }
-  /*
-    // Expand the emoji card when clicked to reveal the song name, artist and music video link.
-    $("#books").on("click keypress", ".emoji-images", function () {
-      $(this)
-        .siblings(".emoji-card-title")
-        .toggleClass("hide-card");
-    });*/
   
     // Display a hint (type ie tv, movie or musical) when hovering over the question mark.
     $("#books").on("mousedown keypress", ".hint-container", function () {
@@ -76,22 +78,43 @@ $(document).ready(function () {
         .find(".hint")
         .removeClass("hint-reveal");
     });
+
+    $(".book-count").change(function () {
+      numOfBooks = $("select option:selected").attr("value");
+      emojiCardContainer.html("");
+      emojiCard = "";
+      generateQuiz(numOfBooks);
+    });
+
     // Submit and check the answers given
     $("#submit").click(function(){
+      $(".filters-options").attr("hidden", "true");
+      $(".filters-heading").attr("hidden", "true");
+
       //check the answers regardless of case
-      for (var i in emojiItems) {
-        if ($("#" + i).html().toUpperCase() === emojiItems[i].title.toUpperCase()) {
+      for (var j in emojis) {
+        if ($("#" + j).html().toUpperCase() === emojis[j].title.toUpperCase()) {
           score += 1;
-          $("#" + i).addClass("right-answer");
+          $("#" + j).addClass("right-answer");
         }
         else {
-          $("#" + i).addClass("wrong-answer");
+          $("#" + j).addClass("wrong-answer");
         }
       }
-      $("footer").html("<p class='score'>Your score is <span>" +  score + " / " + num + "</span></p>");
-      for (var j in emojiItems) {
-        $("#" + j).attr("contenteditable", "false").html(emojiItems[j].title);
+      $("footer").html("<p class='score'>Your score is <span>" +  score + " / " + numOfBooks + "</span></p>");
+      $("footer").append("<a class='submit-button' id='submit' href='quiz.html'>Try Again?</a>")
+
+      for (var k in emojis) {
+        $("#" + k).attr("contenteditable", "false").html(emojis[k].title);
       }
+
+      // Expand the emoji card when clicked to reveal the song name, artist and music video link.
+      $("#books").on("click keypress", ".emoji-images", function () {
+        $(this)
+          .siblings(".emoji-card-title")
+          .toggleClass("hide-card");
+      });
+
     });
 });
   
