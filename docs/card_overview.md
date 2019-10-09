@@ -12,7 +12,8 @@ In the `data.js` file, each `Emoji Card` consists of the following object:
     author: "Lauren Weisberger",
     emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
     genres: ["drama", "comedy","romance"],
-    year: 2003
+    year: 2003,
+    itemLink: "https://www.goodreads.com/book/show/5139.The_Devil_Wears_Prada"
 }
 ```
 
@@ -80,7 +81,17 @@ Specify the year the book was published. This should be a single number with no 
 
 ```
 {
-  year: 1994
+  year: 2003
+}
+```
+
+### Link 🔗
+
+A link to the book on [Good Reads](https://www.goodreads.com) should be added as a string. It will be used for users to go to that page and know more details about the book.
+
+```
+{
+  itemLink: "https://www.goodreads.com/book/show/5139.The_Devil_Wears_Prada"
 }
 ```
 
