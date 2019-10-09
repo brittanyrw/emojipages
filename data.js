@@ -684,5 +684,12 @@ const emojiItems = [
     emojiImgs: "👧👶👦🍳",
     genres: ["comedy", "drama"],
     year: 2000
+  },
+  {
+    title: "Harry Potter and the Goblet of Fire",
+    author: "J K. Rowling",
+    emojiImgs: "🧙‍♂️⚔⏱🏆🔥",
+    genres: ["fantasy", "childrens", "classic", "young-adult"],
+    year: 2000
   }
 ];
