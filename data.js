@@ -256,6 +256,13 @@ const emojiItems = [
     year: 2007
   },
   {
+    title: "Harry Potter and the Goblet of Fire",
+    author: "J K. Rowling",
+    emojiImgs: "🧙‍♂️⚔⏱🏆🔥",
+    genres: ["fantasy", "childrens", "classic", "young-adult"],
+    year: 2000
+  },
+  {
     title: "Harry Potter and the Half Blood Prince",
     author: "J.K. Rowling",
     emojiImgs: "💔🤴📚🚣💀🐍",
@@ -683,13 +690,6 @@ const emojiItems = [
     author: "Lemony Snicket",
     emojiImgs: "👧👶👦🍳",
     genres: ["comedy", "drama"],
-    year: 2000
-  },
-  {
-    title: "Harry Potter and the Goblet of Fire",
-    author: "J K. Rowling",
-    emojiImgs: "🧙‍♂️⚔⏱🏆🔥",
-    genres: ["fantasy", "childrens", "classic", "young-adult"],
     year: 2000
   }
 ];
