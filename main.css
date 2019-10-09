@@ -1,5 +1,5 @@
-*, *:before, *:after { 
-  box-sizing: border-box; 
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
 body {
@@ -87,6 +87,68 @@ h2 {
   color: #3c3a4a;
 }
 
+/* Filters styles */
+.filters {
+  max-width: 1000px;
+  margin: 20px auto 40px auto;
+  padding: 10px;
+  font-size: 25px;
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.filters-heading {
+  padding-right: 5px;
+}
+
+.filters-options {
+  padding: 0 10px;
+  position: relative;
+}
+
+.filters-options select {
+  font-size: 20px;
+  padding: 5px;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+#genre-filter {
+  border-radius: 0;
+  border: 0;
+  padding: 10px 20px;
+  background-color: white;
+  position: relative;
+}
+
+.filters-options:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0dc";
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #3c3a4a;
+    position: absolute;
+    right: 17px;
+    top: 8px;
+}
+
+@media screen and (max-width: 460px) {
+  .filters {
+    justify-content: center;
+  }
+
+  .filters-options {
+    width: 100%;
+  }
+}
+
 #books {
     display: grid;
     grid-template-columns: 1fr;
@@ -105,7 +167,7 @@ h2 {
 
 @media screen and (min-width: 662px){
   #books {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -342,3 +404,7 @@ footer img {
   text-align: center;
 }
 
+/* General modifier for hiding elements */
+.is-hidden {
+  display: none;
+}
