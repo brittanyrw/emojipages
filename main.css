@@ -101,6 +101,7 @@ h2 {
 
 .filters-heading {
   padding-right: 5px;
+  margin-left: 50px;
 }
 
 .filters-options {
@@ -119,7 +120,7 @@ h2 {
 #genre-filter {
   border-radius: 0;
   border: 0;
-  padding: 10px 20px;
+  padding: 10px 30px;
   background-color: white;
   position: relative;
 }
@@ -407,4 +408,55 @@ footer img {
 /* General modifier for hiding elements */
 .is-hidden {
   display: none;
+}
+
+.emoji-textbar {
+  min-height: 30px;
+  height: auto;
+  overflow: hidden;
+  min-width: inherit;
+  background-color: white;
+  align-self: center;
+}
+
+.wrong-answer {
+  background-color: lightcoral;
+}
+
+.right-answer {
+  background-color: lightgreen;
+}
+
+.nav-button {
+  background-color: blueviolet;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.active {
+  background-color: violet;
+}
+
+#submit {
+  padding: 10px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.nav-button:hover, #submit:hover {
+  background-color: violet;
+}
+
+.score {
+  margin: 20px;
+}
+
+.twitter-share-button {
+  margin-left: 20px;
 }

@@ -2,4 +2,4 @@
 
 <!-- Add Closes #--- where (---) is the Issue number to the bottom of this pull request descripting. This will attach this pull request to an issue. --> 
 
-Add a descripting below of what this pull request is addressing and let us know if you need additional guidance or have questions about something. 
+# Added a Quiz Game Mode
