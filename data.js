@@ -597,6 +597,13 @@ const emojiItems = [
     year: 2019
   },
   {
+    title: "The Scarlet Letter",
+    author: "Nathaniel Hawthorne",
+    emojiImgs: "🅰️❤️👶🤱⚖️",
+    genres: ["romance", "historical-fiction"],
+    year: 1850
+  },
+  {
     title: "The Tempest",
     author: "William Shakespeare",
     emojiImgs: "🚢 ⛈🧙‍😱",
