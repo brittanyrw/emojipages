@@ -112,6 +112,13 @@ $(document).ready(function () {
     }
   }
 
+  // // Initialize jQuery Selectric to the filter
+  // function initializeSelectric() {
+  //   $('select').selectric({
+  //     maxHeight: 200;
+  //   });
+  // }
+
   /**
    * This function will make an ajax request to read the genres.md file and add filters to the genre filters array
    */

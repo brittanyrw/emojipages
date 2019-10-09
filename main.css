@@ -104,16 +104,24 @@ h2 {
 }
 
 .filters-options {
-  padding: 0 10px;
+  display: inline-block;
   position: relative;
+  margin-left: 6px;
+  /* padding: 0 10px;
+  position: relative; */
 }
 
 .filters-options select {
-  font-size: 20px;
+  text-align: left;
+  position: absolute;
+  padding: 0;
+  top: 0;
+  
+  /* font-size: 20px;
   padding: 5px;
   width: 100%;
   -webkit-appearance: none;
-  -moz-appearance: none;
+  -moz-appearance: none; */
 }
 
 #genre-filter {
