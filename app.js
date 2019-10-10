@@ -216,6 +216,11 @@ $(document).ready(function () {
 
   }
 
+  $(".filters-options").click(function () {
+    $(this)
+      .toggleClass("select-arrow-active")
+  });
+
   /**
    * Sort an array alphabetical
    * @param {string} a The first property to check

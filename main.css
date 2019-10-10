@@ -104,47 +104,54 @@ h2 {
 }
 
 .filters-options {
-  display: inline-block;
+  padding: 0 10px;
   position: relative;
-  margin-left: 6px;
-  /* padding: 0 10px;
-  position: relative; */
 }
 
 .filters-options select {
-  text-align: left;
-  position: absolute;
-  padding: 0;
-  top: 0;
-  
-  /* font-size: 20px;
+  font-size: 20px;
   padding: 5px;
   width: 100%;
   -webkit-appearance: none;
-  -moz-appearance: none; */
+  -moz-appearance: none;
 }
 
 #genre-filter {
-  border-radius: 0;
+  border-radius: 0.7em;
+  opacity: 0.4;
   border: 0;
   padding: 10px 20px;
-  background-color: white;
+  background-color: #fff;
   position: relative;
 }
 
 .filters-options:after {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f0dc";
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    color: #3c3a4a;
-    position: absolute;
-    right: 17px;
-    top: 8px;
+  content: "";
+  top: 2px;
+  right: 23px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+  
+  font-weight: 900;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  /* border-color: #AE74FF transparent transparent transparent; */
+  /* font-family: "Font Awesome 5 Free"; */
+  /* content: "\f0dc"; */
+  /* text-rendering: auto; */
+  /* color: #3c3a4a; */
+  /* right: 17px; */
+  /* top: 8px; */
+}
+
+.filters-options.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 2px;
 }
 
 @media screen and (max-width: 460px) {
