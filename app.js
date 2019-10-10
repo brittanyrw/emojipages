@@ -217,8 +217,7 @@ $(document).ready(function () {
   }
 
   $(".filters-options").click(function () {
-    $(this)
-      .toggleClass("select-arrow-active")
+      $(this).toggleClass("select-arrow-active")
   });
 
   /**

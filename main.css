@@ -127,7 +127,7 @@ h2 {
 
 .filters-options:after {
   content: "";
-  top: 2px;
+  top: 18px;
   right: 23px;
   width: 0;
   height: 0;
@@ -151,7 +151,7 @@ h2 {
 
 .filters-options.select-arrow-active:after {
   border-color: transparent transparent #fff transparent;
-  top: 2px;
+  top: 8px;
 }
 
 @media screen and (max-width: 460px) {
