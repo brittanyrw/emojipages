@@ -604,6 +604,14 @@ const emojiItems = [
     year: 1850
   },
   {
+    title: "Shadow of the Lions",
+    author: "Christopher Swann",
+    emojiImgs: "👥 🌑 🐆 🦁 🦁 ",
+    genres: ["fantasy", "thriller" , "mystery"],
+    year: 2017
+  },
+  
+  {
     title: "The Tempest",
     author: "William Shakespeare",
     emojiImgs: "🚢 ⛈🧙‍😱",
