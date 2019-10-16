@@ -88,9 +88,9 @@ Specify the year the book was published. This should be a single number with no 
 
 Follow the checklist below when working on adding a card. This will help you double check that you have everything you need to have your Pull Request approved.
 
-- [ ] 💜 There is an Issue for this show/movie and you have been assigned to add it. 
-- [ ] 👍 The pull request has a descriptive title (such as `Added Matilda` or `Added all of Jane Austen's books`)
+- [ ] 🔎 Have searched the `data.js` file and `Pull Requests` to make sure that you are not adding a duplicate.
 - [ ] 🖍️ The new books(s) or play(s) have been placed in alphabetical order based on `title` inside of the `data.js` file. 
+- [ ] 👍 The pull request has a descriptive title (such as `Added Matilda` or `Added all of Jane Austen's books`)
 - [ ] 4️⃣ There are at least four emojis listed under `emojiImgs`
 - [ ] 6️⃣ There are a maximum of six emojis listed under `emojiImgs`.
 - [ ] ⭐ The genres are all inside of square brackets `[ ]` and each are individually wrapped in quotation marks and have a comma between each one. (such as submitting this `"genres": ["fantasy", "children", "adventure"]` and not this `"genres":["fantasy, children, adventure"]`). 
