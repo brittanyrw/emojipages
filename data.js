@@ -1,5 +1,12 @@
 const emojiItems = [
   {
+    title: "Everything figureoutable",
+    author: "Marie forleo",
+    emojiImgs: "😲️🤯️😎️",
+    genres: ["Self-help book", "Reference work"],
+    year: 2019
+  },
+  {
     title: "A Feast for Crows",
     author: "George R. R. Martin",
     emojiImgs: "🍳🐛🐦🦅",
