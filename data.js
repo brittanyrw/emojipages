@@ -70,6 +70,13 @@ const emojiItems = [
     year: 1945
   },
   {
+    title: "The Baby-Sitters Club",
+    author: "Ann Martin",
+    emojiImgs: "🧒👧🏡🎡",
+    genres: ["fiction"],
+    year: 1986
+  },
+  {
     title: "The Bad Beginning",
     author: "Lemony Snicket",
     emojiImgs: "👧👶👦😈",
@@ -602,6 +609,13 @@ const emojiItems = [
     emojiImgs: "🅰️❤️👶🤱⚖️",
     genres: ["romance", "historical-fiction"],
     year: 1850
+  },
+  {
+    title: "Superfudge",
+    author: "Judy Blume",
+    emojiImgs: "🧒👧🗽🐦",
+    genres: ["literature"],
+    year: 1980
   },
   {
     title: "The Tempest",
