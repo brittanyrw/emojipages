@@ -46,7 +46,7 @@ In the `data.js` file, each `Emoji Card` consists of the following object:
 View the [Card Overview](/docs/card_overview.md) for more details on each part of the emoji object.
 
 #### Walkthroughs
-Below are detailed walkthroughs on how to add a book or play to EmojiPages.
+**Below are detailed walkthroughs on how to add a book or play to EmojiPages**.
 
 * [Add a book or play via Github website](docs/github_ui_walkthrough.md) (no downloads required)
 * [Add a book or play using your local development environment](docs/local_dev_walkthrough.md) (downloads required, most commonly used way to contribute).
@@ -55,7 +55,7 @@ Below are detailed walkthroughs on how to add a book or play to EmojiPages.
 * Follow all the instructions in the [Card Overview](/docs/card_overview.md) for adding a book or play.
 * Search the data.js file and pull requests to make sure you are not adding a duplicate.
 * Make sure your emojis actually depict the book or play.
-* You do not have to wait for confirmation to create a pull request for a book or play and you do not have to make an Issue first.
+* You don't have to wait for confirmation to create a pull request for a book or play and you do not have to make an Issue first.
 * If you are adding multiple items, please include them in one pull request.
 * **[Go through this checklist](docs/card_overview.md#card-pull-request-checklist) to make sure you have added everything needed for a book or play.** 
 * Please [fix conflicts](https://help.github.com/en/articles/resolving-a-merge-conflict-on-github) if your pull request has them.
