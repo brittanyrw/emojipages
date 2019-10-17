@@ -27,6 +27,8 @@ If you would like to suggest a new feature, create [an Issue](https://github.com
 
 To add a book or play to this project, you will need to add an `Emoji Card` inside of the `data.js` file. The `data.js` file is made up of an array (a list) of objects. You will add a new object for your book. 
 
+If you need help choosing a book to add, [check the Issues](https://github.com/brittanyrw/emojipages).
+
 Below is an example of what a book looks like on the website:
 
 ![Screenshot of emoji cards](/readme/emojipages-card.png)
