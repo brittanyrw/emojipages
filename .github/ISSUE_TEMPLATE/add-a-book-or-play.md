@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**Name of Book or Play **
+**Name of Book or Play**
 List the name of the show or movie here
 
 **Have you confirmed that this has not already been added to the project?**
