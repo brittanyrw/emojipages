@@ -103,12 +103,20 @@ const emojiItems = [
     emojiImgs: "🎩🏭🍫🎫👦🏼",
     genres: ["fantasy", "children's"],
     year: 1964
-  },{
+  },
+  {
     title: "Charlotte's Web",
     author: "E.B. White",
     emojiImgs: "🕷️🕸️🖊️🐖👩‍👩‍👧",
     genres: ["fiction", "children's"],
     year: 1952
+  },
+  ,{
+    title: "Cidade de Deus",
+    author: "Fernando Meirelles",
+    emojiImgs: "🇧🇷👏🙌🏙",
+    genres: ["action", "drama"],
+    year: 2002
   },
   {
     title: "Cloud Atlas",
@@ -324,6 +332,13 @@ const emojiItems = [
     emojiImgs: "🌱💨💰🕵️‍♂️",
     genres: ["fiction", "mystery", "crime", "noir"],
     year: 2009
+  },  
+  {
+    title: "Interestellar",
+    author: "Christopher Nolan",
+    emojiImgs: "🌎🛰🚀🌠🕑",
+    genres: ["science-fiction", "drama"],
+    year: 2014
   },
   {
     title: "IT",
