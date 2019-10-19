@@ -618,11 +618,25 @@ const emojiItems = [
     year: 1980
   },
   {
+    title: "Steelheart",
+    author: "Brandon Sanderson",
+    emojiImgs: "/⚙❤😡🔫🤓🌃",
+    genres: ["action-and-adventure", "fantasy","literature"],
+    year: 2013
+  },
+  {
     title: "The Tempest",
     author: "William Shakespeare",
     emojiImgs: "🚢 ⛈🧙‍😱",
     genres: ["romance"],
     year: 1611
+  },
+  {
+      title: "The Matrix",
+      author: "Lilly Wachowski, Lana Wachowski",
+      emojiImgs: "😎🤚🔫🔵🔴",
+      genres: ["action-and-adventure","science-fiction", "dystopian"],
+      year: 1999
   },
   {
     title: "To Kill a Mockingbird",
