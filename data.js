@@ -705,5 +705,12 @@ const emojiItems = [
     emojiImgs: "👧👶👦🍳",
     genres: ["comedy", "drama"],
     year: 2000
+  },
+  {
+    title:"It",
+    author:"Stephen King",
+    emojiImgs:"🤡🔪🎃🎠",
+    genres:["drama","thriller"],
+    year: 1986
   }
 ];
