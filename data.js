@@ -326,6 +326,14 @@ const emojiItems = [
     year: 2009
   },
   {
+    title: "Into the Wild",
+    author: "Sean Penn",
+    emojiImgs: "➡🌎🍃🌲",
+    genres: ["adventure", "biography","non-fiction"],
+    year: 2008
+  },
+  
+  {
     title: "IT",
     author: "Stephen King",
     emojiImgs: "🤡🎈👿🧒",
@@ -422,6 +430,13 @@ const emojiItems = [
     emojiImgs: "🚀🥔🧪🤔",
     genres: ["science-fiction", "fiction"],
     year: 2011
+  },
+  {
+    title: "The Mark of Zorro",
+    author: "Don McDougall",
+    emojiImgs: "🎩🤺🎯💤",
+    genres: ["adventure", "action"],
+    year: 1974
   },
   {
     title: "Matilda",
@@ -667,6 +682,13 @@ const emojiItems = [
     year: 1869
   },
   {
+    title: "War Dogs",
+    author: "Todd Phillips",
+    emojiImgs: "🐕🐕💣💣",
+    genres: ["war","crime"],
+    year: 2016
+  },
+  {
     title: "The War of the Worlds",
     author: " H. G. Wells",
     emojiImgs: "👽👾🌎⚔️💣",
@@ -706,4 +728,5 @@ const emojiItems = [
     genres: ["comedy", "drama"],
     year: 2000
   }
+  
 ];
