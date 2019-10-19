@@ -21,6 +21,13 @@ const emojiItems = [
     year: 2000
   },
   {
+    title: "The Adventures of Pinocchio",
+    author: "Carlo Collodi",
+    emojiImgs: "🧒👃🤥🎡🐳🦗",
+    genres: ["fiction", "fantasy"],
+    year: 1883
+  },
+  {
     title: "The Adventures of Sherlock Holmes",
     author: "Sir Arthur Conan Doyle",
     emojiImgs: "🧠🎻⚰👣🕵️‍♂️",
