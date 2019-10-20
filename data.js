@@ -691,5 +691,12 @@ const emojiItems = [
     emojiImgs: "👧👶👦🍳",
     genres: ["comedy", "drama"],
     year: 2000
+  },
+  {
+    title: "The Wind-Up Bird Chronicle",
+    author: "Haruki Murakami",
+    emojiImgs: "🐈💔👩🏻🔮👴🏻🐦",
+    genres: ["Magical Realism", "Fiction", "Mystery"],
+    year: 1997
   }
 ];
