@@ -642,7 +642,7 @@ const emojiItems = [
   {
     title: "The Trial",
     author: "Franz Kafka",
-    emojiImgs: "🚢 ⛈🧙‍😱",
+    emojiImgs: "⏳🔎❓👁🧠",
     genres: ["romance", "philosofy", "dystopian"],
     year: 1925
   },
