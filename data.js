@@ -137,7 +137,15 @@ const emojiItems = [
     emojiImgs: "⚔️❤️🌎🤕👩‍👧🧩",
     genres: ["dystopian", "science-fiction", "young-adult"],
     year: 2011
-  },{
+  },
+  {
+    title: "Don Quixote",
+    author: "Miguel de Cervantes",
+    emojiImgs: "🇪🇸⚔🛡🏇🤺",
+    genres: ["romance", "dystopian", "adventure"],
+    year: 1605
+  },
+  {
     title: "The Da Vinci Code",
     author: "Dan Brown",
     emojiImgs: "🕵‍♂ 🔎 🤔",
@@ -327,12 +335,11 @@ const emojiItems = [
   },
   {
     title: "Into the Wild",
-    author: "Sean Penn",
+    author: "Jon Krakauer",
     emojiImgs: "➡🌎🍃🌲",
-    genres: ["adventure", "biography","non-fiction"],
-    year: 2008
+    genres: ["adventure", "biography","true travel essay"],
+    year: 1996
   },
-  
   {
     title: "IT",
     author: "Stephen King",
@@ -430,13 +437,6 @@ const emojiItems = [
     emojiImgs: "🚀🥔🧪🤔",
     genres: ["science-fiction", "fiction"],
     year: 2011
-  },
-  {
-    title: "The Mark of Zorro",
-    author: "Don McDougall",
-    emojiImgs: "🎩🤺🎯💤",
-    genres: ["adventure", "action"],
-    year: 1974
   },
   {
     title: "Matilda",
@@ -640,6 +640,13 @@ const emojiItems = [
     year: 1611
   },
   {
+    title: "The Trial",
+    author: "Franz Kafka",
+    emojiImgs: "🚢 ⛈🧙‍😱",
+    genres: ["romance", "philosofy", "dystopian"],
+    year: 1925
+  },
+  {
     title: "To Kill a Mockingbird",
     author: "Harper Lee",
     emojiImgs: "🏹🐦👧👦🧓🇺🇸",
@@ -680,13 +687,6 @@ const emojiItems = [
     emojiImgs: "⚔️🕊️💌🇷🇺",
     genres: ["historical-fiction"],
     year: 1869
-  },
-  {
-    title: "War Dogs",
-    author: "Todd Phillips",
-    emojiImgs: "🐕🐕💣💣",
-    genres: ["war","crime"],
-    year: 2016
   },
   {
     title: "The War of the Worlds",
