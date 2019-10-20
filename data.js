@@ -632,13 +632,6 @@ const emojiItems = [
     year: 1611
   },
   {
-      title: "The Matrix",
-      author: "Lilly Wachowski, Lana Wachowski",
-      emojiImgs: "😎🤚🔫🔵🔴",
-      genres: ["action-and-adventure","science-fiction", "dystopian"],
-      year: 1999
-  },
-  {
     title: "To Kill a Mockingbird",
     author: "Harper Lee",
     emojiImgs: "🏹🐦👧👦🧓🇺🇸",
