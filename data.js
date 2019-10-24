@@ -584,6 +584,13 @@ const emojiItems = [
     year: 1597
   },
   {
+    title: "Sense ans Sensibility",
+    author: "Jane Austen",
+    emojiImgs: "👩‍👧‍👧💰💔👫",
+    genres: ["Novel"],
+    year: 1811
+  }
+  {
     title: "The Shining",
     author: "Stephen King",
     emojiImgs: "👨🔪🚪😱",
@@ -720,11 +727,5 @@ const emojiItems = [
     genres: ["Magical Realism", "Fiction", "Mystery"],
     year: 1997
   },
-  {
-    title: "Sense ans Sensibility",
-    author: "Jane Austen",
-    emojiImgs: "👨🏻❤️👩🏻💔💍🧝",
-    genres: ["Novel"],
-    year: 1811
-  }
+  
 ];
