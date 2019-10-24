@@ -49,6 +49,13 @@ const emojiItems = [
     year: 1865
   },
   {
+    title: "Alita: Battle Angel",
+    author: "Robert Rodriguez",
+    emojiImgs: "👀⚔️👼🗡️🤾‍♀️⛏️",
+    genres: ["science-fiction, action"],
+    year: "2019"
+  }
+  {
     title: "The Andromeda Strain",
     author: "Michael Crichton",
     emojiImgs: "👨‍🔬💉👽🛸",
@@ -631,6 +638,13 @@ const emojiItems = [
     genres: ["romance"],
     year: 1611
   },
+  {
+    title: "Three Men And a Baby",
+    author: "Leonard Nimoy",
+    emojiImgs: "🧑🧑👨👶",
+    genres: ["comedy"],
+    year: 1987
+  }
   {
     title: "To Kill a Mockingbird",
     author: "Harper Lee",
