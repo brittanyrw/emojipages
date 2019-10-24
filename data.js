@@ -720,4 +720,11 @@ const emojiItems = [
     genres: ["Magical Realism", "Fiction", "Mystery"],
     year: 1997
   }
+   {
+    title: "The Color Purple",
+    author: "Alice Walker",
+    emojiImgs: "🇺🇸👧🏽👎🏿👵🏾👍🏾",
+    genres: ["classic", "historical-fiction", "Mystery"],
+    year: 1982
+  }
 ];
