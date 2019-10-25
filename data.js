@@ -707,6 +707,13 @@ const emojiItems = [
     year: 1926
   },
   {
+    title: "The Winter King",
+    author: "Bernard Cornwell",
+    emojiImgs: "❄🇬🇧⚔👑",
+    genres: ["historical-fiction"],
+    year: 1995
+  },
+  {
     title: "The Wide Window",
     author: "Lemony Snicket",
     emojiImgs: "👧👶👦🍳",
