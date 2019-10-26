@@ -132,6 +132,13 @@ const emojiItems = [
     year: 2000
   },
   {
+    title: "Coraline",
+    author: "Neil Gaiman",
+    emojiImgs: "👧🏻🗝🐈🚪🐀⚫",
+    genres: ["adventure", "fantasy", "horror"],
+    year: 2002
+  },
+  {
     title: "The Color Purple",
     author: "Alice Walker",
     emojiImgs: "🇺🇸👧🏽👎🏿👵🏾👍🏾",
