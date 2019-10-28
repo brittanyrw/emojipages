@@ -627,7 +627,7 @@ const emojiItems = [
   {
     title: "Steelheart",
     author: "Brandon Sanderson",
-    emojiImgs: "/⚙❤😡🔫🤓🌃",
+    emojiImgs: "⚙❤😡🔫🤓🌃",
     genres: ["action-and-adventure", "fantasy","literature"],
     year: 2013
   },
