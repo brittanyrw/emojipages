@@ -91,6 +91,13 @@ const emojiItems = [
     year: 1999
   },
   {
+    title: "The Book Thief",
+    author: "Markus Zusak",
+    emojiImgs: "🇩🇪☠️📚🔥👧🏼",
+    genres: ["historical-fiction", "fiction", "war"],
+    year: 2006
+  },
+  {
     title: "Breaking Dawn",
     author: "Stephenie Meyer",
     emojiImgs: "🧛‍♂️💔👼💫🌖",
@@ -137,6 +144,13 @@ const emojiItems = [
     emojiImgs: "🇺🇸👧🏽👎🏿👵🏾👍🏾",
     genres: ["classic", "historical"],
     year: 1982
+  },
+  {
+    title: "Crazy Rich Asians",
+    author: "Kevin Kwan",
+    emojiImgs: "🤪💰💵🇸🇬🌏",
+    genres: ["fiction", "romance", "comedy"],
+    year: 2013
   },
   {
     title: "Divergent",
@@ -207,6 +221,13 @@ const emojiItems = [
     emojiImgs: "❤️🐺🧛‍♂️🌕💑",
     genres: ["young-adult", "fantasy", "romance"],
     year: 2007
+  },
+  {
+    title: "The Fault in Our Stars",
+    author: "John Green",
+    emojiImgs: "☁️💙🚬🇳🇱🏥",
+    genres: ["young-adult", "romance"],
+    year: 2012
   },
   {
     title: "Fight Club",
@@ -534,6 +555,13 @@ const emojiItems = [
     emojiImgs: "💒 🏭 🌏",
     genres: ["historical", "fiction", "fantasy"],
     year: 1989
+  },
+  {
+    title: "Percy Jackson and the Lightning Thief",
+    author: "Rick Riordan",
+    emojiImgs: "⚡️🏛🌊",
+    genres: ["adventure", "fantasy", "young-adult"],
+    year: 2005
   },
   {
     title: "The Perks of Being a Wallflower",
