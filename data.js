@@ -4,105 +4,121 @@ const emojiItems = [
     author: "George R. R. Martin",
     emojiImgs: "🍳🐛🐦🦅",
     genres: ["fantasy", "fiction"],
-    year: 2005
+    year: 2005,
+    itemLink: "https://www.goodreads.com/book/show/13497.A_Feast_for_Crows",
   },
+  
   {
     title: "A Clash of Kings",
     author: "George R. R. Martin",
     emojiImgs: "👑👑🐺⚔",
     genres: ["fantasy"],
-    year: 1998
+    year: 1998,
+    itemLink: "https://www.goodreads.com/book/show/10572.A_Clash_of_Kings",
   },
   {
     title: "A Storm of Swords",
     author: "George R. R. Martin",
     emojiImgs: "🌩️🌪️⚔️🛡️🗡️",
     genres: ["fantasy", "fiction"],
-    year: 2000
+    year: 2000,
+    itemLink: "https://www.goodreads.com/book/show/62291.A_Storm_of_Swords",
   },
   {
     title: "The Adventures of Pinocchio",
     author: "Carlo Collodi",
     emojiImgs: "🧒👃🤥🎡🐳🦗",
     genres: ["fiction", "fantasy"],
-    year: 1883
+    year: 1883,
+    itemLink: "https://www.goodreads.com/book/show/180617.Pinocchio",
   },
   {
     title: "The Adventures of Sherlock Holmes",
     author: "Sir Arthur Conan Doyle",
     emojiImgs: "🧠🎻⚰👣🕵️‍♂️",
     genres: ["mystery","crime","classic"],
-    year: 1892
+    year: 1892,
+    itemLink: "https://www.goodreads.com/book/show/3590.The_Adventures_of_Sherlock_Holmes",
   },
   {
     title: "Alexander Hamilton",
     author: "Ron Chernow",
     emojiImgs: "🇺🇸⚔️💵👨",
     genres: ["non-fiction", "biography"],
-    year: 2004
+    year: 2004,
+    itemLink: "https://www.goodreads.com/book/show/16130.Alexander_Hamilton",
   },
   {
     title: "Alice's Adventures in Wonderland",
     author: "Lewis Carroll",
     emojiImgs: "👩🐇😼☕🎩♕",
     genres: ["fantasy", "children's"],
-    year: 1865
+    year: 1865,
+    itemLink: "https://www.goodreads.com/book/show/6324090-alice-s-adventures-in-wonderland",
   },
   {
     title: "The Andromeda Strain",
     author: "Michael Crichton",
     emojiImgs: "👨‍🔬💉👽🛸",
     genres: ["thriller"],
-    year: 1969
+    year: 1969,
+    itemLink: "https://www.goodreads.com/book/show/7670.The_Andromeda_Strain",
   },
   {
     title: "Angels & Demons",
     author: "Dan Brown",
     emojiImgs: "👨‍🏫🇻🇦⏳💣🔎",
     genres: ["crime", "mystery", "thriller"],
-    year: 2000
+    year: 2000,
+    itemLink: "https://www.goodreads.com/book/show/960.Angels_Demons",
   },
   {
     title: "Angels in America",
     author: "Tony Kushner",
     emojiImgs: "👼🏽🇺🇸👬🏳️‍🌈👦🏽",
     genres: ["drama"],
-    year: 1991
+    year: 1991,
+    itemLink: "https://www.goodreads.com/book/show/72003.Angels_in_America",
   },
   {
     title: "Animal Farm",
     author: "George Orwell",
     emojiImgs: "🐷🐰🐭🐴🐮🐔",
     genres: ["satire"],
-    year: 1945
+    year: 1945,
+    itemLink: "https://www.goodreads.com/book/show/170448.Animal_Farm",
   },
   {
-    title: "The Baby-Sitters Club",
+    title: "The Babysitters Club",
     author: "Ann Martin",
     emojiImgs: "🧒👧🏡🎡",
     genres: ["fiction"],
-    year: 1986
+    year: 1986,
+    itemLink: "https://www.goodreads.com/book/show/3154081-the-babysitters-club",
   },
   {
     title: "The Bad Beginning",
     author: "Lemony Snicket",
     emojiImgs: "👧👶👦😈",
     genres: ["comedy", "drama"],
-    year: 1999
+    year: 1999,
+    itemLink: "https://www.goodreads.com/book/show/78411.The_Bad_Beginning",
   },
   {
     title: "The Book Thief",
     author: "Markus Zusak",
     emojiImgs: "🇩🇪☠️📚🔥👧🏼",
     genres: ["historical-fiction", "fiction", "war"],
-    year: 2006
+    year: 2006,
+    itemLink: "https://www.goodreads.com/book/show/19063.The_Book_Thief",
   },
   {
     title: "Breaking Dawn",
     author: "Stephenie Meyer",
     emojiImgs: "🧛‍♂️💔👼💫🌖",
     genres: ["young-adult", "fantasy", "romance"],
-    year: 2008
+    year: 2008,
+    itemLink: "https://www.goodreads.com/book/show/1162543.Breaking_Dawn",
   },
   {
     title: "The Cat In The Hat",
