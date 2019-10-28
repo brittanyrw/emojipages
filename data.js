@@ -132,6 +132,13 @@ const emojiItems = [
     year: 2004
   },
   {
+    title: "The Color Purple",
+    author: "Alice Walker",
+    emojiImgs: "🇺🇸👧🏽👎🏿👵🏾👍🏾",
+    genres: ["classic", "historical"],
+    year: 1982
+  },
+  {
     title: "Confessions of a Shopaholic",
     author: "Sophie Kinsella",
     emojiImgs: "👠🧣🛍️📈💸",
@@ -146,32 +153,11 @@ const emojiItems = [
     year: 2002
   },
   {
-    title: "The Color Purple",
-    author: "Alice Walker",
-    emojiImgs: "🇺🇸👧🏽👎🏿👵🏾👍🏾",
-    genres: ["classic", "historical"],
-    year: 1982
-  },
-  {
     title: "Crazy Rich Asians",
     author: "Kevin Kwan",
     emojiImgs: "🤪💰💵🇸🇬🌏",
     genres: ["fiction", "romance", "comedy"],
     year: 2013
-  },
-  {
-    title: "Divergent",
-    author: "Veronica Roth",
-    emojiImgs: "⚔️❤️🌎🤕👩‍👧🧩",
-    genres: ["dystopian", "science-fiction", "young-adult"],
-    year: 2011
-  },
-  {
-    title: "Don Quixote",
-    author: "Miguel de Cervantes",
-    emojiImgs: "🇪🇸⚔🛡🏇🤺",
-    genres: ["romance", "dystopian", "adventure"],
-    year: 1605
   },
   {
     title: "The Da Vinci Code",
@@ -195,6 +181,13 @@ const emojiItems = [
     year: 2003
   },
   {
+    title: "Diary of A Wimpy Kid",
+    author: "Jeff Kinney",
+    emojiImgs: "📔🧀🎒🎮",
+    genres: ["comedy", "fiction", "young-adult"],
+    year: 2007
+  },
+  {
     title: "Disgrace",
     author: "J. M. Coetzee",
     emojiImgs: "🇿🇦🌹👨‍🏫👩‍🎓",
@@ -202,11 +195,18 @@ const emojiItems = [
     year: 1999
   },
   {
-    title: "Diary of A Wimpy Kid",
-    author: "Jeff Kinney",
-    emojiImgs: "📔🧀🎒🎮",
-    genres: ["comedy", "fiction", "young-adult"],
-    year: 2007
+    title: "Divergent",
+    author: "Veronica Roth",
+    emojiImgs: "⚔️❤️🌎🤕👩‍👧🧩",
+    genres: ["dystopian", "science-fiction", "young-adult"],
+    year: 2011
+  },
+  {
+    title: "Don Quixote",
+    author: "Miguel de Cervantes",
+    emojiImgs: "🇪🇸⚔🛡🏇🤺",
+    genres: ["romance", "dystopian", "adventure"],
+    year: 1605
   },
   {
     title: "Dune",
@@ -258,6 +258,13 @@ const emojiItems = [
     year: 1972
   },
   {
+    title: "The Girl with the Dragon Tattoo",
+    author: "Stieg Larsson",
+    emojiImgs: "👧🏻🐉💉🇸🇪",
+    genres: ["crime", "mystery", "thriller"],
+    year: 2005
+  },
+  {
     title: "The Goldfinch",
     author: "Donna Tartt",
     emojiImgs: "🥇🐤🖼️👱‍♂",
@@ -270,13 +277,6 @@ const emojiItems = [
     emojiImgs: "👧👦🛣️👩🔪👨",
     genres: ["mystery", "crime"],
     year: 2012
-  },
-  {
-    title: "The Girl with the Dragon Tattoo",
-    author: "Stieg Larsson",
-    emojiImgs: "👧🏻🐉💉🇸🇪",
-    genres: ["crime", "mystery", "thriller"],
-    year: 2005
   },
   {
     title: "Goodnight Moon",
@@ -460,14 +460,6 @@ const emojiItems = [
     year: 1939
   },
   {
-    title: "The Metamorphosis",
-    author: "Franz Kafka",
-    emojiImgs: "👨😴✨🐜😱",
-    genres: ["absurdism","fantasy"],
-    year: 1915,
-    itemLink: "https://www.goodreads.com/book/show/485894.The_Metamorphosis"
-  },
-  {
     title: "The Martian",
     author: "Andy Weir",
     emojiImgs: "🚀🥔🧪🤔",
@@ -494,7 +486,16 @@ const emojiItems = [
     emojiImgs: "🚢⌛💰🔪👨",
     genres: ["drama", "comedy", "romance"],
     year: 1600
-  },{
+  }, 
+  {
+    title: "The Metamorphosis",
+    author: "Franz Kafka",
+    emojiImgs: "👨😴✨🐜😱",
+    genres: ["absurdism", "fantasy"],
+    year: 1915,
+    itemLink: "https://www.goodreads.com/book/show/485894.The_Metamorphosis"
+  },
+  {
     title: "Mistborn",
     author: "Brandon Sanderson",
     emojiImgs: "🧪🕴🌋🙎🏻⚔️👑",
@@ -633,6 +634,12 @@ const emojiItems = [
     emojiImgs: "👨🏻❤️👩🏻🧪☠",
     genres: ["drama", "romance"],
     year: 1597
+  }, {
+    title: "The Scarlet Letter",
+    author: "Nathaniel Hawthorne",
+    emojiImgs: "🅰️❤️👶🤱⚖️",
+    genres: ["romance", "historical-fiction"],
+    year: 1850
   },
   {
     title: "The Shining",
@@ -653,27 +660,19 @@ const emojiItems = [
     emojiImgs: "🏴󠁧󠁢󠁳󠁣󠁴󠁿👨‍⚕️🦹‍♂️󠁧󠁢󠁳󠁣󠁴󠁿🧪☯️",
     genres: ["classic", "mystery", "science-fiction"],
     year: 1886
-  },
-  {
-    title: "Talking To Strangers",
-    author: " Malcom Gladwell",
-    emojiImgs: " 🙋🏼  🙋🏼‍♂️ 👩🏼‍💻 👨🏼‍💻 🎭",
-    genres: ["self-help"],
-    year: 2019
-  },
-  {
-    title: "The Scarlet Letter",
-    author: "Nathaniel Hawthorne",
-    emojiImgs: "🅰️❤️👶🤱⚖️",
-    genres: ["romance", "historical-fiction"],
-    year: 1850
-  },
-  {
+  }, {
     title: "The Struggle",
     author: "L.J.Smith",
     emojiImgs: "😱🧛💀👍🦇",
-    genres: ["crime","horror"],
+    genres: ["crime", "horror"],
     year: 1991
+  },
+  {
+    title: "Steelheart",
+    author: "Brandon Sanderson",
+    emojiImgs: "⚙❤😡🔫🤓🌃",
+    genres: ["action-and-adventure", "fantasy", "literature"],
+    year: 2013
   },
   {
     title: "Superfudge",
@@ -683,11 +682,11 @@ const emojiItems = [
     year: 1980
   },
   {
-    title: "Steelheart",
-    author: "Brandon Sanderson",
-    emojiImgs: "⚙❤😡🔫🤓🌃",
-    genres: ["action-and-adventure", "fantasy","literature"],
-    year: 2013
+    title: "Talking To Strangers",
+    author: " Malcom Gladwell",
+    emojiImgs: " 🙋🏼  🙋🏼‍♂️ 👩🏼‍💻 👨🏼‍💻 🎭",
+    genres: ["self-help"],
+    year: 2019
   },
   {
     title: "The Tempest",
@@ -697,18 +696,18 @@ const emojiItems = [
     year: 1611
   },
   {
-    title: "The Trial",
-    author: "Franz Kafka",
-    emojiImgs: "⏳🔎❓👁🧠",
-    genres: ["romance", "philosofy", "dystopian"],
-    year: 1925
-  },
-  {
     title: "To Kill a Mockingbird",
     author: "Harper Lee",
     emojiImgs: "🏹🐦👧👦🧓🇺🇸",
     genres: ["classic", "historical-fiction", "drama"],
     year: 1960
+  },
+  {
+    title: "The Trial",
+    author: "Franz Kafka",
+    emojiImgs: "⏳🔎❓👁🧠",
+    genres: ["romance", "philosofy", "dystopian"],
+    year: 1925
   },
   {
     title: "Twelfth Night",
@@ -718,18 +717,18 @@ const emojiItems = [
     year: 1602
   },
   {
-    title: "Twilight",
-    author: "Stephenie Meyer",
-    emojiImgs: "❤️🐺🧛‍♂️🌕💑",
-    genres: ["young-adult", "fantasy", "romance"],
-    year: 2005
-  },
-  {
     title: "Twelve Angry Men",
     author: "Reginald Rose",
     emojiImgs: " 1⃣ 2⃣ 😡🧔",
     genres: ["drama", "crime"],
     year: 1954
+  },
+  {
+    title: "Twilight",
+    author: "Stephenie Meyer",
+    emojiImgs: "❤️🐺🧛‍♂️🌕💑",
+    genres: ["young-adult", "fantasy", "romance"],
+    year: 2005
   },
   {
     title: "The Very Hungry Caterpillar",
@@ -772,6 +771,13 @@ const emojiItems = [
     year: 1998
   },
   {
+    title: "The Wide Window",
+    author: "Lemony Snicket",
+    emojiImgs: "👧👶👦🍳",
+    genres: ["comedy", "drama"],
+    year: 2000
+  },
+  {
     title: "Winnie the Pooh",
     author: "A. A. Milne",
     emojiImgs: "🧸🍯🐅🤔",
@@ -784,13 +790,6 @@ const emojiItems = [
     emojiImgs: "❄🇬🇧⚔👑",
     genres: ["historical-fiction"],
     year: 1995
-  },
-  {
-    title: "The Wide Window",
-    author: "Lemony Snicket",
-    emojiImgs: "👧👶👦🍳",
-    genres: ["comedy", "drama"],
-    year: 2000
   },
   {
     title: "The Wind-Up Bird Chronicle",
