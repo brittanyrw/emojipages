@@ -54,7 +54,7 @@ const emojiItems = [
     emojiImgs: "👀⚔️👼🗡️🤾‍♀️⛏️",
     genres: ["science-fiction, action"],
     year: "2019"
-  }
+  },
   {
     title: "The Andromeda Strain",
     author: "Michael Crichton",
@@ -644,7 +644,7 @@ const emojiItems = [
     emojiImgs: "🧑🧑👨👶",
     genres: ["comedy"],
     year: 1987
-  }
+  },
   {
     title: "To Kill a Mockingbird",
     author: "Harper Lee",
