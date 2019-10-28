@@ -203,6 +203,9 @@ h2 {
   #books {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
+  #books .emoji-card {
+    max-width: 175px;
+  }
 }
 
 .emoji-card {
