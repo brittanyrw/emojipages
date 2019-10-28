@@ -87,7 +87,7 @@ Specify the year the book was published. This should be a single number with no 
 
 ### Link 🔗
 
-A link to the book on [Good Reads](https://www.goodreads.com) should be added as a string. It will be used for users to go to that page and know more details about the book.
+A link to the book on [Good Reads](https://www.goodreads.com) should be added as a string under `itemLink`. It will be used for users to go to that page and know more details about the book.
 
 ```
 {
@@ -107,4 +107,4 @@ Follow the checklist below when working on adding a card. This will help you dou
 - [ ] ⭐ The genres are all inside of square brackets `[ ]` and each are individually wrapped in quotation marks and have a comma between each one. (such as submitting this `"genres": ["fantasy", "children", "adventure"]` and not this `"genres":["fantasy, children, adventure"]`). 
 - [ ] 💜 The genres used are from this [genre.md](https://github.com/brittanyrw/emojipages/blob/master/genres.md) file. If the genres you want to use are not in this file already, add them in the file in alpabetical order.
 - [ ] 📅 There is a single year under `year`. 
-- [ ] 🔗 There is link to the book on [Good Reads](https://www.goodreads.com).
+- [ ] 🔗 There is link to the book on [Good Reads](https://www.goodreads.com) under `itemLink`.
