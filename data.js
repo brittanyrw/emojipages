@@ -464,7 +464,8 @@ const emojiItems = [
     author: "Franz Kafka",
     emojiImgs: "👨😴✨🐜😱",
     genres: ["absurdism","fantasy"],
-    year: 1915
+    year: 1915,
+    itemLink: "https://www.goodreads.com/book/show/485894.The_Metamorphosis"
   },
   {
     title: "The Martian",
