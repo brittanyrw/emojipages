@@ -144,7 +144,15 @@ const emojiItems = [
     emojiImgs: "⚔️❤️🌎🤕👩‍👧🧩",
     genres: ["dystopian", "science-fiction", "young-adult"],
     year: 2011
-  },{
+  },
+  {
+    title: "Don Quixote",
+    author: "Miguel de Cervantes",
+    emojiImgs: "🇪🇸⚔🛡🏇🤺",
+    genres: ["romance", "dystopian", "adventure"],
+    year: 1605
+  },
+  {
     title: "The Da Vinci Code",
     author: "Dan Brown",
     emojiImgs: "🕵‍♂ 🔎 🤔",
@@ -331,6 +339,13 @@ const emojiItems = [
     emojiImgs: "🌱💨💰🕵️‍♂️",
     genres: ["fiction", "mystery", "crime", "noir"],
     year: 2009
+  },
+  {
+    title: "Into the Wild",
+    author: "Jon Krakauer",
+    emojiImgs: "➡🌎🍃🌲",
+    genres: ["adventure", "biography","true travel essay"],
+    year: 1996
   },
   {
     title: "IT",
@@ -618,6 +633,13 @@ const emojiItems = [
     year: 1850
   },
   {
+    title: "The Struggle",
+    author: "L.J.Smith",
+    emojiImgs: "😱🧛💀👍🦇",
+    genres: ["crime","horror"],
+    year: 1991
+  },
+  {
     title: "Superfudge",
     author: "Judy Blume",
     emojiImgs: "🧒👧🗽🐦",
@@ -637,6 +659,13 @@ const emojiItems = [
     emojiImgs: "🚢 ⛈🧙‍😱",
     genres: ["romance"],
     year: 1611
+  },
+  {
+    title: "The Trial",
+    author: "Franz Kafka",
+    emojiImgs: "⏳🔎❓👁🧠",
+    genres: ["romance", "philosofy", "dystopian"],
+    year: 1925
   },
   {
     title: "To Kill a Mockingbird",
@@ -714,6 +743,13 @@ const emojiItems = [
     year: 1926
   },
   {
+    title: "The Winter King",
+    author: "Bernard Cornwell",
+    emojiImgs: "❄🇬🇧⚔👑",
+    genres: ["historical-fiction"],
+    year: 1995
+  },
+  {
     title: "The Wide Window",
     author: "Lemony Snicket",
     emojiImgs: "👧👶👦🍳",
@@ -727,4 +763,5 @@ const emojiItems = [
     genres: ["Magical Realism", "Fiction", "Mystery"],
     year: 1997
   }
+  
 ];
