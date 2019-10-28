@@ -633,6 +633,13 @@ const emojiItems = [
     year: 1850
   },
   {
+    title: "The Struggle",
+    author: "L.J.Smith",
+    emojiImgs: "😱🧛💀👍🦇",
+    genres: ["crime","horror"],
+    year: 1991
+  },
+  {
     title: "Superfudge",
     author: "Judy Blume",
     emojiImgs: "🧒👧🗽🐦",
