@@ -625,6 +625,13 @@ const emojiItems = [
     year: 1980
   },
   {
+    title: "Steelheart",
+    author: "Brandon Sanderson",
+    emojiImgs: "/⚙❤😡🔫🤓🌃",
+    genres: ["action-and-adventure", "fantasy","literature"],
+    year: 2013
+  },
+  {
     title: "The Tempest",
     author: "William Shakespeare",
     emojiImgs: "🚢 ⛈🧙‍😱",
