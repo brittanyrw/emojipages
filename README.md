@@ -1,6 +1,6 @@
 # EmojiPages 📚 
 
-## A listing of books and play depicted through emojis.
+## A listing of books and plays depicted through emojis.
 
 [Visit emojipages.com](https://emojipages.com)
 
