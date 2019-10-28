@@ -719,5 +719,12 @@ const emojiItems = [
     emojiImgs: "🐈💔👩🏻🔮👴🏻🐦",
     genres: ["Magical Realism", "Fiction", "Mystery"],
     year: 1997
+  },
+  {
+    title: "The Nightingale",
+    author: "Kristin Hannah",
+    emojiImgs: "👧👧⏳🇫🇷💣👶",
+    genres: ["Historical Fiction", "Historical", "Fiction"],
+    year: 2015
   }
 ];
