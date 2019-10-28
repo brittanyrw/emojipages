@@ -188,6 +188,14 @@ const emojiItems = [
     year: 2007
   },
   {
+    title: "The Diamond Age",
+    author: "Neal Stephenson",
+    emojiImgs: "💎⌚️📖🎓🤖🎩",
+    genres: ["science-fiction"],
+    year: 2000,
+    itemLink: "https://www.goodreads.com/book/show/827.The_Diamond_Age"
+  },
+  {
     title: "Disgrace",
     author: "J. M. Coetzee",
     emojiImgs: "🇿🇦🌹👨‍🏫👩‍🎓",
