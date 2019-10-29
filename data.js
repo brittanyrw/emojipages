@@ -109,125 +109,143 @@ const emojiItems = [
     author: "Dr. Seuss",
     emojiImgs: "🐱🎩😸🎉",
     genres: ["fantasy", "children's"],
-    year: 1957
+    year: 1957,
+    itemLink: "https://www.goodreads.com/book/show/233093.The_Cat_in_the_Hat"
   },
   {
     title: "Charlie and the Chocolate Factory",
     author: "Roald Dahl",
     emojiImgs: "🎩🏭🍫🎫👦🏼",
     genres: ["fantasy", "children's"],
-    year: 1964
+    year: 1964,
+    itemLink: "https://www.goodreads.com/book/show/6310.Charlie_and_the_Chocolate_Factory"
   },{
     title: "Charlotte's Web",
     author: "E.B. White",
     emojiImgs: "🕷️🕸️🖊️🐖👩‍👩‍👧",
     genres: ["fiction", "children's"],
-    year: 1952
+    year: 1952,
+    itemLink: "https://www.goodreads.com/book/show/24178.Charlotte_s_Web"
   },
   {
     title: "Cloud Atlas",
     author: "David Mitchell",
     emojiImgs: "☁️🌎🏝🌺",
     genres: ["science-fiction", "drama", "fantasy"],
-    year: 2004
+    year: 2004,
+    itemLink: "https://www.goodreads.com/book/show/49628.Cloud_Atlas"
   },
   {
     title: "The Color Purple",
     author: "Alice Walker",
     emojiImgs: "🇺🇸👧🏽👎🏿👵🏾👍🏾",
     genres: ["classic", "historical"],
-    year: 1982
+    year: 1982,
+    itemLink: "https://www.goodreads.com/book/show/11486.The_Color_Purple"
   },
   {
     title: "Confessions of a Shopaholic",
     author: "Sophie Kinsella",
     emojiImgs: "👠🧣🛍️📈💸",
     genres: ["comedy", "chick-lit"],
-    year: 2000
+    year: 2000,
+    itemLink: "https://www.goodreads.com/book/show/9416.Confessions_of_a_Shopaholic"
   },
   {
     title: "Coraline",
     author: "Neil Gaiman",
     emojiImgs: "👧🏻🗝🐈🚪🐀⚫",
     genres: ["adventure", "fantasy", "horror"],
-    year: 2002
+    year: 2002,
+    itemLink: "https://www.goodreads.com/book/show/17061.Coraline"
   },
   {
     title: "Crazy Rich Asians",
     author: "Kevin Kwan",
     emojiImgs: "🤪💰💵🇸🇬🌏",
     genres: ["fiction", "romance", "comedy"],
-    year: 2013
+    year: 2013,
+    itemLink: "https://www.goodreads.com/book/show/16085481-crazy-rich-asians"
   },
   {
     title: "The Da Vinci Code",
     author: "Dan Brown",
     emojiImgs: "🕵‍♂ 🔎 🤔",
     genres: ["mystery", "thriller", "fiction"],
-    year: 2003
+    year: 2003,
+    itemLink: "https://www.goodreads.com/book/show/968.The_Da_Vinci_Code"
   },
   {
     title: "Death of a Salesman",
     author: "Arthur Miller",
     emojiImgs: "💀⚰️🤵💼",
     genres: ["tragedy"],
-    year: 1949
+    year: 1949,
+    itemLink: "https://www.goodreads.com/book/show/12898.Death_of_a_Salesman"
   },
   {
     title: "The Devil Wears Prada",
     author: "Lauren Weisberger",
     emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
     genres: ["drama", "comedy", "romance"],
-    year: 2003
+    year: 2003,
+    itemLink: "https://www.goodreads.com/book/show/5139.The_Devil_Wears_Prada"
   },
   {
     title: "Diary of A Wimpy Kid",
     author: "Jeff Kinney",
     emojiImgs: "📔🧀🎒🎮",
     genres: ["comedy", "fiction", "young-adult"],
-    year: 2007
+    year: 2007,
+    itemLink: "https://www.goodreads.com/book/show/389627.Diary_of_a_Wimpy_Kid"
   },
   {
     title: "Disgrace",
     author: "J. M. Coetzee",
     emojiImgs: "🇿🇦🌹👨‍🏫👩‍🎓",
     genres: ["fiction", "romance"],
-    year: 1999
+    year: 1999,
+    itemLink: "https://www.goodreads.com/book/show/6192.Disgrace"
   },
   {
     title: "Divergent",
     author: "Veronica Roth",
     emojiImgs: "⚔️❤️🌎🤕👩‍👧🧩",
     genres: ["dystopian", "science-fiction", "young-adult"],
-    year: 2011
+    year: 2011,
+    itemLink: "https://www.goodreads.com/book/show/13335037-divergent"
   },
   {
     title: "Don Quixote",
     author: "Miguel de Cervantes",
     emojiImgs: "🇪🇸⚔🛡🏇🤺",
     genres: ["romance", "dystopian", "adventure"],
-    year: 1605
+    year: 1605,
+    itemLink: "https://www.goodreads.com/book/show/3836.Don_Quixote"
   },
   {
     title: "Dune",
     author: "Frank Herbert",
     emojiImgs: "🏜🌠⚔💊💧",
     genres: ["science-fiction"],
-    year: 1965
+    year: 1965,
+    itemLink: "https://www.goodreads.com/book/show/44767458-dune"
   },
   {
     title: "The Dutch House: A Novel",
     author: "Ann Patchett",
     emojiImgs: "🥢🥠👧➡️👩",
     genres: ["classic"],
-    year: 2019
+    year: 2019,
+    itemLink: "https://www.goodreads.com/book/show/44318414-the-dutch-house"
   },
   {
     title: "Eclipse",
     author: "Stephenie Meyer",
     emojiImgs: "❤️🐺🧛‍♂️🌕💑",
     genres: ["young-adult", "fantasy", "romance"],
-    year: 2007
+    year: 2007,
+    itemLink: "https://www.goodreads.com/book/show/428263.Eclipse"
   },
   {
     title: "The Fault in Our Stars",
