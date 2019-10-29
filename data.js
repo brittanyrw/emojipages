@@ -251,6 +251,14 @@ const emojiItems = [
     emojiImgs: "❤️🐺🧛‍♂️🌕💑",
     genres: ["young-adult", "fantasy", "romance"],
     year: 2007
+  },  
+  {
+    title: "The Eye of the World",
+    author: "Robert Jordan",
+    emojiImgs: "👹🧙‍♀️⚔️🗺️🐺",
+    genres: ["fantasy", "fiction"],
+    year: 1990,
+    itemLink: 'https://www.goodreads.com/book/show/228665.The_Eye_of_the_World'
   },
   {
     title: "The Fault in Our Stars",
