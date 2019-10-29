@@ -315,7 +315,15 @@ const emojiItems = [
     emojiImgs: "🌙🐄🐻🎈🥣🌙",
     genres: ["children's", "classic"],
     year: 1947
-  },{
+  },
+  {
+    title: "The Gruffalo",
+    author: " Julia Donaldson, Axel Scheffler",
+    emojiImgs: "🐭🦊🦉🐍👹",
+    genres: ["children's"],
+    year: 1999
+  },
+  {
     title: "Hamlet",
     author: "William Shakespeare",
     emojiImgs: "🤴🇩🇰🏰⚔👻💔",
@@ -658,6 +666,13 @@ const emojiItems = [
     emojiImgs: "👧👶👦🐍",
     genres: ["comedy", "drama"],
     year: 1999
+  },
+  {
+    title: "The Road",
+    author: "Cormac McCarthy",
+    emojiImgs: "🧔🛣️👦🛒",
+    genres: ["post-apocalyptic-fiction", "tragedy"],
+    year: 2007
   },
   {
     title: "Romeo and Juliet",
