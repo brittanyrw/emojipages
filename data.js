@@ -251,7 +251,7 @@ const emojiItems = [
     emojiImgs: "❤️🐺🧛‍♂️🌕💑",
     genres: ["young-adult", "fantasy", "romance"],
     year: 2007
-  },  
+  },
   {
     title: "The Eye of the World",
     author: "Robert Jordan",
@@ -421,6 +421,13 @@ const emojiItems = [
     year: 1847
   },
   {
+    title: "The Jungle Book",
+    author: "Rudyard Kipling",
+    emojiImgs: "🐻🧒🌴🔥📕",
+    genres: ["animals", "childrens"],
+    year: 1849
+  },
+  {
     title: "Jurassic Park",
     author: "Michael Crichton",
     emojiImgs: "🦖🦕🏞️👨‍🔬⚠",
@@ -517,7 +524,7 @@ const emojiItems = [
     emojiImgs: "🚢⌛💰🔪👨",
     genres: ["drama", "comedy", "romance"],
     year: 1600
-  }, 
+  },
   {
     title: "The Metamorphosis",
     author: "Franz Kafka",
@@ -829,5 +836,5 @@ const emojiItems = [
     genres: ["Magical Realism", "Fiction", "Mystery"],
     year: 1997
   }
-  
+
 ];
