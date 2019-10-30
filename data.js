@@ -251,7 +251,7 @@ const emojiItems = [
     emojiImgs: "❤️🐺🧛‍♂️🌕💑",
     genres: ["young-adult", "fantasy", "romance"],
     year: 2007
-  },  
+  },
   {
     title: "The Eye of the World",
     author: "Robert Jordan",
@@ -321,7 +321,8 @@ const emojiItems = [
     author: " Julia Donaldson, Axel Scheffler",
     emojiImgs: "🐭🦊🦉🐍👹",
     genres: ["children's"],
-    year: 1999
+    year: 1999,
+    itemLink: "https://www.goodreads.com/book/show/1013383.The_Gruffalo"
   },
   {
     title: "Hamlet",
@@ -525,7 +526,7 @@ const emojiItems = [
     emojiImgs: "🚢⌛💰🔪👨",
     genres: ["drama", "comedy", "romance"],
     year: 1600
-  }, 
+  },
   {
     title: "The Metamorphosis",
     author: "Franz Kafka",
@@ -672,7 +673,8 @@ const emojiItems = [
     author: "Cormac McCarthy",
     emojiImgs: "🧔🛣️👦🛒",
     genres: ["post-apocalyptic-fiction", "tragedy"],
-    year: 2007
+    year: 2007,
+    itemLink: "https://www.goodreads.com/book/show/6288.The_Road"
   },
   {
     title: "Romeo and Juliet",
@@ -844,5 +846,5 @@ const emojiItems = [
     genres: ["Magical Realism", "Fiction", "Mystery"],
     year: 1997
   }
-  
+
 ];
