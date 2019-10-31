@@ -444,6 +444,13 @@ const emojiItems = [
     genres: ["science-fiction", "thriller"],
     year: 1990
   },
+    {
+    title: "The Killer Angels",
+    author: "Michael Shaara",
+    emojiImgs: "🔫👼🏻",
+    genres: ["science-fiction", "thriller"],
+    year: 1974
+  },
   {
     title: "Les Miserables",
     author: "Victor Hugo",
