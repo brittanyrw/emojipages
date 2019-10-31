@@ -486,6 +486,13 @@ const emojiItems = [
     year: 1623
   },
   {
+    title: "The Name of the Wind",
+    author: "Patrick Rothfuss",
+    emojiImgs: "🌬️🎐🍃🧔",
+    genres: ["young-adult", "romance"],
+    year: 2007
+  },
+  {
     title: "New Moon",
     author: "Stephenie Meyer",
     emojiImgs: "✨🌑🧛👧",
