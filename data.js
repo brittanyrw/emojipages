@@ -438,6 +438,14 @@ const emojiItems = [
     year: 1847
   },
   {
+    title: "John Dies at the End",
+    author: "David Wong",
+    emojiImgs: "🧔⚰️🔚",
+    genres: ["Comedy", "Horror"],
+    year: 2007,
+    itemLink: "https://www.goodreads.com/book/show/1857440.John_Dies_at_the_End"
+  },
+  {
     title: "The Jungle Book",
     author: "Rudyard Kipling",
     emojiImgs: "🐻🧒🌴🔥📕",
