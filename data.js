@@ -676,7 +676,7 @@ const emojiItems = [
     {
     title: "The Village By the Sea",
     author: "Anita Desai",
-    emojiImgs: "🌊🌴🏖️👨‍👧‍👦🏚️",
+    emojiImgs: "🌊🌴👨‍👧‍👦🏚️",
     genres: ["Non-fiction"],
     year: 1982
   },
