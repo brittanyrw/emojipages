@@ -679,7 +679,8 @@ const emojiItems = [
     author: "Anita Desai",
     emojiImgs: "🌊🌴👨‍👧‍👦🏚️",
     genres: ["Non-fiction"],
-    year: 1982
+    year: 1982,
+    itemLink:"https://www.goodreads.com/book/show/275600.The_Village_by_the_Sea?ac=1&from_search=true"
   },
   {
     title: "War and Peace",
