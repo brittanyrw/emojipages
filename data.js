@@ -232,6 +232,14 @@ const emojiItems = [
     year: 1605
   },
   {
+    title: "Dracula",
+    author: "Bram Stoker",
+    emojiImgs: "🧛‍♂️🩸🌕⚰🦇",
+    genres: ["classic", "fantasy", "horror"],
+    year: 1897,
+    itemLink: "https://www.goodreads.com/book/show/40665263-dracula"
+  },
+  {
     title: "Dune",
     author: "Frank Herbert",
     emojiImgs: "🏜🌠⚔💊💧",
@@ -473,6 +481,14 @@ const emojiItems = [
     year: 2017
   },
   {
+    title: "Little Women",
+    author: "Louisa May Alcott",
+    emojiImgs: "👭👩🏼‍🤝‍👩🏻🎀📜",
+    genres: ["classic", "romance"],
+    year: 1869,
+    itemLink: "https://www.goodreads.com/book/show/1934.Little_Women"
+  },
+  {
     title: "Looking for Alaska",
     author: "John Green",
     emojiImgs: "🏫👦🔍👧❤️",
@@ -647,6 +663,14 @@ const emojiItems = [
     emojiImgs: "👸👰🚜🏰💕⚔️",
     genres: ["fantasy", "romance", "comedy"],
     year: 1973
+  },
+  {
+    title: "Pride and Prejudice",
+    author: "Jane Austen",
+    emojiImgs: "💍🎭🥄📜",
+    genres: ["classic", "romance"],
+    year: 1813,
+    itemLink: "https://www.goodreads.com/book/show/1885.Pride_and_Prejudice"
   },
   {
     title: "PS, I Love You",
