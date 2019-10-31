@@ -673,6 +673,13 @@ const emojiItems = [
     genres: ["children's", "classic"],
     year: 1969
   },
+    {
+    title: "The Village By the Sea",
+    author: "Anita Desai",
+    emojiImgs: "🌊🌴🏖️👨‍👧‍👦🏚️",
+    genres: ["Non-fiction"],
+    year: 1982
+  },
   {
     title: "War and Peace",
     author: "Leo Tolstoy",
