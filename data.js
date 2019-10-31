@@ -584,11 +584,12 @@ const emojiItems = [
     year: 1597
   },
   {
-    title: "Sense ans Sensibility",
+    title: "Sense and Sensibility",
     author: "Jane Austen",
     emojiImgs: "👩‍👧‍👧💰💔👫",
     genres: ["Novel"],
-    year: 1811
+    year: 1811,
+    itemLink:"https://www.goodreads.com/book/show/14935.Sense_and_Sensibility?from_search=true"
   }
   {
     title: "The Shining",
