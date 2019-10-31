@@ -681,6 +681,14 @@ const emojiItems = [
     year: 1850
   },
   {
+    title: "The Secret Garden",
+    author: "Frances Hodgson Burnett",
+    emojiImgs: "🤐🌹🚪🗝️🏃‍♀️👨‍🦽",
+    genres: ["classic", "fiction", "young-adult", "historical-fiction"],
+    year: 1911,
+    itemLink: "https://www.goodreads.com/book/show/2998.The_Secret_Garden"
+  },
+  {
     title: "The Shining",
     author: "Stephen King",
     emojiImgs: "👨🔪🚪😱",
@@ -836,6 +844,14 @@ const emojiItems = [
     emojiImgs: "🐈💔👩🏻🔮👴🏻🐦",
     genres: ["Magical Realism", "Fiction", "Mystery"],
     year: 1997
+  },
+  {
+    title: "The Wonderful Wizard of Oz",
+    author: "L. Frank Baum",
+    emojiImgs: "🌪️👧🐕🦁🟨🧙‍♂️",
+    genres: ["classic", "fantasy", "fiction", "childrens"],
+    year: 1900,
+    itemLink: "https://www.goodreads.com/book/show/236093.The_Wonderful_Wizard_of_Oz"
   }
 
 ];
