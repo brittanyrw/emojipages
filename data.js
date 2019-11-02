@@ -4,98 +4,120 @@ const emojiItems = [
     author: "George R. R. Martin",
     emojiImgs: "🍳🐛🐦🦅",
     genres: ["fantasy", "fiction"],
-    year: 2005
+    year: 2005,
+    itemLink: "https://www.goodreads.com/book/show/13497.A_Feast_for_Crows"
   },
   {
     title: "A Clash of Kings",
     author: "George R. R. Martin",
     emojiImgs: "👑👑🐺⚔",
     genres: ["fantasy"],
-    year: 1998
+    year: 1998,
+    itemLink: "https://www.goodreads.com/book/show/10572.A_Clash_of_Kings"
   },
   {
     title: "A Storm of Swords",
     author: "George R. R. Martin",
     emojiImgs: "🌩️🌪️⚔️🛡️🗡️",
     genres: ["fantasy", "fiction"],
-    year: 2000
+    year: 2000,
+    itemLink: "https://www.goodreads.com/book/show/62291.A_Storm_of_Swords"
   },
   {
     title: "The Adventures of Pinocchio",
     author: "Carlo Collodi",
     emojiImgs: "🧒👃🤥🎡🐳🦗",
     genres: ["fiction", "fantasy"],
-    year: 1883
+    year: 1883,
+    itemLink: "https://www.goodreads.com/book/show/568989.Adventures_of_Pinnochio"
   },
   {
     title: "The Adventures of Sherlock Holmes",
     author: "Sir Arthur Conan Doyle",
     emojiImgs: "🧠🎻⚰👣🕵️‍♂️",
     genres: ["mystery","crime","classic"],
-    year: 1892
+    year: 1892,
+    itemLink: "https://www.goodreads.com/book/show/3590.The_Adventures_of_Sherlock_Holmes"
   },
   {
     title: "Alexander Hamilton",
     author: "Ron Chernow",
     emojiImgs: "🇺🇸⚔️💵👨",
     genres: ["non-fiction", "biography"],
-    year: 2004
+    year: 2004,
+    itemLink: "https://www.goodreads.com/book/show/16130.Alexander_Hamilton"
   },
   {
     title: "Alice's Adventures in Wonderland",
     author: "Lewis Carroll",
     emojiImgs: "👩🐇😼☕🎩♕",
     genres: ["fantasy", "children's"],
-    year: 1865
+    year: 1865,
+    itemLink: "https://www.goodreads.com/book/show/48492452-alice-s-adventures-in-wonderland"
   },
   {
     title: "The Andromeda Strain",
     author: "Michael Crichton",
     emojiImgs: "👨‍🔬💉👽🛸",
     genres: ["thriller"],
-    year: 1969
+    year: 1969,
+    itemLink: "https://www.goodreads.com/book/show/7670.The_Andromeda_Strain"
   },
   {
     title: "Angels & Demons",
     author: "Dan Brown",
     emojiImgs: "👨‍🏫🇻🇦⏳💣🔎",
     genres: ["crime", "mystery", "thriller"],
-    year: 2000
+    year: 2000,
+    itemLink: "https://www.goodreads.com/book/show/960.Angels_Demons"
   },
   {
     title: "Angels in America",
     author: "Tony Kushner",
     emojiImgs: "👼🏽🇺🇸👬🏳️‍🌈👦🏽",
     genres: ["drama"],
-    year: 1991
+    year: 1991,
+    itemLink: "https://www.goodreads.com/book/show/72003.Angels_in_America"
   },
   {
     title: "Animal Farm",
     author: "George Orwell",
     emojiImgs: "🐷🐰🐭🐴🐮🐔",
     genres: ["satire"],
-    year: 1945
+    year: 1945,
+    itemLink: "https://www.goodreads.com/book/show/170448.Animal_Farm"
   },
   {
     title: "The Baby-Sitters Club",
     author: "Ann Martin",
     emojiImgs: "🧒👧🏡🎡",
     genres: ["fiction"],
-    year: 1986
+    year: 1986,
+    itemLink: "https://www.goodreads.com/book/show/233722.Kristy_s_Great_Idea"
   },
   {
     title: "The Bad Beginning",
     author: "Lemony Snicket",
     emojiImgs: "👧👶👦😈",
     genres: ["comedy", "drama"],
-    year: 1999
+    year: 1999,
+    itemLink: "https://www.goodreads.com/book/show/78411.The_Bad_Beginning"
+  },
+  {
+    title: "The Book Thief",
+    author: "Markus Zusak",
+    emojiImgs: "🇩🇪☠️📚🔥👧🏼",
+    genres: ["historical-fiction", "fiction", "war"],
+    year: 2006,
+    itemLink: "https://www.goodreads.com/book/show/19063.The_Book_Thief"
   },
   {
     title: "Breaking Dawn",
     author: "Stephenie Meyer",
     emojiImgs: "🧛‍♂️💔👼💫🌖",
     genres: ["young-adult", "fantasy", "romance"],
-    year: 2008
+    year: 2008,
+    itemLink: "https://www.goodreads.com/book/show/1162543.Breaking_Dawn"
   },
   {
     title: "The Cat In The Hat",
@@ -125,13 +147,6 @@ const emojiItems = [
     year: 2004
   },
   {
-    title: "Confessions of a Shopaholic",
-    author: "Sophie Kinsella",
-    emojiImgs: "👠🧣🛍️📈💸",
-    genres: ["comedy", "chick-lit"],
-    year: 2000
-  },
-  {
     title: "The Color Purple",
     author: "Alice Walker",
     emojiImgs: "🇺🇸👧🏽👎🏿👵🏾👍🏾",
@@ -139,12 +154,27 @@ const emojiItems = [
     year: 1982
   },
   {
-    title: "Divergent",
-    author: "Veronica Roth",
-    emojiImgs: "⚔️❤️🌎🤕👩‍👧🧩",
-    genres: ["dystopian", "science-fiction", "young-adult"],
-    year: 2011
-  },{
+    title: "Confessions of a Shopaholic",
+    author: "Sophie Kinsella",
+    emojiImgs: "👠🧣🛍️📈💸",
+    genres: ["comedy", "chick-lit"],
+    year: 2000
+  },
+  {
+    title: "Coraline",
+    author: "Neil Gaiman",
+    emojiImgs: "👧🏻🗝🐈🚪🐀⚫",
+    genres: ["adventure", "fantasy", "horror"],
+    year: 2002
+  },
+  {
+    title: "Crazy Rich Asians",
+    author: "Kevin Kwan",
+    emojiImgs: "🤪💰💵🇸🇬🌏",
+    genres: ["fiction", "romance", "comedy"],
+    year: 2013
+  },
+  {
     title: "The Da Vinci Code",
     author: "Dan Brown",
     emojiImgs: "🕵‍♂ 🔎 🤔",
@@ -166,6 +196,21 @@ const emojiItems = [
     year: 2003
   },
   {
+    title: "Diary of A Wimpy Kid",
+    author: "Jeff Kinney",
+    emojiImgs: "📔🧀🎒🎮",
+    genres: ["comedy", "fiction", "young-adult"],
+    year: 2007
+  },
+  {
+    title: "The Diamond Age",
+    author: "Neal Stephenson",
+    emojiImgs: "💎⌚️📖🎓🤖🎩",
+    genres: ["science-fiction"],
+    year: 2000,
+    itemLink: "https://www.goodreads.com/book/show/827.The_Diamond_Age"
+  },
+  {
     title: "Disgrace",
     author: "J. M. Coetzee",
     emojiImgs: "🇿🇦🌹👨‍🏫👩‍🎓",
@@ -173,11 +218,26 @@ const emojiItems = [
     year: 1999
   },
   {
-    title: "Diary of A Wimpy Kid",
-    author: "Jeff Kinney",
-    emojiImgs: "📔🧀🎒🎮",
-    genres: ["comedy", "fiction", "young-adult"],
-    year: 2007
+    title: "Divergent",
+    author: "Veronica Roth",
+    emojiImgs: "⚔️❤️🌎🤕👩‍👧🧩",
+    genres: ["dystopian", "science-fiction", "young-adult"],
+    year: 2011
+  },
+  {
+    title: "Don Quixote",
+    author: "Miguel de Cervantes",
+    emojiImgs: "🇪🇸⚔🛡🏇🤺",
+    genres: ["romance", "dystopian", "adventure"],
+    year: 1605
+  },
+  {
+    title: "Dracula",
+    author: "Bram Stoker",
+    emojiImgs: "🧛‍♂️🩸🌕⚰🦇",
+    genres: ["classic", "fantasy", "horror"],
+    year: 1897,
+    itemLink: "https://www.goodreads.com/book/show/40665263-dracula"
   },
   {
     title: "Dune",
@@ -201,6 +261,21 @@ const emojiItems = [
     year: 2007
   },
   {
+    title: "The Eye of the World",
+    author: "Robert Jordan",
+    emojiImgs: "👹🧙‍♀️⚔️🗺️🐺",
+    genres: ["fantasy", "fiction"],
+    year: 1990,
+    itemLink: 'https://www.goodreads.com/book/show/228665.The_Eye_of_the_World'
+  },
+  {
+    title: "The Fault in Our Stars",
+    author: "John Green",
+    emojiImgs: "☁️💙🚬🇳🇱🏥",
+    genres: ["young-adult", "romance"],
+    year: 2012
+  },
+  {
     title: "Fight Club",
     author: "Chuck Palahniuk",
     emojiImgs: "👨🚬👊💣♣🌆",
@@ -222,6 +297,13 @@ const emojiItems = [
     year: 1972
   },
   {
+    title: "The Girl with the Dragon Tattoo",
+    author: "Stieg Larsson",
+    emojiImgs: "👧🏻🐉💉🇸🇪",
+    genres: ["crime", "mystery", "thriller"],
+    year: 2005
+  },
+  {
     title: "The Goldfinch",
     author: "Donna Tartt",
     emojiImgs: "🥇🐤🖼️👱‍♂",
@@ -236,19 +318,21 @@ const emojiItems = [
     year: 2012
   },
   {
-    title: "The Girl with the Dragon Tattoo",
-    author: "Stieg Larsson",
-    emojiImgs: "👧🏻🐉💉🇸🇪",
-    genres: ["crime", "mystery", "thriller"],
-    year: 2005
-  },
-  {
     title: "Goodnight Moon",
     author: "Margaret Wise Brown",
     emojiImgs: "🌙🐄🐻🎈🥣🌙",
     genres: ["children's", "classic"],
     year: 1947
-  },{
+  },
+  {
+    title: "The Gruffalo",
+    author: " Julia Donaldson, Axel Scheffler",
+    emojiImgs: "🐭🦊🦉🐍👹",
+    genres: ["children's"],
+    year: 1999,
+    itemLink: "https://www.goodreads.com/book/show/1013383.The_Gruffalo"
+  },
+  {
     title: "Hamlet",
     author: "William Shakespeare",
     emojiImgs: "🤴🇩🇰🏰⚔👻💔",
@@ -333,6 +417,13 @@ const emojiItems = [
     year: 2009
   },
   {
+    title: "Into the Wild",
+    author: "Jon Krakauer",
+    emojiImgs: "➡🌎🍃🌲",
+    genres: ["adventure", "biography","true travel essay"],
+    year: 1996
+  },
+  {
     title: "IT",
     author: "Stephen King",
     emojiImgs: "🤡🎈👿🧒",
@@ -345,6 +436,14 @@ const emojiItems = [
     emojiImgs: "🐦🏚️💑😱🔥💒",
     genres: ["gothic", "classic", "romance"],
     year: 1847
+  },
+  {
+    title: "The Jungle Book",
+    author: "Rudyard Kipling",
+    emojiImgs: "🐻🧒🌴🔥📕",
+    genres: ["animals", "childrens"],
+    year: 1849,
+    itemLink: "https://www.goodreads.com/book/show/77270.The_Jungle_Book"
   },
   {
     title: "Jurassic Park",
@@ -382,6 +481,14 @@ const emojiItems = [
     year: 2017
   },
   {
+    title: "Little Women",
+    author: "Louisa May Alcott",
+    emojiImgs: "👭👩🏼‍🤝‍👩🏻🎀📜",
+    genres: ["classic", "romance"],
+    year: 1869,
+    itemLink: "https://www.goodreads.com/book/show/1934.Little_Women"
+  },
+  {
     title: "Looking for Alaska",
     author: "John Green",
     emojiImgs: "🏫👦🔍👧❤️",
@@ -417,13 +524,6 @@ const emojiItems = [
     year: 1939
   },
   {
-    title: "The Metamorphosis",
-    author: "Franz Kafka",
-    emojiImgs: "👨😴✨🐜😱",
-    genres: ["absurdism","fantasy"],
-    year: 1915
-  },
-  {
     title: "The Martian",
     author: "Andy Weir",
     emojiImgs: "🚀🥔🧪🤔",
@@ -450,7 +550,16 @@ const emojiItems = [
     emojiImgs: "🚢⌛💰🔪👨",
     genres: ["drama", "comedy", "romance"],
     year: 1600
-  },{
+  },
+  {
+    title: "The Metamorphosis",
+    author: "Franz Kafka",
+    emojiImgs: "👨😴✨🐜😱",
+    genres: ["absurdism", "fantasy"],
+    year: 1915,
+    itemLink: "https://www.goodreads.com/book/show/485894.The_Metamorphosis"
+  },
+  {
     title: "Mistborn",
     author: "Brandon Sanderson",
     emojiImgs: "🧪🕴🌋🙎🏻⚔️👑",
@@ -521,6 +630,13 @@ const emojiItems = [
     year: 1989
   },
   {
+    title: "Percy Jackson and the Lightning Thief",
+    author: "Rick Riordan",
+    emojiImgs: "⚡️🏛🌊",
+    genres: ["adventure", "fantasy", "young-adult"],
+    year: 2005
+  },
+  {
     title: "The Perks of Being a Wallflower",
     author: "Stephen Chbosky",
     emojiImgs: "🌼📗🌟🎶",
@@ -547,6 +663,14 @@ const emojiItems = [
     emojiImgs: "👸👰🚜🏰💕⚔️",
     genres: ["fantasy", "romance", "comedy"],
     year: 1973
+  },
+  {
+    title: "Pride and Prejudice",
+    author: "Jane Austen",
+    emojiImgs: "💍🎭🥄📜",
+    genres: ["classic", "romance"],
+    year: 1813,
+    itemLink: "https://www.goodreads.com/book/show/1885.Pride_and_Prejudice"
   },
   {
     title: "PS, I Love You",
@@ -577,11 +701,33 @@ const emojiItems = [
     year: 1999
   },
   {
+    title: "The Road",
+    author: "Cormac McCarthy",
+    emojiImgs: "🧔🛣️👦🛒",
+    genres: ["post-apocalyptic-fiction", "tragedy"],
+    year: 2007,
+    itemLink: "https://www.goodreads.com/book/show/6288.The_Road"
+  },
+  {
     title: "Romeo and Juliet",
     author: "William Shakespeare",
     emojiImgs: "👨🏻❤️👩🏻🧪☠",
     genres: ["drama", "romance"],
     year: 1597
+  }, {
+    title: "The Scarlet Letter",
+    author: "Nathaniel Hawthorne",
+    emojiImgs: "🅰️❤️👶🤱⚖️",
+    genres: ["romance", "historical-fiction"],
+    year: 1850
+  },
+  {
+    title: "The Secret Garden",
+    author: "Frances Hodgson Burnett",
+    emojiImgs: "🤐🌹🚪🗝️🏃‍♀️👨‍🦽",
+    genres: ["classic", "fiction", "young-adult", "historical-fiction"],
+    year: 1911,
+    itemLink: "https://www.goodreads.com/book/show/2998.The_Secret_Garden"
   },
   {
     title: "Sense and Sensibility",
@@ -610,20 +756,19 @@ const emojiItems = [
     emojiImgs: "🏴󠁧󠁢󠁳󠁣󠁴󠁿👨‍⚕️🦹‍♂️󠁧󠁢󠁳󠁣󠁴󠁿🧪☯️",
     genres: ["classic", "mystery", "science-fiction"],
     year: 1886
+  }, {
+    title: "The Struggle",
+    author: "L.J.Smith",
+    emojiImgs: "😱🧛💀👍🦇",
+    genres: ["crime", "horror"],
+    year: 1991
   },
   {
-    title: "Talking To Strangers",
-    author: " Malcom Gladwell",
-    emojiImgs: " 🙋🏼  🙋🏼‍♂️ 👩🏼‍💻 👨🏼‍💻 🎭",
-    genres: ["self-help"],
-    year: 2019
-  },
-  {
-    title: "The Scarlet Letter",
-    author: "Nathaniel Hawthorne",
-    emojiImgs: "🅰️❤️👶🤱⚖️",
-    genres: ["romance", "historical-fiction"],
-    year: 1850
+    title: "Steelheart",
+    author: "Brandon Sanderson",
+    emojiImgs: "⚙❤😡🔫🤓🌃",
+    genres: ["action-and-adventure", "fantasy", "literature"],
+    year: 2013
   },
   {
     title: "Superfudge",
@@ -631,6 +776,13 @@ const emojiItems = [
     emojiImgs: "🧒👧🗽🐦",
     genres: ["literature"],
     year: 1980
+  },
+  {
+    title: "Talking To Strangers",
+    author: " Malcom Gladwell",
+    emojiImgs: " 🙋🏼  🙋🏼‍♂️ 👩🏼‍💻 👨🏼‍💻 🎭",
+    genres: ["self-help"],
+    year: 2019
   },
   {
     title: "The Tempest",
@@ -647,6 +799,13 @@ const emojiItems = [
     year: 1960
   },
   {
+    title: "The Trial",
+    author: "Franz Kafka",
+    emojiImgs: "⏳🔎❓👁🧠",
+    genres: ["romance", "philosofy", "dystopian"],
+    year: 1925
+  },
+  {
     title: "Twelfth Night",
     author: "William Shakespeare",
     emojiImgs: "💁🏼‍⛵️✉️❤️👰🏼😂",
@@ -654,18 +813,18 @@ const emojiItems = [
     year: 1602
   },
   {
-    title: "Twilight",
-    author: "Stephenie Meyer",
-    emojiImgs: "❤️🐺🧛‍♂️🌕💑",
-    genres: ["young-adult", "fantasy", "romance"],
-    year: 2005
-  },
-  {
     title: "Twelve Angry Men",
     author: "Reginald Rose",
     emojiImgs: " 1⃣ 2⃣ 😡🧔",
     genres: ["drama", "crime"],
     year: 1954
+  },
+  {
+    title: "Twilight",
+    author: "Stephenie Meyer",
+    emojiImgs: "❤️🐺🧛‍♂️🌕💑",
+    genres: ["young-adult", "fantasy", "romance"],
+    year: 2005
   },
   {
     title: "The Very Hungry Caterpillar",
@@ -716,6 +875,13 @@ const emojiItems = [
     year: 1998
   },
   {
+    title: "The Wide Window",
+    author: "Lemony Snicket",
+    emojiImgs: "👧👶👦🍳",
+    genres: ["comedy", "drama"],
+    year: 2000
+  },
+  {
     title: "Winnie the Pooh",
     author: "A. A. Milne",
     emojiImgs: "🧸🍯🐅🤔",
@@ -723,11 +889,11 @@ const emojiItems = [
     year: 1926
   },
   {
-    title: "The Wide Window",
-    author: "Lemony Snicket",
-    emojiImgs: "👧👶👦🍳",
-    genres: ["comedy", "drama"],
-    year: 2000
+    title: "The Winter King",
+    author: "Bernard Cornwell",
+    emojiImgs: "❄🇬🇧⚔👑",
+    genres: ["historical-fiction"],
+    year: 1995
   },
   {
     title: "The Wind-Up Bird Chronicle",
@@ -736,5 +902,12 @@ const emojiItems = [
     genres: ["Magical Realism", "Fiction", "Mystery"],
     year: 1997
   },
-  
+  {
+    title: "The Wonderful Wizard of Oz",
+    author: "L. Frank Baum",
+    emojiImgs: "🌪️👧🐕🦁🟨🧙‍♂️",
+    genres: ["classic", "fantasy", "fiction", "childrens"],
+    year: 1900,
+    itemLink: "https://www.goodreads.com/book/show/236093.The_Wonderful_Wizard_of_Oz"
+  }
 ];

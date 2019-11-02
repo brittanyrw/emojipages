@@ -26,7 +26,8 @@ Use the following object as a template:
   author: "Roald Dahl",
   emojiImgs: "👩‍🏫📚👧🦎🎂✨",
   genres: ["children","fantasy"],
-  year: 1988
+  year: 1988,
+  itemLink: "https://www.goodreads.com/book/show/39988.Matilda"
 }
 ```
 
