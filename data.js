@@ -730,6 +730,14 @@ const emojiItems = [
     itemLink: "https://www.goodreads.com/book/show/2998.The_Secret_Garden"
   },
   {
+    title: "Sense and Sensibility",
+    author: "Jane Austen",
+    emojiImgs: "👩‍👧‍👧💰💔👫",
+    genres: ["Novel"],
+    year: 1811,
+    itemLink:"https://www.goodreads.com/book/show/14935.Sense_and_Sensibility?from_search=true"
+  }
+  {
     title: "The Shining",
     author: "Stephen King",
     emojiImgs: "👨🔪🚪😱",
@@ -825,6 +833,14 @@ const emojiItems = [
     genres: ["children's", "classic"],
     year: 1969
   },
+    {
+    title: "The Village By the Sea",
+    author: "Anita Desai",
+    emojiImgs: "🌊🌴👨‍👧‍👦🏚️",
+    genres: ["Non-fiction"],
+    year: 1982,
+    itemLink:"https://www.goodreads.com/book/show/275600.The_Village_by_the_Sea?ac=1&from_search=true"
+  },
   {
     title: "War and Peace",
     author: "Leo Tolstoy",
@@ -894,5 +910,4 @@ const emojiItems = [
     year: 1900,
     itemLink: "https://www.goodreads.com/book/show/236093.The_Wonderful_Wizard_of_Oz"
   }
-
 ];
