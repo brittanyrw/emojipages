@@ -607,7 +607,8 @@ const emojiItems = [
     author: "Patrick Rothfuss",
     emojiImgs: "🌬️🎐🍃🧔",
     genres: ["young-adult", "romance"],
-    year: 2007
+    year: 2007,
+    itemLink: "https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind"
   },
   {
     title: "New Moon",
