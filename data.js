@@ -603,6 +603,14 @@ const emojiItems = [
     year: 1623
   },
   {
+    title: "The Name of the Wind",
+    author: "Patrick Rothfuss",
+    emojiImgs: "🌬️🎐🍃🧔",
+    genres: ["young-adult", "romance"],
+    year: 2007,
+    itemLink: "https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind"
+  },
+  {
     title: "New Moon",
     author: "Stephenie Meyer",
     emojiImgs: "✨🌑🧛👧",
