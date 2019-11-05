@@ -912,6 +912,14 @@ const emojiItems = [
     year: 1995
   },
   {
+    title: "The Monk Who Sold His Ferrari",
+    author: "Robin S. Sharma",
+    emojiImgs: "😇🙌🙏🕊️👼️",
+    genres: ["Self Help", "Spirituality", "Philosophy"],
+    year: 1999,
+    itemLink: "https://www.goodreads.com/book/show/43877.The_Monk_Who_Sold_His_Ferrari"
+  },
+  {
     title: "The Wind-Up Bird Chronicle",
     author: "Haruki Murakami",
     emojiImgs: "🐈💔👩🏻🔮👴🏻🐦",

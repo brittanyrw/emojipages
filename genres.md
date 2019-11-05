@@ -24,13 +24,16 @@ Select genres from the list below. If you would like to add a genre not listed, 
 * horror
 * magical-realism
 * mystery
+* philosophy
 * political-thriller
 * post-apocalyptic-fiction
 * romance
 * satire
 * science
 * science-fiction
+* self-help
 * space
+* spirituality
 * suspense
 * thriller
 * tragedy
