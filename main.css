@@ -201,6 +201,12 @@ h2 {
 
 @media screen and (min-width: 992px){
   #books {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1032px){
+  #books {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
   #books .emoji-card {
