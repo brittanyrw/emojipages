@@ -169,16 +169,22 @@ $(document).ready(function () {
       }));
     }
 
+    // Toggles filter arrow
     genreFilterElement.click(function() {
-      $(".filters-options").toggleClass("select-arrow-active");
+      toggleFilterArrow();
     });
 
-    // Handle change events of the genre filter element
+    // Handle change events of the genre filter element & toggles filter arrow
     genreFilterElement.change(function (event) {
       handleGenreFilterChange(event.target.value);
-      $(".filters-options").toggleClass("select-arrow-active");
+      toggleFilterArrow();
     });
   }
+
+  // Handles the change of filter select arrow
+  function toggleFilterArrow() {
+    $(".filters-options").toggleClass("select-arrow-active");
+  };
 
   /**
    * Handle the change events of the genre filter select dropdown
@@ -220,10 +226,6 @@ $(document).ready(function () {
     }
 
   }
-
-  // $(".filters-options").click(function () {
-  //     $(this).toggleClass("select-arrow-active")
-  // });
 
   /**
    * Sort an array alphabetical
