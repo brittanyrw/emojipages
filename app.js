@@ -166,6 +166,7 @@ $(document).ready(function () {
       genreFilterElement.append($("<option>", {
         value: genreFilters[i],
         text: text,
+        addClass: "dropdown",
       }));
     }
 

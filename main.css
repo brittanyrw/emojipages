@@ -118,11 +118,19 @@ h2 {
 
 #genre-filter {
   border-radius: 0.7em;
-  opacity: 0.4;
+  /* opacity: 0.4; */
   border: 0;
   padding: 10px 20px;
   background-color: #fff;
   position: relative;
+}
+
+#genre-filter {
+  /* list-style-type: none;
+  margin: 0;
+  display: none; */
+
+  border-radius: 0.7
 }
 
 .filters-options:after {
@@ -132,7 +140,8 @@ h2 {
   width: 0;
   height: 0;
   border: 6px solid transparent;
-  border-color: #fff transparent transparent transparent;
+  border-color: #AE74FF transparent transparent transparent;
+  opacity: 0.8;
   
   font-weight: 900;
   display: inline-block;
@@ -150,8 +159,12 @@ h2 {
 }
 
 .filters-options.select-arrow-active:after {
-  border-color: transparent transparent #fff transparent;
+  border-color: transparent transparent #AE74FF transparent;
   top: 8px;
+}
+
+.dropdown {
+  color: #70D0AB;
 }
 
 @media screen and (max-width: 460px) {
