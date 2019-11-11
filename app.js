@@ -169,9 +169,14 @@ $(document).ready(function () {
       }));
     }
 
+    genreFilterElement.click(function() {
+      $(".filters-options").toggleClass("select-arrow-active");
+    });
+
     // Handle change events of the genre filter element
     genreFilterElement.change(function (event) {
       handleGenreFilterChange(event.target.value);
+      $(".filters-options").toggleClass("select-arrow-active");
     });
   }
 
@@ -216,9 +221,9 @@ $(document).ready(function () {
 
   }
 
-  $(".filters-options").click(function () {
-      $(this).toggleClass("select-arrow-active")
-  });
+  // $(".filters-options").click(function () {
+  //     $(this).toggleClass("select-arrow-active")
+  // });
 
   /**
    * Sort an array alphabetical
