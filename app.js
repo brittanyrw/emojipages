@@ -31,6 +31,13 @@ $(document).ready(function () {
   // Add the filters from the genres.md file
   addFilterFromGenres(genreFilters, initGenreFilter);
 
+  // // Render years filter from data.js
+  // // renderYearsFilter();
+  // for (let i in emojiItems) {
+  //   emojiItems[i].year
+  // }
+
+
   // Append the emoji card variable, which has all of the emoji cards to the initial variable we created that was for the container to hold the cards.
   emojiCardContainer.html(emojiCard);
 
