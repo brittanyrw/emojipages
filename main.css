@@ -92,15 +92,11 @@ h2 {
   max-width: 1000px;
   margin: 20px auto 40px auto;
   padding: 10px;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-}
-
-.filters-heading {
-  padding-right: 5px;
 }
 
 .filters-options {
@@ -116,56 +112,61 @@ h2 {
   -moz-appearance: none;
 }
 
+.select2-container--flat {
+  /* background: #fff; */
+  border-radius: 0.5em;
+  border: 0px;
+  height: 35px;
+  width: 80px;
+  color: #222222;
+  background: #fff
+}
+
+.select2-results {
+  padding: 0 0 0 0px;
+  margin: 4px 0px 0px 0;
+}
+
+.select2-arrow {
+  border: 0px;
+  border-radius: 0px;
+  background: transparent;
+  background-image: none;
+  color: #000;
+  display: inline-block;
+}
+
+.select2-container .select2-dropdown--below {
+  /* margin-top: 5px; */
+  border-radius: 0.5em;
+  padding: 4px;
+}
+
+.select2-results__option--highlighted[aria-selected] {
+  background: #AE74FF !important;
+  color: #fff;
+  border-radius: 0.5em;
+}
+
+.select2-results__option[aria-selected=true] {
+  background: #5e20b4;
+  color: #fff;
+  opacity: 0.8;
+  border-radius: 0.5em;
+}
+
+.select2-search__field {
+  margin: 3px;
+}
+
 #genre-filter {
-  border-radius: 0.7em;
-  /* opacity: 0.4; */
+  opacity: 0.4;
   border: 0;
   padding: 10px 20px;
   background-color: #fff;
   position: relative;
 }
 
-#genre-filter {
-  /* list-style-type: none;
-  margin: 0;
-  display: none; */
-
-  border-radius: 0.7
-}
-
-.filters-options:after {
-  content: "";
-  top: 18px;
-  right: 23px;
-  width: 0;
-  height: 0;
-  border: 6px solid transparent;
-  border-color: #AE74FF transparent transparent transparent;
-  opacity: 0.8;
-  
-  font-weight: 900;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  -webkit-font-smoothing: antialiased;
-  position: absolute;
-  /* border-color: #AE74FF transparent transparent transparent; */
-  /* font-family: "Font Awesome 5 Free"; */
-  /* content: "\f0dc"; */
-  /* text-rendering: auto; */
-  /* color: #3c3a4a; */
-  /* right: 17px; */
-  /* top: 8px; */
-}
-
-.filters-options.select-arrow-active:after {
-  border-color: transparent transparent #AE74FF transparent;
-  top: 8px;
-}
-
-.dropdown {
-  color: #70D0AB;
-}
 
 @media screen and (max-width: 460px) {
   .filters {

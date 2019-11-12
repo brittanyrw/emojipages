@@ -40,6 +40,7 @@ $(document).ready(function () {
   // Add the count of number of shows/movies to the footer.
   $("footer span").append(emojiItems.length);
 
+  applySelect2();
 
   // Display movies and show in a random order, the random order will refresh on page reload. This function is used above before the cards are rendered on the page.
   function shuffle(array) {
@@ -162,11 +163,11 @@ $(document).ready(function () {
       var text = genreFilters[i].replace(/-/g, " ");
       text = text.charAt(0).toUpperCase() + text.slice(1);
 
-      // Add an option to the genre filter element
+      // Adds an option to the genre filter element
       genreFilterElement.append($("<option>", {
         value: genreFilters[i],
         text: text,
-        addClass: "dropdown",
+        // addClass: "dropdown",
       }));
     }
 
@@ -175,17 +176,28 @@ $(document).ready(function () {
       toggleFilterArrow();
     });
 
-    // Handle change events of the genre filter element & toggles filter arrow
+    // Handle change events of the genre filter element
     genreFilterElement.change(function (event) {
       handleGenreFilterChange(event.target.value);
+      // toggles filter arrow
       toggleFilterArrow();
     });
   }
 
+  /**
+   * Helper functions
+   */
   // Handles the change of filter select arrow
   function toggleFilterArrow() {
     $(".filters-options").toggleClass("select-arrow-active");
   };
+
+  function applySelect2() {
+    $("#genre-filter").select2({
+      theme: "flat"
+    });
+  }
+
 
   /**
    * Handle the change events of the genre filter select dropdown
