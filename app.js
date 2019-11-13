@@ -5,6 +5,9 @@ $(document).ready(function () {
   // This array will store all the genre filter options
   var genreFilters = [];
 
+  // This array will store year options
+  const yearOptions = [];
+
   // Create a variable for the emoji cards.
   var emojiCard = "";
 
@@ -31,11 +34,11 @@ $(document).ready(function () {
   // Add the filters from the genres.md file
   addFilterFromGenres(genreFilters, initGenreFilter);
 
-  // // Render years filter from data.js
-  // // renderYearsFilter();
-  // for (let i in emojiItems) {
-  //   emojiItems[i].year
-  // }
+  // Render years filter from data.js
+  // renderYearsFilter();
+  for (let i in emojiItems) {
+    let year = emojiItems[i].year
+  }
 
 
   // Append the emoji card variable, which has all of the emoji cards to the initial variable we created that was for the container to hold the cards.
@@ -120,13 +123,7 @@ $(document).ready(function () {
     }
   }
 
-  // // Initialize jQuery Selectric to the filter
-  // function initializeSelectric() {
-  //   $('select').selectric({
-  //     maxHeight: 200;
-  //   });
-  // }
-
+ 
   /**
    * This function will make an ajax request to read the genres.md file and add filters to the genre filters array
    */
@@ -200,7 +197,7 @@ $(document).ready(function () {
   };
 
   function applySelect2() {
-    $("#genre-filter").select2({
+    $("select").select2({
       theme: "flat"
     });
   }
