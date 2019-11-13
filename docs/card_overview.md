@@ -12,7 +12,8 @@ In the `data.js` file, each `Emoji Card` consists of the following object:
     author: "Lauren Weisberger",
     emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
     genres: ["drama", "comedy","romance"],
-    year: 2003
+    year: 2003,
+    itemLink: "https://www.goodreads.com/book/show/5139.The_Devil_Wears_Prada"
 }
 ```
 
@@ -80,7 +81,17 @@ Specify the year the book was published. This should be a single number with no 
 
 ```
 {
-  year: 1994
+  year: 2003
+}
+```
+
+### Link 🔗
+
+A link to the book on [Good Reads](https://www.goodreads.com) should be added as a string under `itemLink`. It will be used for users to go to that page and know more details about the book.
+
+```
+{
+  itemLink: "https://www.goodreads.com/book/show/5139.The_Devil_Wears_Prada"
 }
 ```
 
@@ -88,11 +99,12 @@ Specify the year the book was published. This should be a single number with no 
 
 Follow the checklist below when working on adding a card. This will help you double check that you have everything you need to have your Pull Request approved.
 
-- [ ] 💜 There is an Issue for this show/movie and you have been assigned to add it. 
-- [ ] 👍 The pull request has a descriptive title (such as `Added Matilda` or `Added all of Jane Austen's books`)
+- [ ] 🔎 Have searched the `data.js` file and `Pull Requests` to make sure that you are not adding a duplicate.
 - [ ] 🖍️ The new books(s) or play(s) have been placed in alphabetical order based on `title` inside of the `data.js` file. 
+- [ ] 👍 The pull request has a descriptive title (such as `Added Matilda` or `Added all of Jane Austen's books`)
 - [ ] 4️⃣ There are at least four emojis listed under `emojiImgs`
 - [ ] 6️⃣ There are a maximum of six emojis listed under `emojiImgs`.
 - [ ] ⭐ The genres are all inside of square brackets `[ ]` and each are individually wrapped in quotation marks and have a comma between each one. (such as submitting this `"genres": ["fantasy", "children", "adventure"]` and not this `"genres":["fantasy, children, adventure"]`). 
 - [ ] 💜 The genres used are from this [genre.md](https://github.com/brittanyrw/emojipages/blob/master/genres.md) file. If the genres you want to use are not in this file already, add them in the file in alpabetical order.
 - [ ] 📅 There is a single year under `year`. 
+- [ ] 🔗 There is link to the book on [Good Reads](https://www.goodreads.com) under `itemLink`.

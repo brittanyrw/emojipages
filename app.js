@@ -22,8 +22,9 @@ $(document).ready(function () {
       "</span></p></div><div class='emoji-images' tabindex='0'>" + emojiItems[i].emojiImgs +
       "</div><div class='emoji-card-title hide-card'>";
 
-    emojiCard += "<div class='title-content'><h3>" + emojiItems[i].title +
-      " (" + emojiItems[i].year + ")" + "</h3><div class='author-container'><h4>" + emojiItems[i].author + "</h4></div>";
+    emojiCard += "<div class='title-content'>";
+    emojiCard += renderTitle(emojiItems[i]);
+    emojiCard += "<div class='author-container'><h4>" + emojiItems[i].author + "</h4></div>";
 
     emojiCard += "</div></div></div></div>";
   }
@@ -111,6 +112,24 @@ $(document).ready(function () {
       // Else throw an error
       throw new Error("addFilter: filterArray should be passed and be an array");
     }
+  }
+
+  /**
+   * Render the item's title, it may include a link if `itemLink` is present in the
+   * item
+   *
+   * @param {{title: string, year: int, itemLink: string|undefined}} emojiItem
+   *
+   * @returns {string}
+   */
+  function renderTitle(emojiItem) {
+    var title = "<h3>" + emojiItem.title + " (" + emojiItem.year + ")" + "</h3>";
+
+    if (emojiItem.itemLink) {
+      return "<a href='" + emojiItem.itemLink + "' target='_blank'>" + title + "</a>";
+    }
+
+    return title;
   }
 
   /**

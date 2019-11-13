@@ -17,7 +17,8 @@ Use the following object as a template:
     author: "Lauren Weisberger",
     emojiImgs: "😈👩🏻‍🦳👠👩🏻👗👛",
     genres: ["drama", "comedy","romance"],
-    year: 2003
+    year: 2003,
+    itemLink: "https://www.goodreads.com/book/show/5139.The_Devil_Wears_Prada"
 }
 ```
 
