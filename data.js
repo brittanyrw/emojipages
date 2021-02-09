@@ -88,6 +88,14 @@ const emojiItems = [
     itemLink: "https://www.goodreads.com/book/show/170448.Animal_Farm"
   },
   {
+    title: "Anne of Green Gables",
+    author: "L.M. Montgomery",
+    emojiImgs: "👵🏻👴🏻🏡🇨🇦👩🏻‍🦰",
+    genres: ["classics", "fiction","young-adult","children's","historical-fiction"],
+    year: 1908,
+    itemLink: "https://www.goodreads.com/book/show/8127.Anne_of_Green_Gables"
+  },
+  {
     title: "The Baby-Sitters Club",
     author: "Ann Martin",
     emojiImgs: "🧒👧🏡🎡",
@@ -926,4 +934,5 @@ const emojiItems = [
     year: 1900,
     itemLink: "https://www.goodreads.com/book/show/236093.The_Wonderful_Wizard_of_Oz"
   }
+
 ];
