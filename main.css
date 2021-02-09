@@ -114,15 +114,11 @@ h2 {
   max-width: 1000px;
   margin: 20px auto 40px auto;
   padding: 10px;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-}
-
-.filters-heading {
-  padding-right: 5px;
 }
 
 .filters-options {
@@ -138,27 +134,73 @@ h2 {
   -moz-appearance: none;
 }
 
-#genre-filter {
-  border-radius: 0;
-  border: 0;
-  padding: 10px 20px;
-  background-color: white;
-  position: relative;
+.select2-container--flat {
+  border-radius: 0.5em;
+  border: 0px;
+  height: 35px;
+  color: #222222;
+  background: #fff;  
 }
 
-.filters-options:after {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f0dc";
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    color: #3c3a4a;
-    position: absolute;
-    right: 17px;
-    top: 8px;
+.select2-container .select2-selection--single .select2-selection__rendered {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.select2-selection__arrow {
+  height: 26px;
+  position: absolute;
+  top: 1px;
+  right: 2px;
+  width: 20px;
+}
+
+b {
+  border-color: #AE74FF transparent transparent transparent;
+  top: 60%;
+  border-style: solid;
+  border-width: 8px 7px 0 7px;
+  height: 0;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -2px;
+  position: absolute;
+  width: 0;
+}
+
+.select2-container--open .select2-selection__arrow {  
+  transform: rotate(180deg);
+  margin-top: 7px;
+  margin-right: 5px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+}
+
+.select2-container .select2-dropdown--below {
+  margin-top: 5px;
+  border-radius: 0.5em;
+  padding: 4px;
+  z-index: 10000;
+  border: transparent;
+}
+
+.select2-results__option--highlighted[aria-selected] {
+  background: #AE74FF !important;
+  color: #fff;
+  border-radius: 0.5em;
+}
+
+.select2-results__option[aria-selected=true] {
+  background: #5e20b4;
+  color: #fff;
+  opacity: 0.8;
+  border-radius: 0.5em;
+}
+
+span.select2-search input{
+  font-size: 25px;
+  height: 35px !important;
 }
 
 @media screen and (max-width: 460px) {
